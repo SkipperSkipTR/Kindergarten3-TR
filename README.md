@@ -1,2 +1,4 @@
 # Kindergarten-3-TR
-Kindergarten 3 Türkçe Yama
+Çeviri İlerlemesi: %34,6
+
+Kurulum notları ve açıklamalar çeviri tamamlandıktan sonra eklenecektir...
