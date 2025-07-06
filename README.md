@@ -3,6 +3,8 @@
 
 İndirme Linki: [İndirmek için Tıklayın](https://github.com/SkipperSkipTR/Kindergarten3-TR/releases/download/Kurulum/Kindergarten3_TR.exe)
 
+Programsız kurulum yapmak için dosyaları [releases](https://github.com/SkipperSkipTR/Kindergarten3-TR/releases) sayfasında bulabilirsiniz.
+
 ---
 ## 🛠️ Kurulum
 
