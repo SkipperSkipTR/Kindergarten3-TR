@@ -1,9 +1,9 @@
-# Kindergarten 3 Türkçe Yama
+# 🍎 Kindergarten 3 Türkçe Yama
 ![kgicon](https://github.com/user-attachments/assets/8d06cd48-04b1-47fe-bab6-013c30654d79)
 
-Çeviri Durumu: %99 (Gözden kaçırdığım şeyler olabilir)
+Çeviri Durumu: %99 (Gözden kaçırdığım veya hatalı çeviriler olabilir)
 
-İndirme Linki
+İndirme Linki: Hazırlanacak
 
 ---
 
