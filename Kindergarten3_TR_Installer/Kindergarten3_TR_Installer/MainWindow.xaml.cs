@@ -97,8 +97,7 @@ namespace Kindergarten3_TR_Installer
         private void SetUIForKnownVersion(string version)
         {
             StatusText.Text = $"Durum: Oyun versiyonu doğrulandı. Versiyon: {version}";
-            InstallButton.IsEnabled = true;
-            UninstallButton.IsEnabled = false;
+            CheckModStatus();
             ReportButton.Visibility = Visibility.Collapsed;
         }
 
@@ -159,6 +158,26 @@ namespace Kindergarten3_TR_Installer
                 }
             }
         }
+        private void CheckModStatus()
+        {
+            string backupPath = System.IO.Path.Combine(gameFolderPath, "Yedek");
+
+            if (Directory.Exists(backupPath))
+            {
+                StatusText.Text = "Durum: Yama yüklü.";
+                InstallButton.IsEnabled = false;
+                UninstallButton.IsEnabled = true;
+            }
+            else
+            {
+                StatusText.Text = "Durum: Yama yüklü değil.";
+                InstallButton.IsEnabled = true;
+                UninstallButton.IsEnabled = false;
+            }
+
+            ReportButton.Visibility = Visibility.Collapsed; // Hide report button if version is valid
+        }
+
 
         private async Task DownloadFileWithProgressAsync(string url, string destinationPath)
         {
@@ -245,8 +264,8 @@ namespace Kindergarten3_TR_Installer
                 // 4. Enable uninstall
                 InstallButton.IsEnabled = false;
                 UninstallButton.IsEnabled = true;
-                MessageBox.Show("Yükleme başarılı!", "Bilgi", MessageBoxButton.OK, MessageBoxImage.Information);
                 StatusText.Text = "Durum: İşlem tamamlandı.";
+                MessageBox.Show("Yükleme başarılı!", "Bilgi", MessageBoxButton.OK, MessageBoxImage.Information);
             }
             catch (Exception ex)
             {
