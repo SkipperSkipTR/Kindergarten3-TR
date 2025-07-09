@@ -6,6 +6,10 @@
 Programsız kurulum yapmak için dosyaları [releases](https://github.com/SkipperSkipTR/Kindergarten3-TR/releases) sayfasında bulabilirsiniz.
 
 ---
+## Son Değişiklikler
+09.07.2025: 1.04 versiyon uyumlu yama paylaşıldı. Birkaç adet hatalı çeviri düzeltildi.
+
+---
 ## 🛠️ Kurulum
 
 1. **Oyunun .exe dosyasını seçin**  
