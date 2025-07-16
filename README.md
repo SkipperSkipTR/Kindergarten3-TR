@@ -5,22 +5,33 @@
 
 Programsız kurulum yapmak için dosyaları [releases](https://github.com/SkipperSkipTR/Kindergarten3-TR/releases) sayfasında bulabilirsiniz.
 
----
+## Son Değişiklikler
+09.07.2025: 1.04 versiyon uyumlu yama paylaşıldı. Birkaç adet hatalı çeviri düzeltildi.
+
+## Kurulum Videosu
+
+[![Kurulum Videosu](https://img.youtube.com/vi/TC74xzAWhWU/0.jpg)](https://www.youtube.com/watch?v=TC74xzAWhWU)
+
 ## 🛠️ Kurulum
 
 1. **Oyunun .exe dosyasını seçin**  
    Eğer oyun Steam üzerinden yüklü ise klasör otomatik bulunur.
 
-2. **Yama Uyum Kontrolü**  
+   <img width="1216" height="521" alt="Screenshot_2" src="https://github.com/user-attachments/assets/a24f245f-a3db-4009-ada6-bcbb1c9108e5" />
+
+3. **Yama Uyum Kontrolü**  
    Program internetten hash listesini indirerek sürümünüzün uyumlu olup olmadığını kontrol eder.
 
-3. **Yamayı Yükle**  
+5. **Yamayı Yükle**  
    Uyumlu sürüm tespit edilirse dosya indirilir, yedek alınır ve yama yüklenir.
+   
+   <img width="485" height="292" alt="Screenshot_3" src="https://github.com/user-attachments/assets/3402ca6c-2c77-4e11-8677-2569ed5ea02a" />
+   <img width="623" height="290" alt="Screenshot_4" src="https://github.com/user-attachments/assets/da8e65ac-22f2-4bfa-92f4-ae4ef6d71acc" />
 
-4. **Yamayı Kaldır**  
+7. **Yamayı Kaldır**  
    Kaldırma işlemi yedekten geri yükleme yapar.
 
-5. **Bilinmeyen Sürüm Bildirme**  
+8. **Bilinmeyen Sürüm Bildirme**  
    Eğer oyun sürümünüz veri tabanında yoksa `Rapor Et` butonu ile geliştiriciye hash değeri ve sürüm bilgisi gönderilir.
 
 ---
