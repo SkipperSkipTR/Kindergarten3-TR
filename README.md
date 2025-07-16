@@ -7,6 +7,7 @@ Programsız kurulum yapmak için dosyaları [releases](https://github.com/Skippe
 
 ## Son Değişiklikler
 09.07.2025: 1.04 versiyon uyumlu yama paylaşıldı. Birkaç adet hatalı çeviri düzeltildi.
+
 16.07.2025: 1.05 versiyon uyumlu yama paylaşıldı.
 
 ## Kurulum Videosu
