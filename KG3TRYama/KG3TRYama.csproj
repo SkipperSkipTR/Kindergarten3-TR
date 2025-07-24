@@ -14,13 +14,6 @@
     </RestoreAdditionalProjectSources>
     <RootNamespace>KG3TRYama</RootNamespace>
   </PropertyGroup>
-  
-  <Target Name="CopyDllAfterBuild" AfterTargets="Build">
-  <!-- Copy a single DLL file from the build output -->
-    <Copy 
-      SourceFiles="$(OutputPath)KG3TRYama.dll"
-      DestinationFolder="C:\Users\yusuf\Desktop\Kindergarten 3 TR Yama\kgspanish\Kindergarten 3\BepInEx\plugins" />
-  </Target>
 
   <ItemGroup>
     <PackageReference Include="BepInEx.Analyzers" Version="1.*" PrivateAssets="all" />
