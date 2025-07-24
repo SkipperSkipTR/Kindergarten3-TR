@@ -10,6 +10,8 @@ Programsız kurulum yapmak için dosyaları [releases](https://github.com/Skippe
 
 16.07.2025: 1.05 versiyon uyumlu yama paylaşıldı.
 
+23.07.2025: Bazı hatalı çeviriler düzeltildi.
+
 ## Kurulum Videosu
 
 [![Kurulum Videosu](https://img.youtube.com/vi/TC74xzAWhWU/0.jpg)](https://www.youtube.com/watch?v=TC74xzAWhWU)
