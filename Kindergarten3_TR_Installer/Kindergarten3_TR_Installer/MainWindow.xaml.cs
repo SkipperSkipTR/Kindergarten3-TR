@@ -97,7 +97,7 @@ namespace Kindergarten3_TR_Installer
         private void SetUIForKnownVersion(string version)
         {
             StatusText.Text = $"Durum: Oyun versiyonu doğrulandı. Versiyon: {version}";
-            CheckModStatus();
+            CheckModStatus(version);
             ReportButton.Visibility = Visibility.Collapsed;
         }
 
@@ -158,19 +158,19 @@ namespace Kindergarten3_TR_Installer
                 }
             }
         }
-        private void CheckModStatus()
+        private void CheckModStatus(string version)
         {
             string backupPath = System.IO.Path.Combine(gameFolderPath, "Yedek");
 
             if (Directory.Exists(backupPath))
             {
-                StatusText.Text = "Durum: Yama yüklü.";
+                StatusText.Text = $"Durum: Yama yüklü. Versiyon: {version}";
                 InstallButton.IsEnabled = false;
                 UninstallButton.IsEnabled = true;
             }
             else
             {
-                StatusText.Text = "Durum: Yama yüklü değil.";
+                StatusText.Text = $"Durum: Yama yüklü değil. Versiyon: {version}";
                 InstallButton.IsEnabled = true;
                 UninstallButton.IsEnabled = false;
             }
@@ -294,6 +294,18 @@ namespace Kindergarten3_TR_Installer
                 }
 
                 Directory.Delete(backupFolder, true);
+				
+				// Clean up BepInEx
+				Directory.Delete(Path.Combine(gameFolderPath, "BepInEx"), true);
+				if(Directory.Exists(Path.Combine(gameFolderPath, "assets")))
+				{
+					Directory.Delete(Path.Combine(gameFolderPath, "assets"), true);
+				}
+				
+				File.Delete(Path.Combine(gameFolderPath, ".doorstop_version"));
+				File.Delete(Path.Combine(gameFolderPath, "changelog.txt"));
+				File.Delete(Path.Combine(gameFolderPath, "doorstop_config.ini"));
+				File.Delete(Path.Combine(gameFolderPath, "winhttp.dll"));
 
                 UninstallButton.IsEnabled = false;
                 InstallButton.IsEnabled = true;
