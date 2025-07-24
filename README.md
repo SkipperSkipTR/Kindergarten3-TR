@@ -12,6 +12,10 @@ Programsız kurulum yapmak için dosyaları [releases](https://github.com/Skippe
 
 23.07.2025: Bazı hatalı çeviriler düzeltildi.
 
+24.07.2025: Düzelttiğim çevirileri her açılışta otomatik kontrol edip indiren bir sistem geliştirdim. Sorun çıkaracağını düşünmüyorum fakat çıkarırsa oyun klasörünüzdeki BepInEx/config/KG3TRYama.cfg dosyasını not defteri vb. bir programla açarak 
+"EnablePlugin = true" olan yeri "EnablePlugin = false"
+olarak değiştirip sistemi kapatabilirsiniz. (Tırnak işaretleri olmadan.)
+
 ## Kurulum Videosu
 
 [![Kurulum Videosu](https://img.youtube.com/vi/TC74xzAWhWU/0.jpg)](https://www.youtube.com/watch?v=TC74xzAWhWU)
