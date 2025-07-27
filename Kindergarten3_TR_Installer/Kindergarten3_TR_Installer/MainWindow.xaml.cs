@@ -293,19 +293,15 @@ namespace Kindergarten3_TR_Installer
                     File.Copy(file, destinationFile, true);
                 }
 
-                Directory.Delete(backupFolder, true);
-				
-				// Clean up BepInEx
-				Directory.Delete(Path.Combine(gameFolderPath, "BepInEx"), true);
-				if(Directory.Exists(Path.Combine(gameFolderPath, "assets")))
-				{
-					Directory.Delete(Path.Combine(gameFolderPath, "assets"), true);
-				}
-				
-				File.Delete(Path.Combine(gameFolderPath, ".doorstop_version"));
-				File.Delete(Path.Combine(gameFolderPath, "changelog.txt"));
-				File.Delete(Path.Combine(gameFolderPath, "doorstop_config.ini"));
-				File.Delete(Path.Combine(gameFolderPath, "winhttp.dll"));
+                
+				SafeDeleteDirectory(backupFolder);
+				SafeDeleteDirectory(Path.Combine(gameFolderPath, "BepInEx"));
+				SafeDeleteDirectory(Path.Combine(gameFolderPath, "assets"));
+
+				SafeDeleteFile(Path.Combine(gameFolderPath, ".doorstop_version"));
+				SafeDeleteFile(Path.Combine(gameFolderPath, "changelog.txt"));
+				SafeDeleteFile(Path.Combine(gameFolderPath, "doorstop_config.ini"));
+				SafeDeleteFile(Path.Combine(gameFolderPath, "winhttp.dll"));
 
                 UninstallButton.IsEnabled = false;
                 InstallButton.IsEnabled = true;
@@ -316,6 +312,19 @@ namespace Kindergarten3_TR_Installer
                 MessageBox.Show($"Kaldırma hatası: {ex.Message}", "Hata", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
+		
+		void SafeDeleteDirectory(string path)
+		{
+			if (Directory.Exists(path))
+				Directory.Delete(path, true);
+		}
+
+		void SafeDeleteFile(string path)
+		{
+			if (File.Exists(path))
+				File.Delete(path);
+		}
+
 
 
         private async void ReportButton_Click(object sender, RoutedEventArgs e)

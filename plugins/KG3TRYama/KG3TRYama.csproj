@@ -14,7 +14,7 @@
     </RestoreAdditionalProjectSources>
     <RootNamespace>KG3TRYama</RootNamespace>
   </PropertyGroup>
-
+  
   <ItemGroup>
     <PackageReference Include="BepInEx.Analyzers" Version="1.*" PrivateAssets="all" />
     <PackageReference Include="BepInEx.Unity.Mono" Version="6.0.0-be.*" IncludeAssets="compile" />
@@ -34,9 +34,6 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>.\libs\UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.CoreModule">
-      <HintPath>.\libs\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
 	<Reference Include="Newtonsoft.Json">
       <HintPath>.\libs\Newtonsoft.Json.dll</HintPath>
