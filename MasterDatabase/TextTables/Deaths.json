@@ -1,0 +1,508 @@
+{
+  "Name": "Deaths",
+  "Languages": {
+    "Default": 0,
+    "Sp": 1,
+    "Fr": 2
+  },
+  "Fields": {
+    "1": {
+      "FieldName": "Anvil",
+      "Texts": {
+        "0": "Bu, yanlış temizlikçi manevrasıydı.",
+        "1": ""
+      }
+    },
+    "2": {
+      "FieldName": "BearTrap",
+      "Texts": {
+        "0": "Tuzak tavşanlarda VE çocuklarda işe yarar.",
+        "1": ""
+      }
+    },
+    "3": {
+      "FieldName": "Bird",
+      "Texts": {
+        "0": "Gak-gak-geberdin!",
+        "1": ""
+      }
+    },
+    "4": {
+      "FieldName": "Gator",
+      "Texts": {
+        "0": "Gerçekten timsahı 'bup'ladın mı?",
+        "1": ""
+      }
+    },
+    "5": {
+      "FieldName": "GooPoison",
+      "Texts": {
+        "0": "Zil çalmadan önce gerçekten hemşireye gitmelisin.",
+        "1": ""
+      }
+    },
+    "6": {
+      "FieldName": "TrapDoor",
+      "Texts": {
+        "0": "Belki de Bay Scippio seni bir şey hakkında uyarmaya çalışıyordu.",
+        "1": ""
+      }
+    },
+    "7": {
+      "FieldName": "OfficePit",
+      "Texts": {
+        "0": "Müdürün ofisine kim devasa bir çukur açar ki?"
+      }
+    },
+    "8": {
+      "FieldName": "Rabbit",
+      "Texts": {
+        "0": "Şu filmdeki tavşan gibi aynı!"
+      }
+    },
+    "9": {
+      "FieldName": "WrongBook",
+      "Texts": {
+        "0": "O yanlış kitaptı."
+      }
+    },
+    "11": {
+      "FieldName": "Flowers",
+      "Texts": {
+        "0": "Mavi çiçekler gerçekten bir tuhaf kokuyor."
+      }
+    },
+    "12": {
+      "FieldName": "NuggetMonster",
+      "Texts": {
+        "0": "Nugget balçığı yiyip bacaklarını kırdıktan sonra farklı birine dönüştü."
+      }
+    },
+    "13": {
+      "FieldName": "Beanstalk",
+      "Texts": {
+        "0": "Orada bir fasulye sırığı olsa ne iyi olurdu."
+      }
+    },
+    "14": {
+      "FieldName": "VendingMachine",
+      "Texts": {
+        "0": "Otomatlar oldukça ağırdır."
+      }
+    },
+    "15": {
+      "FieldName": "Kevin",
+      "Texts": {
+        "0": "Zil gerçekten çok gürültülüymüş!"
+      }
+    },
+    "16": {
+      "FieldName": "GooDog",
+      "Texts": {
+        "0": "Kötü köpekçik!"
+      }
+    },
+    "17": {
+      "FieldName": "Fire",
+      "Texts": {
+        "0": "Aleve dokunmak kötüdür."
+      }
+    },
+    "18": {
+      "FieldName": "FireLeaveBathroom",
+      "Texts": {
+        "0": "Onu öylece yanmaya mı bırakacaktın?"
+      }
+    },
+    "19": {
+      "FieldName": "FireUseApple",
+      "Texts": {
+        "0": "Yanan öğretmeni söndürmek için acele etmeyi denemelisin."
+      }
+    },
+    "20": {
+      "FieldName": "Helicopter",
+      "Texts": {
+        "0": "Bu füzeler gerçekten işe yarıyormuş!"
+      }
+    },
+    "21": {
+      "FieldName": "Electrocution",
+      "Texts": {
+        "0": "Bu güvenlik önlemleri gerçekten işe yarıyormuş."
+      }
+    },
+    "22": {
+      "FieldName": "LabExplode",
+      "Texts": {
+        "0": "Laboratuvar patlamadan ÖNCE dışarı çıkmalısın. Sonra değil."
+      }
+    },
+    "23": {
+      "FieldName": "Creature",
+      "Texts": {
+        "0": "Alice'i, ölümcül bir canavara dönüşmeden önce daha çok seviyordum."
+      }
+    },
+    "24": {
+      "FieldName": "LawnMower",
+      "Texts": {
+        "0": "Bunu kim tahmin edebilirdi ki?"
+      }
+    },
+    "25": {
+      "FieldName": "Bird2",
+      "Texts": {
+        "0": "Kuşçuk'un sözünü unuttun mu?"
+      }
+    },
+    "26": {
+      "FieldName": "BirdNuggetDead",
+      "Texts": {
+        "0": "Nugget ölmüş olmasaydı, muhtemelen kuşu bunu yapmamaya ikna edebilirdi."
+      }
+    },
+    "27": {
+      "FieldName": "BirdNuggetStudyHall",
+      "Texts": {
+        "0": "Nugget çalışma cezasında olmasaydı, muhtemelen kuşu bunu yapmamaya ikna edebilirdi."
+      }
+    },
+    "28": {
+      "FieldName": "Dive",
+      "Texts": {
+        "0": "Ne olacağını düşünüyordun?"
+      }
+    },
+    "29": {
+      "FieldName": "Meteor",
+      "Texts": {
+        "0": "Okul bittiği zaman çatıda kalmamaya çalış."
+      }
+    },
+    "30": {
+      "FieldName": "Kevin2",
+      "Texts": {
+        "0": "Kevin'e arkadaşlığı simgeleyen bir şey vermelisin. Belki de lezzetli bir nugget."
+      }
+    },
+    "31": {
+      "FieldName": "BeepBoop",
+      "Texts": {
+        "0": "Biip. Biip. Biiiiiiiiiiiiiiip."
+      }
+    },
+    "32": {
+      "FieldName": "KevinHay",
+      "Texts": {
+        "0": "Çalılara basmak Kevin'i uyandırmak için iyi bir yoldur."
+      }
+    },
+    "33": {
+      "FieldName": "NoRecruits",
+      "Texts": {
+        "0": "Öğretmen o imzaları gerçekten çok istiyor."
+      }
+    },
+    "34": {
+      "FieldName": "WrongFlowers",
+      "Texts": {
+        "0": "O çiçekler gerçekten çok tehlikeli."
+      }
+    },
+    "35": {
+      "FieldName": "HaveGun",
+      "Texts": {
+        "0": "Ben olsam, robot gelmeden önce silahı bir şeyde... ya da birinin üzerinde kullanırdım."
+      }
+    },
+    "36": {
+      "FieldName": "BeepBoopAustin",
+      "Texts": {
+        "0": "Keşke robota bir şeyler fırlatacak birileri olsaydı... keşke."
+      }
+    },
+    "37": {
+      "FieldName": "BeepBoopDavey",
+      "Texts": {
+        "0": "Keşke robotu parçalarına ayırabileceğin keskin ve sert bir şeyler olsaydı..."
+      }
+    },
+    "38": {
+      "FieldName": "CannonBackInside",
+      "Texts": {
+        "0": "Öylece durup senin içeri tekrar girmene izin vermeyecektir."
+      }
+    },
+    "39": {
+      "FieldName": "CannonHelpNugget",
+      "Texts": {
+        "0": "Öylece durup senin Nugget'a yardım etmene izin vermeyecektir."
+      }
+    },
+    "40": {
+      "FieldName": "CannonWaitAround",
+      "Texts": {
+        "0": "Eğer böyle bekleyeceksen kafana gelen topu gerçekten hak ediyorsun."
+      }
+    },
+    "41": {
+      "FieldName": "BoobooShouldKnow",
+      "Texts": {
+        "0": "Artık Booboo'ya çok yaklaştığında ne olacağını bildiğini sanıyorum."
+      }
+    },
+    "42": {
+      "FieldName": "BoobooSniff",
+      "Texts": {
+        "0": "Seni gerçekten nerede olursan ol koklayıp bulabilir."
+      }
+    },
+    "43": {
+      "FieldName": "BoobooSaveNugget",
+      "Texts": {
+        "0": "Nugget'ın kolu kopmadan önce Booboo'yu etkisiz hale getirmenin bir yolunu bulmalısın."
+      }
+    },
+    "44": {
+      "FieldName": "BeepboopFinalBooboo",
+      "Texts": {
+        "0": "Booboo'nun Beepboop'u durdurabilecek bir yolu yoktur."
+      }
+    },
+    "45": {
+      "FieldName": "BeepboopFinalBunny",
+      "Texts": {
+        "0": "Tavşanın Beepboop'u durdurabilecek bir yolu yoktur."
+      }
+    },
+    "46": {
+      "FieldName": "BeepboopFinalGuppy",
+      "Texts": {
+        "0": "Guppy, Beepboop'u etkisiz hale getirme konusunda bir taş kadar etkili değildir."
+      }
+    },
+    "47": {
+      "FieldName": "RegisBunny",
+      "Texts": {
+        "0": "Regis tavşan ile nasıl başa çıkacağını biliyor."
+      }
+    },
+    "48": {
+      "FieldName": "RegisGuppy",
+      "Texts": {
+        "0": "Regis'in seni vurmasını engellemek için Guppy yeterli değildir."
+      }
+    },
+    "49": {
+      "FieldName": "GuppyMissile",
+      "Texts": {
+        "0": "Guppy füzeleri durduraMAZ."
+      }
+    },
+    "50": {
+      "FieldName": "DaveyDeath",
+      "Texts": {
+        "0": "Kevin'i Davey olmadan kurtaramazsın."
+      }
+    },
+    "51": {
+      "FieldName": "DaveyDied",
+      "Texts": {
+        "0": "Davey öldü."
+      }
+    },
+    "52": {
+      "FieldName": "YouDied",
+      "Texts": {
+        "0": "Öldün."
+      }
+    },
+    "58": {
+      "FieldName": "LindaDied",
+      "Texts": {
+        "0": "Linda öldü."
+      }
+    },
+    "53": {
+      "FieldName": "NoGuppy",
+      "Texts": {
+        "0": "Bu, Guppy'yi göndermek için iyi bir zaman olabilir."
+      }
+    },
+    "54": {
+      "FieldName": "HideLaser",
+      "Texts": {
+        "0": "Muhtemelen o lazerden saklanmalısın."
+      }
+    },
+    "55": {
+      "FieldName": "DontShootLindaLab3",
+      "Texts": {
+        "0": "Belki de sana yardım etmeye çalışan dev timsahı lazerle vurmamalısındır."
+      }
+    },
+    "56": {
+      "FieldName": "DontDoubleShootLab3",
+      "Texts": {
+        "0": "Bir dahaki sefere başka bir hedefe vur."
+      }
+    },
+    "57": {
+      "FieldName": "WrongSpot",
+      "Texts": {
+        "0": "Orası yanlış saklanma yeriydi."
+      }
+    },
+    "59": {
+      "FieldName": "AntiGoo1EarlyLab3",
+      "Texts": {
+        "0": "Regis, anti-balçık tankına yeterince yakın değildi."
+      }
+    },
+    "60": {
+      "FieldName": "OrbShotLab3",
+      "Texts": {
+        "0": "Küreyle ilgilenmek için biraz beklemen daha iyi olabilir."
+      }
+    },
+    "61": {
+      "FieldName": "GetBandagesDeath",
+      "Texts": {
+        "0": "O bandajları gerçekten ama gerçekten çok istiyor."
+      }
+    },
+    "62": {
+      "FieldName": "GoInsideDeath",
+      "Texts": {
+        "0": "Muhtemelen içeri girip o bandajları almalısın."
+      }
+    },
+    "63": {
+      "FieldName": "NoArmDeath",
+      "Texts": {
+        "0": "Kol yoksa hayat yok."
+      }
+    },
+    "64": {
+      "FieldName": "NoCarrotDeath",
+      "Texts": {
+        "0": "Havuçlar iyi bir tavşan yemidir."
+      }
+    },
+    "65": {
+      "FieldName": "NoBoopDeath",
+      "Texts": {
+        "0": "Bupladıktan sonra kaçmalısın."
+      }
+    },
+    "66": {
+      "FieldName": "NoBaitDeath",
+      "Texts": {
+        "0": "Bir dahaki sefere yemi X'in üzerine koy."
+      }
+    },
+    "67": {
+      "FieldName": "ShowUpDeath",
+      "Texts": {
+        "0": "Onun bugün bir şeyi öldüreceğini biliyordun."
+      }
+    },
+    "68": {
+      "FieldName": "Kicked",
+      "Texts": {
+        "0": "Bacakları artık ÇOK güçlü."
+      }
+    },
+    "69": {
+      "FieldName": "GooCore",
+      "Texts": {
+        "0": "Balçık şeyini koyacak bir yer bul yoksa patlar."
+      }
+    },
+    "70": {
+      "FieldName": "EarlyLab",
+      "Texts": {
+        "0": "Muhtemelen kaydıraktan aşağı inmek için Regis'in orayı terk etmesini beklemelisin."
+      }
+    },
+    "71": {
+      "FieldName": "InvalidCode",
+      "Texts": {
+        "0": "Bu geçerli bir kod değildi."
+      }
+    },
+    "72": {
+      "FieldName": "BoobooHallway",
+      "Texts": {
+        "0": "Kötü bir şey oldu."
+      }
+    },
+    "73": {
+      "FieldName": "BeepBoopEmmy",
+      "Texts": {
+        "0": "Belki birileri robotun elektrik aksamını bozabilir?"
+      }
+    },
+    "74": {
+      "FieldName": "VendingMachineDuck",
+      "Texts": {
+        "0": "Bu geçerli bir vaklama kodu değildi."
+      }
+    },
+    "75": {
+      "FieldName": "BoobooTree",
+      "Texts": {
+        "0": "Sanırım Booboo o ağaç hakkında biraz korumacı."
+      }
+    },
+    "76": {
+      "FieldName": "BoobooFort",
+      "Texts": {
+        "0": "Booboo kaleye girmeye çalışırken ondan uzak dur."
+      }
+    },
+    "77": {
+      "FieldName": "BoobooRock",
+      "Texts": {
+        "0": "Dikkati dağılmış olsa bile Booboo'dan uzak durmalısın."
+      }
+    },
+    "78": {
+      "FieldName": "BoobooTreeHide",
+      "Texts": {
+        "0": "Ağaçta da ondan saklanamazsın."
+      }
+    },
+    "79": {
+      "FieldName": "AlcoveRabbit",
+      "Texts": {
+        "0": "Tavşandan korkman gerek."
+      }
+    },
+    "80": {
+      "FieldName": "ReturnPass",
+      "Texts": {
+        "0": "Zil çalmadan koridor iznini geri vermelisin."
+      }
+    },
+    "81": {
+      "FieldName": "DeadFelix",
+      "Texts": {
+        "0": "Hemşirenin, Felix'in yüzünü tedavi etmesini sağlamalısın."
+      }
+    },
+    "82": {
+      "FieldName": "Death.Anvil",
+      "Texts": {
+        "0": "Bu yanlış temizlikçi manevrasıydı."
+      }
+    },
+    "83": {
+      "FieldName": "WrongCarCode",
+      "Texts": {
+        "0": "Bu yanlış araba sıralamasıydı."
+      }
+    }
+  }
+}

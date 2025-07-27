@@ -1,0 +1,374 @@
+{
+  "Name": "UITable",
+  "Languages": {
+    "Default": 0
+  },
+  "Fields": {
+    "1": {
+      "FieldName": "Paused",
+      "Texts": {
+        "0": "Durdu"
+      }
+    },
+    "2": {
+      "FieldName": "Restart",
+      "Texts": {
+        "0": "Tekrar Başlat"
+      }
+    },
+    "3": {
+      "FieldName": "Quit",
+      "Texts": {
+        "0": "Çıkış"
+      }
+    },
+    "4": {
+      "FieldName": "MissionMap",
+      "Texts": {
+        "0": "Görev Haritası"
+      }
+    },
+    "5": {
+      "FieldName": "Assignments",
+      "Texts": {
+        "0": "Görevler"
+      }
+    },
+    "6": {
+      "FieldName": "Back",
+      "Texts": {
+        "0": "Geri"
+      }
+    },
+    "7": {
+      "FieldName": "None",
+      "Texts": {
+        "0": "Hiçbir Şey"
+      }
+    },
+    "8": {
+      "FieldName": "Apply",
+      "Texts": {
+        "0": "Uygula"
+      }
+    },
+    "9": {
+      "FieldName": "Options",
+      "Texts": {
+        "0": "Ayarlar"
+      }
+    },
+    "10": {
+      "FieldName": "Video",
+      "Texts": {
+        "0": "Video"
+      }
+    },
+    "11": {
+      "FieldName": "Audio",
+      "Texts": {
+        "0": "Ses"
+      }
+    },
+    "12": {
+      "FieldName": "Resolution",
+      "Texts": {
+        "0": "Çözünürlük"
+      }
+    },
+    "13": {
+      "FieldName": "FullScreen",
+      "Texts": {
+        "0": "Tam Ekran"
+      }
+    },
+    "15": {
+      "FieldName": "Resume",
+      "Texts": {
+        "0": "Devam Et"
+      }
+    },
+    "16": {
+      "FieldName": "Music",
+      "Texts": {
+        "0": "Müzik"
+      }
+    },
+    "17": {
+      "FieldName": "SFX",
+      "Texts": {
+        "0": "Efektler"
+      }
+    },
+    "18": {
+      "FieldName": "UI",
+      "Texts": {
+        "0": "UI"
+      }
+    },
+    "19": {
+      "FieldName": "Try Again",
+      "Texts": {
+        "0": "Tekrar Dene"
+      }
+    },
+    "20": {
+      "FieldName": "YouDied",
+      "Texts": {
+        "0": "Öldün."
+      }
+    },
+    "21": {
+      "FieldName": "Wednesday",
+      "Texts": {
+        "0": "Çarşamba"
+      }
+    },
+    "22": {
+      "FieldName": "NewFile",
+      "Texts": {
+        "0": "Yeni Dosya"
+      }
+    },
+    "23": {
+      "FieldName": "EraseData",
+      "Texts": {
+        "0": "Verileri Sil"
+      }
+    },
+    "24": {
+      "FieldName": "AreYouSure",
+      "Texts": {
+        "0": "#{0} dosyası içindeki verileri silmek istediğinize emin misiniz? Kilidi açılmış tüm eşyaları ve Monstermon'ları kaybedeceksiniz!"
+      }
+    },
+    "25": {
+      "FieldName": "Play",
+      "Texts": {
+        "0": "Oyna"
+      }
+    },
+    "26": {
+      "FieldName": "File#1",
+      "Texts": {
+        "0": "Dosya 1"
+      }
+    },
+    "27": {
+      "FieldName": "File#2",
+      "Texts": {
+        "0": "Dosya 2"
+      }
+    },
+    "28": {
+      "FieldName": "File#3",
+      "Texts": {
+        "0": "Dosya 3"
+      }
+    },
+    "29": {
+      "FieldName": "YesDelete",
+      "Texts": {
+        "0": "Evet. Verileri sil."
+      }
+    },
+    "30": {
+      "FieldName": "NoDelete",
+      "Texts": {
+        "0": "Hayır. Silinmesin."
+      }
+    },
+    "32": {
+      "FieldName": "Wednesday#",
+      "Texts": {
+        "0": "Çarşamba #{0}"
+      }
+    },
+    "33": {
+      "FieldName": "Again",
+      "Texts": {
+        "0": "(yeniden)"
+      }
+    },
+    "34": {
+      "FieldName": "AgainX",
+      "Texts": {
+        "0": "(yeniden x{0})"
+      }
+    },
+    "35": {
+      "FieldName": "MovingDialogueText",
+      "Texts": {
+        "0": "Hareket Eden Metinler"
+      }
+    },
+    "36": {
+      "FieldName": "MovingDialogueTip",
+      "Texts": {
+        "0": "Karakterler konuşurken metnin hareket etmesini etkinleştirir."
+      }
+    },
+    "37": {
+      "FieldName": "ColorBlindAssistance",
+      "Texts": {
+        "0": "Renk Körlüğü Modu"
+      }
+    },
+    "38": {
+      "FieldName": "ColorBlindTip",
+      "Texts": {
+        "0": "Objelerin renkleriyle ifade edilmesini etkinleştirir."
+      }
+    },
+    "39": {
+      "FieldName": "Accessibility",
+      "Texts": {
+        "0": "Erişilebilirlik"
+      }
+    },
+    "40": {
+      "FieldName": "Red",
+      "Texts": {
+        "0": "Kırmızı"
+      }
+    },
+    "41": {
+      "FieldName": "Blue",
+      "Texts": {
+        "0": "Mavi"
+      }
+    },
+    "42": {
+      "FieldName": "Green",
+      "Texts": {
+        "0": "Yeşil"
+      }
+    },
+    "43": {
+      "FieldName": "Yellow",
+      "Texts": {
+        "0": "Sarı"
+      }
+    },
+    "44": {
+      "FieldName": "Orange",
+      "Texts": {
+        "0": "Turuncu"
+      }
+    },
+    "45": {
+      "FieldName": "Purple",
+      "Texts": {
+        "0": "Mor"
+      }
+    },
+    "46": {
+      "FieldName": "Black",
+      "Texts": {
+        "0": "Siyah"
+      }
+    },
+    "47": {
+      "FieldName": "White",
+      "Texts": {
+        "0": "Beyaz"
+      }
+    },
+    "48": {
+      "FieldName": "WhatShouldIBring",
+      "Texts": {
+        "0": "Bugün okula ne götürmeliyim?"
+      }
+    },
+    "49": {
+      "FieldName": "ItemsRemaining",
+      "Texts": {
+        "0": "Kalan Eşyalar:"
+      }
+    },
+    "50": {
+      "FieldName": "NewMonstermonDiscovered",
+      "Texts": {
+        "0": "Yeni Monstermon Bulundu"
+      }
+    },
+    "51": {
+      "FieldName": "Monstermon",
+      "Texts": {
+        "0": "Monstermon"
+      }
+    },
+    "52": {
+      "FieldName": "Pink",
+      "Texts": {
+        "0": "Pembe"
+      }
+    },
+    "53": {
+      "FieldName": "Controls",
+      "Texts": {
+        "0": "Kontroller"
+      }
+    },
+    "54": {
+      "FieldName": "Move",
+      "Texts": {
+        "0": "Hareket Etme"
+      }
+    },
+    "55": {
+      "FieldName": "Interact",
+      "Texts": {
+        "0": "Etkileşim"
+      }
+    },
+    "56": {
+      "FieldName": "EatApple",
+      "Texts": {
+        "0": "Elma Yeme"
+      }
+    },
+    "57": {
+      "FieldName": "SpaceBar",
+      "Texts": {
+        "0": "Boşluk"
+      }
+    },
+    "58": {
+      "FieldName": "SkipDialogue",
+      "Texts": {
+        "0": "Diyalog Atlama"
+      }
+    },
+    "59": {
+      "FieldName": "G",
+      "Texts": {
+        "0": "Y"
+      }
+    },
+    "60": {
+      "FieldName": "R",
+      "Texts": {
+        "0": "K"
+      }
+    },
+    "61": {
+      "FieldName": "B",
+      "Texts": {
+        "0": "M"
+      }
+    },
+    "62": {
+      "FieldName": "Controller",
+      "Texts": {
+        "0": "Kontrolcü"
+      }
+    },
+    "63": {
+      "FieldName": "Keyboard",
+      "Texts": {
+        "0": "Klavye"
+      }
+    }
+  }
+}

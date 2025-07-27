@@ -5818,7 +5818,7 @@
                 },
                 {
                     "entryId": 24,
-                    "Dialogue Text": "Bırakın gitsin. Ben zil çaldıktan sonra onunla ilgileneceğim. Hoşça kalın Bayan Applegate."
+                    "Dialogue Text": "Boşverin gitsin. Ben zil çaldıktan sonra onunla ilgileneceğim. Hoşça kalın Bayan Applegate."
                 },
                 {
                     "entryId": 26,
@@ -6084,7 +6084,7 @@
             "Dialogue": [
                 {
                     "entryId": 1,
-                    "Dialogue Text": "Bu kafeteryanın kapısı. Sanırım sadece öğle yemeği saatlerinde açık."
+                    "Dialogue Text": "Bu yemekhanenin kapısı. Sanırım sadece öğle yemeği saatlerinde açık."
                 },
                 {
                     "entryId": 2,
@@ -18872,7 +18872,7 @@
                 },
                 {
                     "entryId": 136,
-                    "Dialogue Text": "Ah evet. Sen yenisin.<kgwait> Kaydıraktan aşağı inme."
+                    "Dialogue Text": "Ah evet. Sen yenisin.<kgwait> Sakın kaydıraktan aşağı inme."
                 },
                 {
                     "entryId": 137,

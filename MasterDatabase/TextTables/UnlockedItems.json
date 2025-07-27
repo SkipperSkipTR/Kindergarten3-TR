@@ -1,0 +1,58 @@
+{
+  "Name": "UnlockedItems",
+  "Languages": {
+    "Default": 0,
+    "Sp": 1,
+    "Fr": 2
+  },
+  "Fields": {
+    "9": {
+      "FieldName": "Playbook",
+      "Texts": {
+        "0": "<size=60>Öğretmenin Tiyatro Kitabı</size><br>Öğretmenin sahnelemek isteyebileceği çeşitli tiyatro oyunları içeren bir kitap! Ayrıca onu Oluk Cadısına cesaret simgesi olarak gösterebilirim."
+      }
+    },
+    "10": {
+      "FieldName": "VentMap",
+      "Texts": {
+        "0": "<size=60>Carla'nın Havalandırma Haritası</size><br>Carla tarafından çizilmiş bir havalandırma haritası. Bunu okula götürmek tüm havalandırmaların açılmasına sebep olur."
+      }
+    },
+    "11": {
+      "FieldName": "Mop",
+      "Texts": {
+        "0": "<size=60>Temizlikçinin Paspası</size><br>Vahşi ve kanlı bir geçmişi olan paspas. Çocukları korkutur ve rahatça golf deliğine sığabilir."
+      }
+    },
+    "12": {
+      "FieldName": "GatorNugget",
+      "Texts": {
+        "0": "<size=60>Linda'nın Nugget'ı</size><br>Linda'nın arkadaşı olduğunu gösteren özel bir Arkadaşlık Nugget'ı<sup>TM</sup>. Ona bunu gösterirsen seni gizli inine götürür."
+      }
+    },
+    "13": {
+      "FieldName": "WhiteFlower",
+      "Texts": {
+        "0": "<size=60>Beyaz Çiçek</size><br>Emmy'nin bahçesinde yetişen ender bir çiçek. Balçığın efektlerini kısa bir süreliğine etkisiz hale getirir. Ayrıca tavşanlar ondan hoşlanmaz."
+      }
+    },
+    "14": {
+      "FieldName": "SuperCure",
+      "Texts": {
+        "0": "<size=60>Özel İlaç</size><br>Applesoft tarafından üretilen gizli bir kimyasal. Doğru ekipmanla kullanıldığında balçık mutasyonunu geri alabilir."
+      }
+    },
+    "15": {
+      "FieldName": "Decoder",
+      "Texts": {
+        "0": "<size=60>Alice'in Kod Çözücüsü</size><br>Mor Kod Çözücü büyüteç. Laboratuvardaki gizli kodları gösterir."
+      }
+    },
+    "16": {
+      "FieldName": "CarRemote",
+      "Texts": {
+        "0": "<size=60>Araba Uzaktan Kumandası</size><br>Okuldaki tüm arabaları kontrol edebilen bir kumanda."
+      }
+    }
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "Name": "MissionMap",
+  "Languages": {
+    "Default": 0
+  },
+  "Fields": {
+    "1": {
+      "FieldName": "TeacherDescription",
+      "Texts": {
+        "0": "Duvardaki afişi okuyup öğretmen ile konuşarak görevi başlat."
+      }
+    },
+    "2": {
+      "FieldName": "JanitorDescription",
+      "Texts": {
+        "0": "Temizlikçi için biraz bandaj bularak görevi başlat."
+      }
+    },
+    "3": {
+      "FieldName": "CarlaDescription",
+      "Texts": {
+        "0": "Cindy'nin, Emmy'nin bahçesine yardım etmesini sağladıktan sonra Carla ile konuşarak görevi başlat."
+      }
+    },
+    "4": {
+      "FieldName": "DaveyDescription",
+      "Texts": {
+        "0": "Temizlikçi tarafından dövülüp kendini Davey'e kanıtlayarak görevi başlat."
+      }
+    },
+    "5": {
+      "FieldName": "EmmyDescription",
+      "Texts": {
+        "0": "Cindy'nin, Emmy'nin bahçesine yardım etmesini sağladıktan sonra içeri girmenin bir yolunu bularak görevi başlat."
+      }
+    },
+    "6": {
+      "FieldName": "FelixDescription",
+      "Texts": {
+        "0": "Balçık çekirdeğini alarak görevi başlat."
+      }
+    },
+    "7": {
+      "FieldName": "AliceDescription",
+      "Texts": {
+        "0": "Alice'in günlüğünü ona götürerek görevi başlat."
+      }
+    },
+    "8": {
+      "FieldName": "NuggetDescription",
+      "Texts": {
+        "0": "Nugget'a çiçeği vererek görevi başlat."
+      }
+    },
+    "9": {
+      "FieldName": "LilyDescription",
+      "Texts": {
+        "0": "Laboratuvardaki kafesin kapısını açarak görevi başlat."
+      }
+    },
+    "10": {
+      "FieldName": "TeacherTitle",
+      "Texts": {
+        "0": "Gösteri Devam Etmeli"
+      }
+    },
+    "12": {
+      "FieldName": "CarlaTitle",
+      "Texts": {
+        "0": "Büyük Kaçış"
+      }
+    },
+    "11": {
+      "FieldName": "JanitorTitle",
+      "Texts": {
+        "0": "Soğukkanlı Katil"
+      }
+    },
+    "13": {
+      "FieldName": "DaveyTitle",
+      "Texts": {
+        "0": "Timsah Yardımı"
+      }
+    },
+    "14": {
+      "FieldName": "EmmyTitle",
+      "Texts": {
+        "0": "Emmy'nin Bahçesi"
+      }
+    },
+    "15": {
+      "FieldName": "FelixTitle",
+      "Texts": {
+        "0": "Helikopter Ebeveynliği"
+      }
+    },
+    "16": {
+      "FieldName": "AliceTitle",
+      "Texts": {
+        "0": "Pazartesi Günü Ne Yaşandı?"
+      }
+    },
+    "17": {
+      "FieldName": "NuggetTitle",
+      "Texts": {
+        "0": "Nugget-o ve Lily-et"
+      }
+    },
+    "18": {
+      "FieldName": "LilyTitle",
+      "Texts": {
+        "0": "Dr. Balçığın Çağrısı"
+      }
+    },
+    "19": {
+      "FieldName": "Requirement1",
+      "Texts": {
+        "0": "Bu görevin kilidini açmak için tamamlanması gerekenler: {0}"
+      }
+    },
+    "20": {
+      "FieldName": "Requirement2",
+      "Texts": {
+        "0": "Bu görevin kilidini açmak için tamamlanması gerekenler: {0} ve {1}"
+      }
+    },
+    "21": {
+      "FieldName": "Requirement3",
+      "Texts": {
+        "0": "Bu görevin kilidini açmak için tamamlanması gerekenler: {0}, {1} ve {2}"
+      }
+    },
+    "22": {
+      "FieldName": "Requirement4",
+      "Texts": {
+        "0": "Bu görevin kilidini açmak için tamamlanması gerekenler: {0}, {1}, {2} ve {3}"
+      }
+    }
+  }
+}

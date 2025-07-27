@@ -1,0 +1,70 @@
+{
+  "Name": "TimePeriods",
+  "Languages": {
+    "Default": 0,
+    "Sp": 1,
+    "Fr": 2
+  },
+  "Fields": {
+    "1": {
+      "FieldName": "SchoolyardTime",
+      "Texts": {
+        "0": "Okul Öncesi",
+        "1": ""
+      }
+    },
+    "2": {
+      "FieldName": "MorningTime",
+      "Texts": {
+        "0": "Etkinlik Zamanı",
+        "1": ""
+      }
+    },
+    "3": {
+      "FieldName": "LunchTime",
+      "Texts": {
+        "0": "Öğle Yemeği",
+        "1": ""
+      }
+    },
+    "4": {
+      "FieldName": "RecessTime",
+      "Texts": {
+        "0": "Teneffüs",
+        "1": ""
+      }
+    },
+    "5": {
+      "FieldName": "AfterSchool",
+      "Texts": {
+        "0": "Okul Sonrası",
+        "1": ""
+      }
+    },
+    "6": {
+      "FieldName": "HomeTime",
+      "Texts": {
+        "0": "Evde",
+        "1": ""
+      }
+    },
+    "7": {
+      "FieldName": "NuggetTime",
+      "Texts": {
+        "0": "Nugget Mağarası"
+      }
+    },
+    "8": {
+      "FieldName": "Home",
+      "Texts": {
+        "0": "Ev"
+      }
+    },
+    "9": {
+      "FieldName": "TrueEndTime",
+      "Texts": {
+        "0": "Son"
+      }
+    }
+  }
+}

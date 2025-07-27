@@ -1,0 +1,62 @@
+{
+  "Name": "LabCodes",
+  "Languages": {
+    "Default": 0
+  },
+  "Fields": {
+    "1": {
+      "FieldName": "0",
+      "Texts": {
+        "0": "kırmızı kare"
+      }
+    },
+    "2": {
+      "FieldName": "1",
+      "Texts": {
+        "0": "yeşil kare"
+      }
+    },
+    "3": {
+      "FieldName": "2",
+      "Texts": {
+        "0": "mavi kare"
+      }
+    },
+    "4": {
+      "FieldName": "3",
+      "Texts": {
+        "0": "kırmızı yuvarlak"
+      }
+    },
+    "5": {
+      "FieldName": "4",
+      "Texts": {
+        "0": "yeşil yuvarlak"
+      }
+    },
+    "6": {
+      "FieldName": "5",
+      "Texts": {
+        "0": "mavi yuvarlak"
+      }
+    },
+    "7": {
+      "FieldName": "6",
+      "Texts": {
+        "0": "kırmızı üçgen"
+      }
+    },
+    "8": {
+      "FieldName": "7",
+      "Texts": {
+        "0": "yeşil üçgen"
+      }
+    },
+    "9": {
+      "FieldName": "8",
+      "Texts": {
+        "0": "mavi üçgen"
+      }
+    }
+  }
+}

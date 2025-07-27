@@ -1,0 +1,308 @@
+{
+  "Name": "Monstermon",
+  "Languages": {
+    "Default": 0
+  },
+  "Fields": {
+    "1": {
+      "FieldName": "Slurpolotl",
+      "Texts": {
+        "0": "Slurper'ın müritlerinden biri."
+      }
+    },
+    "2": {
+      "FieldName": "Bung Deetle",
+      "Texts": {
+        "0": "Bir gübre yığınında takılır."
+      }
+    },
+    "3": {
+      "FieldName": "Stoic Seagull",
+      "Texts": {
+        "0": "Sandviçini çalmaya çalışırken asla duygu göstermez."
+      }
+    },
+    "4": {
+      "FieldName": "Bloaty",
+      "Texts": {
+        "0": "O bir göz değil. Bir göbek deliği."
+      }
+    },
+    "5": {
+      "FieldName": "Disappointed Snake",
+      "Texts": {
+        "0": "Tıpkı baban gibi..."
+      }
+    },
+    "6": {
+      "FieldName": "Petty Piranha",
+      "Texts": {
+        "0": "Son avlama çılgınlığında sen daha çok et yediğin için biraz kızgın o kadar."
+      }
+    },
+    "7": {
+      "FieldName": "Carnivorous Nimbus",
+      "Texts": {
+        "0": "Kuşları ve hava araçlarını yediği bilinir. Bermuda üçgeninin yakınlarında yaşarlar."
+      }
+    },
+    "8": {
+      "FieldName": "Dumb Fish",
+      "Texts": {
+        "0": "Japon balığından bile daha aptal."
+      }
+    },
+    "9": {
+      "FieldName": "Hard Boogar",
+      "Texts": {
+        "0": "Onun çıkarılmasıyla gelen garip bir rahatlama hissi vardır."
+      }
+    },
+    "10": {
+      "FieldName": "Ultralodon",
+      "Texts": {
+        "0": "Besin zincirinin en üstünün de en üstündedir. Sadece megalodonları yer."
+      }
+    },
+    "11": {
+      "FieldName": "Birb",
+      "Texts": {
+        "0": "Sadece bizim eski, geleneksel Birb'ümüz."
+      }
+    },
+    "12": {
+      "FieldName": "Suspicious Lion",
+      "Texts": {
+        "0": "Ne yaptığını biliyor gibi bakıyor... Veya seni yiyecekmiş gibi."
+      }
+    },
+    "13": {
+      "FieldName": "Balloon Boar",
+      "Texts": {
+        "0": "O sadece bir sivilce. Okulundaki çocuklar bu ismi takmış."
+      }
+    },
+    "14": {
+      "FieldName": "Bullzerker",
+      "Texts": {
+        "0": "Kırmızı renge çok sinirleniyor. Ona sakın ayna göstermeyin."
+      }
+    },
+    "15": {
+      "FieldName": "Man On Fire",
+      "Texts": {
+        "0": "Kimse ona yardım etmeyecek mi?"
+      }
+    },
+    "16": {
+      "FieldName": "Cigaretmon",
+      "Texts": {
+        "0": "Rakiplerine akciğer kanseriyle hasar verir."
+      }
+    },
+    "17": {
+      "FieldName": "Cyclops Duckling",
+      "Texts": {
+        "0": "Bu özel bir ördek türü değildir. Sadece daha büyük bir ördek tarafından gözü oyulmuştur."
+      }
+    },
+    "18": {
+      "FieldName": "Hearty Heart",
+      "Texts": {
+        "0": "Sadece başkalarını mutlu gördüğü için mutlu."
+      }
+    },
+    "19": {
+      "FieldName": "Jawless Dog",
+      "Texts": {
+        "0": "Yalnızca yumuşak yiyecekler."
+      }
+    },
+    "20": {
+      "FieldName": "Chair of Spikes",
+      "Texts": {
+        "0": "Okullardaki çoğu sandalyeden daha rahat."
+      }
+    },
+    "21": {
+      "FieldName": "Frowny Frog",
+      "Texts": {
+        "0": "Biri onun bacağını yemiş. :("
+      }
+    },
+    "22": {
+      "FieldName": "Mean Green Penguin",
+      "Texts": {
+        "0": "Ki bu çok alışılmadık bir durumdur. Çünkü yeşil penguenler genelde çok arkadaş canlısıdır."
+      }
+    },
+    "23": {
+      "FieldName": "Tree Froggy",
+      "Texts": {
+        "0": "Zaten bunun ağaçtan yapılmış bir kurbağa olduğunu biliyorsun."
+      }
+    },
+    "24": {
+      "FieldName": "Thikorita",
+      "Texts": {
+        "0": "Kafasındaki yaprağı şeyi kesmede kullanıyor...hiçbir şey. O sadece bir yaprak."
+      }
+    },
+    "25": {
+      "FieldName": "Shrewd Goblin",
+      "Texts": {
+        "0": "Herkese, her şeyi satabilir. Almak istemezlerse başka."
+      }
+    },
+    "26": {
+      "FieldName": "Literally Grass",
+      "Texts": {
+        "0": "Öylece orada büyüyor."
+      }
+    },
+    "27": {
+      "FieldName": "Ohfaka Tornado",
+      "Texts": {
+        "0": "Söylenene göre, onu görenler adını söyleme eğilimi gösteriyormuş."
+      }
+    },
+    "28": {
+      "FieldName": "Monstrous Flytrap",
+      "Texts": {
+        "0": "Avcısını avladığı bilinen tek bitki türü."
+      }
+    },
+    "29": {
+      "FieldName": "Chill Stump",
+      "Texts": {
+        "0": "O kadar havalı biri ki tüm partilere davet edilir. Ne yazık ki yere bağlı olduğu için hiçbirine katılamıyor."
+      }
+    },
+    "30": {
+      "FieldName": "Mystical Tomato",
+      "Texts": {
+        "0": "Mistik ketçapın içindeki malzemedir."
+      }
+    },
+    "31": {
+      "FieldName": "Meatball",
+      "Texts": {
+        "0": "Kendini düşmanlarına doğru fırlatarak kan veya domates denebilecek kırmızı bir kalıntı bırakır."
+      }
+    },
+    "32": {
+      "FieldName": "Tricerabottom",
+      "Texts": {
+        "0": "O üçüncü bir bacak değil... Sadece bir kol."
+      }
+    },
+    "33": {
+      "FieldName": "Brain Dragon",
+      "Texts": {
+        "0": "Soğuk füzyonu çözebilir ve seni yiyebilir."
+      }
+    },
+    "34": {
+      "FieldName": "Sword Pig",
+      "Texts": {
+        "0": "Domuzdan kılıcı çıkaran kişinin Pastırma Krallığına hükümdar olacağı söylenir."
+      }
+    },
+    "35": {
+      "FieldName": "Tough Bunny",
+      "Texts": {
+        "0": "Muhtemelen bugün tanıştığın en kötü tavşan bile değildir."
+      }
+    },
+    "36": {
+      "FieldName": "Wonder Bird",
+      "Texts": {
+        "0": "Onun cıvıldamalarını duyanların sağır olmadığı söylenir."
+      }
+    },
+    "37": {
+      "FieldName": "Golden Dewdrop",
+      "Texts": {
+        "0": "Hiçbir duşa sebep olmamıştır."
+      }
+    },
+    "38": {
+      "FieldName": "Forbidden Book",
+      "Texts": {
+        "0": "Girebileceğin tüm testlerin cevabı ruhun karşılığında bu kitabın içindedir."
+      }
+    },
+    "39": {
+      "FieldName": "Pot of Grease",
+      "Texts": {
+        "0": "Vücuduna iki kalp krizi geçirtmeni sağlar."
+      }
+    },
+    "40": {
+      "FieldName": "Mr. Nice Guy",
+      "Texts": {
+        "0": "Leydilerle flörtleşebilen iyi bir adamdır."
+      }
+    },
+    "41": {
+      "FieldName": "Egg Head",
+      "Texts": {
+        "0": "Kafası oraya sıkışmış mı ne?"
+      }
+    },
+    "42": {
+      "FieldName": "Snuggly Bear",
+      "Texts": {
+        "0": "Hadi. Git ve ona sarıl... birinin sarılması lazım."
+      }
+    },
+    "43": {
+      "FieldName": "Froyo Ghost",
+      "Texts": {
+        "0": "Havadaki soğukluk sadece bu lezzetli ruh yüzünden."
+      }
+    },
+    "48": {
+      "FieldName": "Dank Magician",
+      "Texts": {
+        "0": "Uyuşturucu ve meme'ler açısından en iyi sihirbaz."
+      }
+    },
+    "45": {
+      "FieldName": "Sock Spirit",
+      "Texts": {
+        "0": "Tüm yanlış eşleştirilmiş çoraplara musallat olan bir ruh."
+      }
+    },
+    "46": {
+      "FieldName": "Caterpillar Dog",
+      "Texts": {
+        "0": "Evrim geçirdiğinde... Kelebek Kedi mi oluyor?"
+      }
+    },
+    "47": {
+      "FieldName": "Mysterious Package",
+      "Texts": {
+        "0": "Eğer onu başkasının bahçesinden çalmadıysan içinde ne olduğunu bilirsin."
+      }
+    },
+    "50": {
+      "FieldName": "Killer Eye",
+      "Texts": {
+        "0": "Her şeyi görür, bilir fakat söyleyemez. Çünkü ağzı yok."
+      }
+    },
+    "49": {
+      "FieldName": "Mole Mole",
+      "Texts": {
+        "0": "Benler içinde yaşayan bir ben. İğrenç."
+      }
+    },
+    "44": {
+      "FieldName": "Evil Thwarter",
+      "Texts": {
+        "0": "Kötülükleri engellemez. O kötü olan bir engelleyicidir."
+      }
+    }
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "Name": "MonstermonLocations",
+  "Languages": {
+    "Default": 0
+  },
+  "Fields": {
+    "1": {
+      "FieldName": "Slurpolotl",
+      "Texts": {
+        "0": "Yatağının altında saklanıyor."
+      }
+    },
+    "2": {
+      "FieldName": "Bung Deetle",
+      "Texts": {
+        "0": "Booboo'nun kutusunun içinde, arka tarafta saklanıyor."
+      }
+    },
+    "3": {
+      "FieldName": "Stoic Seagull",
+      "Texts": {
+        "0": "Teneffüste kuş tarafından yere düşürül."
+      }
+    },
+    "4": {
+      "FieldName": "Bloaty",
+      "Texts": {
+        "0": "Carla'nın görevine havalandırma haritasıyla başla."
+      }
+    },
+    "5": {
+      "FieldName": "Disappointed Snake",
+      "Texts": {
+        "0": "Helikopter Ebeveynliği görevini, Monty'ye ihanete uğrayacağını söylemeden bitir."
+      }
+    },
+    "6": {
+      "FieldName": "Petty Piranha",
+      "Texts": {
+        "0": "Guppy'nin üstüne sifon çekmeye çalış."
+      }
+    },
+    "7": {
+      "FieldName": "Carnivorous Nimbus",
+      "Texts": {
+        "0": "Helikopter pistinin yakınındaki iskelede saklı."
+      }
+    },
+    "8": {
+      "FieldName": "Dumb Fish",
+      "Texts": {
+        "0": "Guppy'yi tekrar akvaryumuna koymaya çalış."
+      }
+    },
+    "9": {
+      "FieldName": "Hard Boogar",
+      "Texts": {
+        "0": "Bay Scippio'nun sınıfında bir masanın altında saklanıyor."
+      }
+    },
+    "10": {
+      "FieldName": "Ultralodon",
+      "Texts": {
+        "0": "Linda tarafından yenil."
+      }
+    },
+    "11": {
+      "FieldName": "Birb",
+      "Texts": {
+        "0": "Çatının okula bakan kısmında."
+      }
+    },
+    "12": {
+      "FieldName": "Suspicious Lion",
+      "Texts": {
+        "0": "Carla'nın görevini bitirince verilir."
+      }
+    },
+    "13": {
+      "FieldName": "Balloon Boar",
+      "Texts": {
+        "0": "Nugget tarafından saldırıya uğrayan hemşirenin cesedinde."
+      }
+    },
+    "14": {
+      "FieldName": "Bullzerker",
+      "Texts": {
+        "0": "Kevin tarafından ortadan ikiye yarıl."
+      }
+    },
+    "15": {
+      "FieldName": "Man On Fire",
+      "Texts": {
+        "0": "Bayan Lovelett ile birlikte yan."
+      }
+    },
+    "16": {
+      "FieldName": "Cigaretmon",
+      "Texts": {
+        "0": "Hemşirenin ofisindeki sigara içilmez tabelasının arkasında."
+      }
+    },
+    "17": {
+      "FieldName": "Cyclops Duckling",
+      "Texts": {
+        "0": "Yemekhanedeki ördek bilmecesini çözünce verilir."
+      }
+    },
+    "18": {
+      "FieldName": "Hearty Heart",
+      "Texts": {
+        "0": "Bayan Applegate'in Bob ile konuşmasını üç kez böl."
+      }
+    },
+    "19": {
+      "FieldName": "Jawless Dog",
+      "Texts": {
+        "0": "Booboo tarafından ısırıl."
+      }
+    },
+    "20": {
+      "FieldName": "Chair of Spikes",
+      "Texts": {
+        "0": "Bir tuzak kapısından aşağı düş."
+      }
+    },
+    "21": {
+      "FieldName": "Frowny Frog",
+      "Texts": {
+        "0": "Temizlikçinin görevini tamamlayınca verilir"
+      }
+    },
+    "22": {
+      "FieldName": "Mean Green Penguin",
+      "Texts": {
+        "0": "Tersine mutasyon odasındaki masanın arkasında."
+      }
+    },
+    "23": {
+      "FieldName": "Tree Froggy",
+      "Texts": {
+        "0": "Teneffüste Monty'yi ittirdiğin için duvara yapış."
+      }
+    },
+    "24": {
+      "FieldName": "Thikorita",
+      "Texts": {
+        "0": "Temizlikçi odasındaki uzaktan kumandalı araba bulmacasını çöz."
+      }
+    },
+    "25": {
+      "FieldName": "Shrewd Goblin",
+      "Texts": {
+        "0": "Monty'ye, Felix tarafından ihanete uğrayacağını söylediğin zaman verilir."
+      }
+    },
+    "26": {
+      "FieldName": "Literally Grass",
+      "Texts": {
+        "0": "Kendini çim biçme makinesiyle ez."
+      }
+    },
+    "27": {
+      "FieldName": "Ohfaka Tornado",
+      "Texts": {
+        "0": "Öğretmenin görevini tamamlayınca verilir."
+      }
+    },
+    "28": {
+      "FieldName": "Monstrous Flytrap",
+      "Texts": {
+        "0": "Emmy'nin görevini tamamlayınca verilir."
+      }
+    },
+    "29": {
+      "FieldName": "Chill Stump",
+      "Texts": {
+        "0": "Oyun alanındaki ağacın içinde saklıdır."
+      }
+    },
+    "30": {
+      "FieldName": "Mystical Tomato",
+      "Texts": {
+        "0": "Bay Scippio'ya öğle yemeği sırasında ketçap ver."
+      }
+    },
+    "31": {
+      "FieldName": "Meatball",
+      "Texts": {
+        "0": "Nugget-o ve Lily-et görevini tamamlayınca verilir."
+      }
+    },
+    "32": {
+      "FieldName": "Tricerabottom",
+      "Texts": {
+        "0": "Kuşçuk tarafından çatıya bırakıldıktan sonra çok zaman harcadığın için kafana meteor düştüğünde verilir."
+      }
+    },
+    "33": {
+      "FieldName": "Brain Dragon",
+      "Texts": {
+        "0": "Cindy'nin kızına ders verirken en yüksek notu aldığın zaman verilir."
+      }
+    },
+    "34": {
+      "FieldName": "Sword Pig",
+      "Texts": {
+        "0": "Temizlikçinin görevini tamamlayınca verilir."
+      }
+    },
+    "35": {
+      "FieldName": "Tough Bunny",
+      "Texts": {
+        "0": "Bir tavşan tarafından saldırıya uğra."
+      }
+    },
+    "36": {
+      "FieldName": "Wonder Bird",
+      "Texts": {
+        "0": "Nugget-o ve Lily-et görevinin sonunda Linda'ya ördek yerine Linda nuggetını ver."
+      }
+    },
+    "37": {
+      "FieldName": "Golden Dewdrop",
+      "Texts": {
+        "0": "Ödülü koridordaki boş kısma yerleştir."
+      }
+    },
+    "38": {
+      "FieldName": "Forbidden Book",
+      "Texts": {
+        "0": "Kütüphanedeki karanlık kitaplıkta bulunur."
+      }
+    },
+    "39": {
+      "FieldName": "Pot of Grease",
+      "Texts": {
+        "0": "Bayan Applegate'e öğle yemeği sırasında hap ver."
+      }
+    },
+    "40": {
+      "FieldName": "Mr. Nice Guy",
+      "Texts": {
+        "0": "Alice'in görevini bitirince verilir"
+      }
+    },
+    "41": {
+      "FieldName": "Egg Head",
+      "Texts": {
+        "0": "Gerçek müdüre 'KIÇLAB' ismini beğendiğini söylediğin için verilir."
+      }
+    },
+    "42": {
+      "FieldName": "Snuggly Bear",
+      "Texts": {
+        "0": "Nugget bacaklarını kırdıktan sonra ona bir nugget ver."
+      }
+    },
+    "43": {
+      "FieldName": "Froyo Ghost",
+      "Texts": {
+        "0": "Çatıdaki mor sayfada yazan kodu girdiğin zaman verilir."
+      }
+    },
+    "48": {
+      "FieldName": "Dank Magician",
+      "Texts": {
+        "0": "Büyücüyü tiyatroya katılmaya davet ettiğin zaman görülür."
+      }
+    },
+    "45": {
+      "FieldName": "Sock Spirit",
+      "Texts": {
+        "0": "Çatıdaki anahtarı Kayıp Eşya sandığında kullan."
+      }
+    },
+    "46": {
+      "FieldName": "Caterpillar Dog",
+      "Texts": {
+        "0": "Kaydıraktan kaydıktan sonra Booboo'nun üzerinde bulunur."
+      }
+    },
+    "47": {
+      "FieldName": "Mysterious Package",
+      "Texts": {
+        "0": "Felix'in görevi sırasında temizlikçinin getirdiği kutuyu kontrol et."
+      }
+    },
+    "50": {
+      "FieldName": "Killer Eye",
+      "Texts": {
+        "0": "Sınıftaki yenilmiş robotu incele."
+      }
+    },
+    "49": {
+      "FieldName": "Mole Mole",
+      "Texts": {
+        "0": "Final görevinde Regis'in yüzündeki beni lazerle vur."
+      }
+    },
+    "44": {
+      "FieldName": "Evil Thwarter",
+      "Texts": {
+        "0": "Oyunu bitir."
+      }
+    }
+  }
+}
