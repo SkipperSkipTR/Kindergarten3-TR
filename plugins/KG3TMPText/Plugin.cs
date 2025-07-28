@@ -9,6 +9,10 @@ using System.IO;
 using Newtonsoft.Json;
 using BepInEx.Unity.Mono;
 using System;
+using System.Security.Cryptography;
+using System.Text;
+using System.Net.Http;
+using System.Threading.Tasks;
 
 namespace KG3TMPText
 {
@@ -17,10 +21,8 @@ namespace KG3TMPText
     {
         internal static ManualLogSource Log;
         private Harmony harmony;
-
-        // Change this to your actual game root folder path or detect dynamically
-        // For demo, let's assume Environment.CurrentDirectory is root folder
-        private static string translationFilePath = Path.Combine(Environment.CurrentDirectory, "assets", "TMPText", "translated.json");
+		
+        private static string translationFilePath = Path.Combine(Paths.GameRootPath, "assets", "TMPText", "translated.json");
 
         private static Dictionary<string, string> translatedTexts = new();
 
@@ -35,26 +37,86 @@ namespace KG3TMPText
         }
 
         private void LoadTranslatedTexts()
-        {
-            try
-            {
-                if (File.Exists(translationFilePath))
-                {
-                    string json = File.ReadAllText(translationFilePath);
-                    translatedTexts = JsonConvert.DeserializeObject<Dictionary<string, string>>(json);
-                }
-                else
-                {
-                    Log.LogWarning($"Translation file not found at {translationFilePath}");
-                    translatedTexts = new Dictionary<string, string>();
-                }
-            }
-            catch (System.Exception ex)
-            {
-                Log.LogError($"Failed to load translations: {ex}");
-                translatedTexts = new Dictionary<string, string>();
-            }
-        }
+		{
+			Task.Run(async () =>
+			{
+				await CheckAndUpdateTranslationFile();
+				try
+				{
+					if (File.Exists(translationFilePath))
+					{
+						string json = File.ReadAllText(translationFilePath);
+						translatedTexts = JsonConvert.DeserializeObject<Dictionary<string, string>>(json);
+					}
+					else
+					{
+						Log.LogWarning($"Translation file not found at {translationFilePath}");
+						translatedTexts = new Dictionary<string, string>();
+					}
+				}
+				catch (Exception ex)
+				{
+					Log.LogError($"Failed to load translations: {ex}");
+					translatedTexts = new Dictionary<string, string>();
+				}
+			});
+		}
+		
+		private async Task CheckAndUpdateTranslationFile()
+		{
+			string remoteUrl = "https://raw.githubusercontent.com/SkipperSkipTR/Kindergarten3-TR/refs/heads/main/MasterDatabase/TMPText/translated.json";
+
+			try
+			{
+				using HttpClient client = new HttpClient();
+				var response = await client.GetAsync(remoteUrl);
+				if (!response.IsSuccessStatusCode)
+				{
+					Log.LogWarning($"Failed to fetch remote translation file: {response.StatusCode}");
+					return;
+				}
+
+				string remoteJson = await response.Content.ReadAsStringAsync();
+				string remoteHash = ComputeSha256Hash(remoteJson);
+
+				string localJson = "";
+				string localHash = "";
+
+				if (File.Exists(translationFilePath))
+				{
+					localJson = File.ReadAllText(translationFilePath);
+					localHash = ComputeSha256Hash(localJson);
+				}
+
+				if (remoteHash != localHash)
+				{
+					File.WriteAllText(translationFilePath, remoteJson);
+					Log.LogInfo("Updated local translation file (SHA256 hash changed).");
+				}
+				else
+				{
+					Log.LogInfo("Local translation file is up-to-date (SHA256 match).");
+				}
+			}
+			catch (Exception ex)
+			{
+				Log.LogError($"Error checking/updating translation file: {ex}");
+			}
+		}
+		
+		private string ComputeSha256Hash(string rawData)
+		{
+			using (SHA256 sha256Hash = SHA256.Create())
+			{
+				byte[] bytes = sha256Hash.ComputeHash(Encoding.UTF8.GetBytes(rawData));
+				StringBuilder builder = new StringBuilder();
+				foreach (byte b in bytes)
+				{
+					builder.Append(b.ToString("x2"));
+				}
+				return builder.ToString();
+			}
+		}
 
         // Helper to get full path key like [SceneName] path/to/object
         public static string GetObjectPath(GameObject obj)
