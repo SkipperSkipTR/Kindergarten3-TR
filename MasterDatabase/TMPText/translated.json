@@ -1,0 +1,17 @@
+{
+  "[Kindergarten3] UI/PauseCanvas/PausePanel/PausedTitle": "Durdu",
+  "[Kindergarten3] UI/MissionMapCanvas/MissionMapPanel/MissionInfoColor/MissionMapInfoPanelBorder/Requirements/RequirementsTitle": "Gerekli Eşyalar",
+  "[Kindergarten3] UI/MissionMapCanvas/MissionMapPanel/MissionInfoColor/MissionMapInfoPanelBorder/Requirements/NoneText": "Hiçbir şey",
+  "[Kindergarten3] UI/ThanksForPlayingCanvas/ThanksForPlaying/ThanksForPlayingText": "Oynadığınız için teşekkürler!",
+  "[Kindergarten3] UI/EndDayCanvas/ItemUnlockedPanel/DayCompleteText": "Gün Bitti!",
+  "[CreditsScene] CreditsCanvas/CreditsPanel/A game by": "Bir<br>Connor Boyle ve Sean Young oyunu",
+  "[CreditsScene] CreditsCanvas/CreditsPanel/OST": "Kindergarten 3 Müziği<br>Mo Jaux",
+  "[CreditsScene] CreditsCanvas/CreditsPanel/OST_2": "Kindergarten 2 Müziği<br>Bashi Boizu",
+  "[CreditsScene] CreditsCanvas/CreditsPanel/OST_1": "Kindergarten Müziği<br>Muz Station Productions",
+  "[CreditsScene] CreditsCanvas/CreditsPanel/AlphaTesters/AlphaTesters": "Alfa Test",
+  "[CreditsScene] CreditsCanvas/CreditsPanel/SpecialThanks/AlphaTesters": "Özel Teşekkür",
+  "[CreditsScene] CreditsCanvas/CreditsPanel/SpecialThanks/Speedrun": "Kindergarten Speedrun Topluluğu",
+  "[CreditsScene] CreditsCanvas/ThanksForPlaying/Logos/legal": "Kindergarten, Kindergarten 2, Kindergarten Buddy Edition ve Kindergarten 3 ©2017-2025 Con Man Games ve SmashGames teliflidir. Tüm hakları saklıdır.",
+  "[CreditsScene] CreditsCanvas/ThanksForPlaying/ThanksForPlayingText": "Oynadığınız için teşekkürler!",
+  "[CreditsScene] CreditsCanvas/ThanksForPlaying/ContinueText": "Kindergarten Perşembe günü devam edecek."
+}
