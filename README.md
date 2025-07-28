@@ -18,6 +18,8 @@ Programsız kurulum yapmak için dosyaları [releases](https://github.com/Skippe
 
 olarak değiştirip sistemi kapatabilirsiniz. (Tırnak işaretleri olmadan.)
 
+27.07.2025: Birkaç plugin daha yazarak oyunu sadece pluginlerle çevirebilecek bir hale getirdim. 1.06 ve sonrasındaki sürümlerde muhtemelen sadece pluginleri kullanacağım.
+
 ## Kurulum Videosu
 
 [![Kurulum Videosu](https://img.youtube.com/vi/TC74xzAWhWU/0.jpg)](https://www.youtube.com/watch?v=TC74xzAWhWU)
