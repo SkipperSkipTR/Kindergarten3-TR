@@ -634,11 +634,11 @@
                 },
                 {
                     "entryId": 89,
-                    "Menu Text": "Ah, özür dileri-"
+                    "Menu Text": "Ah, özür diler-"
                 },
                 {
                     "entryId": 90,
-                    "Dialogue Text": "Nasıl beni mirasından kesebildi?<kgwait> Hala o cimri fahişe bana bir şey bırakmadığı için kızgınım!"
+                    "Dialogue Text": "Nasıl beni mirasından kesebildi?<kgwait> Hala o cimri fahişe bana hiçbir şey bırakmadığı için çok kızgınım!"
                 },
                 {
                     "entryId": 91,
@@ -751,7 +751,7 @@
                 },
                 {
                     "entryId": 13,
-                    "Dialogue Text": "Evet, biliyorum! Şimdi de bizim müdürümüz kayboldu. Buradaki bir sürü çocuk da yok. Siz buraya gönderildiniz. Ve geçici müdürümüz buranın temizlikçisi oldu!"
+                    "Dialogue Text": "Evet, biliyorum! Şimdi de bizim müdürümüz kayboldu. Buradaki bir sürü çocuk da yok. Siz buraya gönderildiniz. Ve geçici müdürümüz buranın eski temizlikçisi oldu!"
                 },
                 {
                     "entryId": 14,
@@ -795,7 +795,7 @@
                 },
                 {
                     "entryId": 26,
-                    "Dialogue Text": "Uh... <kgwait>çünkü o temizlikçiydi?! Yani... <kgwait>Bu işi yapabilecek bir müdür yardımcımız falan yok muydu?"
+                    "Dialogue Text": "Uh... <kgwait>çünkü o buranın temizlikçisiydi?! Yani... <kgwait>Bu işi yapabilecek bir müdür yardımcımız falan yok muydu?"
                 },
                 {
                     "entryId": 27,
@@ -1268,7 +1268,7 @@
                 },
                 {
                     "entryId": 119,
-                    "Dialogue Text": "Nugget sevimli Lily'yi ağaçtan çıkaramadı. Sevimli Lily orada kalıyor. Sevimli Lily Nugget'ın Juliet'i olmayacak."
+                    "Dialogue Text": "Nugget sevimli Lily'yi ağaçtan çıkaramadı. Sevimli Lily orada kalıyor. Sevimli Lily, Nugget'ın Juliet'i olmayacak."
                 },
                 {
                     "entryId": 120,
@@ -1340,7 +1340,7 @@
                 },
                 {
                     "entryId": 141,
-                    "Dialogue Text": "Nugget, yapacak işimiz olduğunu düşünüyor."
+                    "Dialogue Text": "Nugget, yapacak çok işimiz olduğunu düşünüyor."
                 },
                 {
                     "entryId": 142,
@@ -1352,11 +1352,11 @@
                 },
                 {
                     "entryId": 144,
-                    "Menu Text": "Kevin'i tedavi edeceğiz."
+                    "Menu Text": "Kevin'ı tedavi edeceğiz."
                 },
                 {
                     "entryId": 145,
-                    "Dialogue Text": "Evet. Nugget, Kevin'in okulun altında ağladığını duyabiliyor. Nugget tüm balçığı duyabiliyor. Balçık bağırıyor, uluyor."
+                    "Dialogue Text": "Evet. Nugget, Kevin'ın okulun altında ağladığını duyabiliyor. Nugget tüm balçığı duyabiliyor. Balçık bağırıyor, uluyor."
                 },
                 {
                     "entryId": 146,
@@ -1599,7 +1599,7 @@
                 },
                 {
                     "entryId": 7,
-                    "Menu Text": "Kevin de kim?"
+                    "Menu Text": "Kevin da kim?"
                 },
                 {
                     "entryId": 8,
@@ -1771,7 +1771,7 @@
                 },
                 {
                     "entryId": 62,
-                    "Dialogue Text": "Hmmm...<kgwait> Bu garip. Görünüşe göre Bay Scippio'nun sınıfında Kevin'le evcilik oynamışız. Ama bundan sonraki tüm sayfalar yırtılmış."
+                    "Dialogue Text": "Hmmm...<kgwait> Bu garip. Görünüşe göre Bay Scippio'nun sınıfında Kevin'la evcilik oynamışız. Ama bundan sonraki tüm sayfalar yırtılmış."
                 },
                 {
                     "entryId": 63,
@@ -1819,7 +1819,7 @@
                 },
                 {
                     "entryId": 76,
-                    "Menu Text": "Kevin de kim?"
+                    "Menu Text": "Kevin da kim?"
                 },
                 {
                     "entryId": 77,
@@ -10128,7 +10128,7 @@
                 },
                 {
                     "entryId": 47,
-                    "Dialogue Text": "Nugget bu okulda kötü bir şeyler döndüğünü anlıyor.<kgwait> Nugget Kevin'in onu çağırdığını hissedebiliyor. Kevin, zavallı Billy gibi kayıp."
+                    "Dialogue Text": "Nugget bu okulda kötü bir şeyler döndüğünü anlıyor.<kgwait> Nugget Kevin'ın onu çağırdığını hissedebiliyor. Kevin, zavallı Billy gibi kayıp."
                 },
                 {
                     "entryId": 48,
@@ -10236,7 +10236,7 @@
                 },
                 {
                     "entryId": 84,
-                    "Dialogue Text": "Evet. Nugget iyi bir pazarlıkçıdır. Kuşçuk sadece Kevin'i tedavi etmemizi ve yarın Kuşçuk üzerinde bu tedaviyi kullanmamızı istiyor."
+                    "Dialogue Text": "Evet. Nugget iyi bir pazarlıkçıdır. Kuşçuk sadece Kevin'ı tedavi etmemizi ve yarın Kuşçuk üzerinde bu tedaviyi kullanmamızı istiyor."
                 },
                 {
                     "entryId": 85,
@@ -12930,7 +12930,7 @@
                 },
                 {
                     "entryId": 7,
-                    "Dialogue Text": "Selam Nugget. *Öhöm*<kgwait> Bunu yapabilirsin Alice!<kgwait> Git ve Kevin'i kurtar!"
+                    "Dialogue Text": "Selam Nugget. *Öhöm*<kgwait> Bunu yapabilirsin Alice!<kgwait> Git ve Kevin'ı kurtar!"
                 },
                 {
                     "entryId": 9,
@@ -13821,7 +13821,7 @@
                 },
                 {
                     "entryId": 107,
-                    "Dialogue Text": "Ah, selam. <kgwait>Sadece, eskiden Kevin'le evcilik oynardık. Ama o kayıp. Ona ne olduğunu biliyor gibi hissediyorum. Ama hatırlayamıyorum."
+                    "Dialogue Text": "Ah, selam. <kgwait>Sadece, eskiden Kevin'la evcilik oynardık. Ama o kayıp. Ona ne olduğunu biliyor gibi hissediyorum. Ama hatırlayamıyorum."
                 },
                 {
                     "entryId": 108,
@@ -14094,7 +14094,7 @@
                 },
                 {
                     "entryId": 66,
-                    "Dialogue Text": "İki türlü de, bugün iyi istihbarat topladık. Ben Billy ile konuşacağım. Yarın Kevin'i bulmak için bir plan yapacağız."
+                    "Dialogue Text": "İki türlü de, bugün iyi istihbarat topladık. Ben Billy ile konuşacağım. Yarın Kevin'ı bulmak için bir plan yapacağız."
                 }
             ]
         },
@@ -17307,7 +17307,7 @@
                 },
                 {
                     "entryId": 17,
-                    "Dialogue Text": "Kevin'le tanışırlar."
+                    "Dialogue Text": "Kevin'la tanışırlar."
                 },
                 {
                     "entryId": 18,
@@ -18154,7 +18154,7 @@
                 },
                 {
                     "entryId": 28,
-                    "Dialogue Text": "Hehehe!<kgwait> #17'yi kullanmayalı epey oldu.<kgwait> Güzel çalışma, çocuk."
+                    "Dialogue Text": "Hehehe!<kgwait> #17'yi kullanmayalı epey oldu.<kgwait> İyi işti, çocuk."
                 },
                 {
                     "entryId": 29,
@@ -20127,7 +20127,7 @@
                 },
                 {
                     "entryId": 36,
-                    "Menu Text": "Bup'layayım mı?"
+                    "Menu Text": "Buplayayım mı?"
                 },
                 {
                     "entryId": 37,
@@ -24566,7 +24566,7 @@
                 },
                 {
                     "entryId": 30,
-                    "Dialogue Text": "Eğer seni teselli edecekse, o yaratıklar çok dayanıklı.<kgwait> Kevin'in hayatta kalma ihtimali çok yüksek."
+                    "Dialogue Text": "Eğer seni teselli edecekse, o yaratıklar çok dayanıklı.<kgwait> Kevin'ın hayatta kalma ihtimali çok yüksek."
                 },
                 {
                     "entryId": 31,
@@ -25942,7 +25942,7 @@
                 },
                 {
                     "entryId": 56,
-                    "Menu Text": "Kevin'i kurtarmaya çalıştık."
+                    "Menu Text": "Kevin'ı kurtarmaya çalıştık."
                 },
                 {
                     "entryId": 57,
@@ -26110,7 +26110,7 @@
                 },
                 {
                     "entryId": 101,
-                    "Dialogue Text": "Zil çalmadan önce buradan çıkmalısın! Zil Kevin'i uyandıracak ve sonra seni öldürecek!"
+                    "Dialogue Text": "Zil çalmadan önce buradan çıkmalısın! Zil Kevin'ı uyandıracak ve sonra seni öldürecek!"
                 },
                 {
                     "entryId": 102,
@@ -26166,7 +26166,7 @@
                 },
                 {
                     "entryId": 119,
-                    "Dialogue Text": "Seni, tuzak kapı sistemini kullanarak sınıfına geri göndereceğim. Mümkün olduğunca çok sayıda balçıklı hayvana ihtiyacımız var. Kevin'i iyileştirdiğin gibi onları da iyileştir ve buraya getir."
+                    "Dialogue Text": "Seni, tuzak kapı sistemini kullanarak sınıfına geri göndereceğim. Mümkün olduğunca çok sayıda balçıklı hayvana ihtiyacımız var. Kevin'ı iyileştirdiğin gibi onları da iyileştir ve buraya getir."
                 },
                 {
                     "entryId": 120,
@@ -28522,7 +28522,7 @@
                 },
                 {
                     "entryId": 24,
-                    "Dialogue Text": "Burada neler oluyor?!<kgwait> Kevin'in kafesinde neden bu kadar çok aktivite tespit ediliyor-?!"
+                    "Dialogue Text": "Burada neler oluyor?!<kgwait> Kevin'ın kafesinde neden bu kadar çok aktivite tespit ediliyor-?!"
                 },
                 {
                     "entryId": 25,
@@ -28754,7 +28754,7 @@
             "Dialogue": [
                 {
                     "entryId": 2,
-                    "Dialogue Text": "Bu, Kevin'in gün başlarken üzerinde uyuduğu saman."
+                    "Dialogue Text": "Bu, Kevin'ın gün başlarken üzerinde uyuduğu saman."
                 },
                 {
                     "entryId": 3,
@@ -28774,7 +28774,7 @@
                 },
                 {
                     "entryId": 7,
-                    "Dialogue Text": "Sayfaları buldum. Artık Kevin'in samanını karıştırmak istemiyorum."
+                    "Dialogue Text": "Sayfaları buldum. Artık Kevin'ın samanını karıştırmak istemiyorum."
                 },
                 {
                     "entryId": 8,
@@ -29574,7 +29574,7 @@
                 },
                 {
                     "entryId": 18,
-                    "Dialogue Text": "Nugget anlıyor. Nugget, Kevin'in isteklerine saygı gösterecek."
+                    "Dialogue Text": "Nugget anlıyor. Nugget, Kevin'ın isteklerine saygı gösterecek."
                 },
                 {
                     "entryId": 20,
@@ -29646,7 +29646,7 @@
                 },
                 {
                     "entryId": 37,
-                    "Dialogue Text": "*iç çeker*<kgwait> Tamam. Buraya kadar geldik. Sanırım Kevin'in kumarını oynayabiliriz."
+                    "Dialogue Text": "*iç çeker*<kgwait> Tamam. Buraya kadar geldik. Sanırım Kevin'ın kumarını oynayabiliriz."
                 },
                 {
                     "entryId": 38,
@@ -29658,7 +29658,7 @@
                 },
                 {
                     "entryId": 40,
-                    "Dialogue Text": "Nugget'ın balçık temizleyen, zehir iyileştirici arkadaşı, hepimiz patlamadan önce Kevin'in bize verdiği özel kodu girmeli."
+                    "Dialogue Text": "Nugget'ın balçık temizleyen, zehir iyileştirici arkadaşı, hepimiz patlamadan önce Kevin'ın bize verdiği özel kodu girmeli."
                 },
                 {
                     "entryId": 41,
@@ -29803,7 +29803,7 @@
             "Dialogue": [
                 {
                     "entryId": 2,
-                    "Dialogue Text": "İşte buradasın!<kgwait> Kevin'in bizi öldürmesini istemiyorsak acele etmeliyiz!"
+                    "Dialogue Text": "İşte buradasın!<kgwait> Kevin'ın bizi öldürmesini istemiyorsak acele etmeliyiz!"
                 },
                 {
                     "entryId": 3,
