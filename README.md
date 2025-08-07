@@ -20,6 +20,8 @@ olarak değiştirip sistemi kapatabilirsiniz. (Tırnak işaretleri olmadan.)
 
 27.07.2025: Birkaç plugin daha yazarak oyunu sadece pluginlerle çevirebilecek bir hale getirdim. 1.06 ve sonrasındaki sürümlerde muhtemelen sadece pluginleri kullanacağım.
 
+07.08.2025: Linda'nın kükremesinden sonra oyunun 1.5 saniye yerine 15 saniye beklemesine yol açan hatayı çözen bir plugin eklendi.
+
 ## Kurulum Videosu
 
 [![Kurulum Videosu](https://img.youtube.com/vi/TC74xzAWhWU/0.jpg)](https://www.youtube.com/watch?v=TC74xzAWhWU)
