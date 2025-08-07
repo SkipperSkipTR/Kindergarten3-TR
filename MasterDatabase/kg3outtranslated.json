@@ -9389,11 +9389,11 @@
                 },
                 {
                     "entryId": 103,
-                    "Menu Text": "Çok yazık."
+                    "Menu Text": "Vah vah, ne yazık."
                 },
                 {
                     "entryId": 104,
-                    "Dialogue Text": "İyi be. Keyif kaçırıcı."
+                    "Dialogue Text": "İyi be. Keyif kaçırıcı seni."
                 },
                 {
                     "entryId": 105,
@@ -13319,7 +13319,7 @@
                 },
                 {
                     "entryId": 72,
-                    "Dialogue Text": "İyi ki kısayollar kurmak için zaman harcamamışım. Yarın buraya geri dönmeyeceğimizi hissediyorum.<kgwait> Ben gidiyorum, amigos."
+                    "Dialogue Text": "İyi ki kısayollar kurmak için zaman harcamamışım. Yarın buraya geri dönmeyeceğimizi hissediyorum.<kgwait> Ben gidiyorum, amigolar."
                 },
                 {
                     "entryId": 73,
@@ -30588,7 +30588,7 @@
                 },
                 {
                     "entryId": 27,
-                    "Dialogue Text": "Nugget şimdi kimi göndermeli?! Bunny?! Booboo?! Guppy?! Nugget ölmek istemiyor!"
+                    "Dialogue Text": "Nugget şimdi kimi göndermeli?! Tavşan?! Booboo?! Guppy?! Nugget ölmek istemiyor!"
                 },
                 {
                     "entryId": 28,
@@ -31049,7 +31049,7 @@
             "Dialogue": [
                 {
                     "entryId": 1,
-                    "Dialogue Text": "Bunny, boyunları çiğnediği kadar kabloları da çiğnemekte oldukça başarılı."
+                    "Dialogue Text": "Tavşan, boyunları çiğnemekte olduğu kadar kabloları çiğnemekte de oldukça başarılı."
                 },
                 {
                     "entryId": 2,
