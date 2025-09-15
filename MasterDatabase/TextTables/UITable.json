@@ -205,7 +205,7 @@
     "36": {
       "FieldName": "MovingDialogueTip",
       "Texts": {
-        "0": "Karakterler konuşurken metnin hareket etmesini etkinleştirir."
+        "0": "Diyalog metninin hareket etmesini etkinleştirir/kapatır."
       }
     },
     "37": {
@@ -217,7 +217,7 @@
     "38": {
       "FieldName": "ColorBlindTip",
       "Texts": {
-        "0": "Objelerin renkleriyle ifade edilmesini etkinleştirir."
+        "0": "Renkleriyle ifade edilen objelerin üzerinde renk belirten etiketleri etkinleştirir/kapatır."
       }
     },
     "39": {
