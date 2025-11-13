@@ -1,0 +1,314 @@
+{
+  "languages": {
+    "Default": 0,
+    "zh": 1
+  },
+  "fields": {
+    "1": {
+      "fieldName": "GameBy",
+      "texts": {
+        "0": "Bir<br>Connor Boyle ve Sean Young oyunu"
+      }
+    },
+    "2": {
+      "fieldName": "OST1",
+      "texts": {
+        "0": "Kindergarten 3 Müziği<br>Mo Jaux"
+      }
+    },
+    "3": {
+      "fieldName": "OST2",
+      "texts": {
+        "0": "Kindergarten 2 Müziği<br>Bashi Boizu"
+      }
+    },
+    "4": {
+      "fieldName": "OST3",
+      "texts": {
+        "0": "Kindergarten Müziği<br>Muz Station Productions"
+      }
+    },
+    "5": {
+      "fieldName": "AlphaTesters",
+      "texts": {
+        "0": "Alfa Test"
+      }
+    },
+    "6": {
+      "fieldName": "Garrett",
+      "texts": {
+        "0": "Garrett Boyle"
+      }
+    },
+    "7": {
+      "fieldName": "Lindsey",
+      "texts": {
+        "0": "Lindsey Westbrook"
+      }
+    },
+    "8": {
+      "fieldName": "Haley",
+      "texts": {
+        "0": "Haley Sehgal"
+      }
+    },
+    "9": {
+      "fieldName": "Ryan",
+      "texts": {
+        "0": "Ryan Boyle"
+      }
+    },
+    "10": {
+      "fieldName": "Dennis",
+      "texts": {
+        "0": "Dennis Chambers"
+      }
+    },
+    "11": {
+      "fieldName": "Bella",
+      "texts": {
+        "0": "Bella Chung"
+      }
+    },
+    "12": {
+      "fieldName": "Colston",
+      "texts": {
+        "0": "Colston \"Scurble\" Holbrook"
+      }
+    },
+    "13": {
+      "fieldName": "Scar",
+      "texts": {
+        "0": "Thomas \"ScarC\" Carpenter"
+      }
+    },
+    "14": {
+      "fieldName": "Joker",
+      "texts": {
+        "0": "Lane \"JokerFactor\" Monson"
+      }
+    },
+    "15": {
+      "fieldName": "Devin",
+      "texts": {
+        "0": "Devin Cole"
+      }
+    },
+    "16": {
+      "fieldName": "Bucket",
+      "texts": {
+        "0": "Mr. Bucket"
+      }
+    },
+    "17": {
+      "fieldName": "Cristian",
+      "texts": {
+        "0": "Cristian Lopina"
+      }
+    },
+    "18": {
+      "fieldName": "SpecialThanks",
+      "texts": {
+        "0": "Özel Teşekkür"
+      }
+    },
+    "19": {
+      "fieldName": "Sibs",
+      "texts": {
+        "0": "Sibs, Sigs, and Lindsey"
+      }
+    },
+    "20": {
+      "fieldName": "Tendy",
+      "texts": {
+        "0": "Tendy Tuesday on Wednesday"
+      }
+    },
+    "22": {
+      "fieldName": "Speedrun",
+      "texts": {
+        "0": "Kindergarten Speedrun Topluluğu"
+      }
+    },
+    "23": {
+      "fieldName": "PixelCrushers",
+      "texts": {
+        "0": "PixelCrushers"
+      }
+    },
+    "24": {
+      "fieldName": "Theorists",
+      "texts": {
+        "0": "The Game Theorists"
+      }
+    },
+    "25": {
+      "fieldName": "Jack",
+      "texts": {
+        "0": "JackSepticEye"
+      }
+    },
+    "26": {
+      "fieldName": "Cory",
+      "texts": {
+        "0": "CoryXKenshin"
+      }
+    },
+    "27": {
+      "fieldName": "Gloom",
+      "texts": {
+        "0": "Gloom"
+      }
+    },
+    "28": {
+      "fieldName": "Razz",
+      "texts": {
+        "0": "RazzBowski"
+      }
+    },
+    "29": {
+      "fieldName": "Ohm",
+      "texts": {
+        "0": "Ohmwrecker "
+      }
+    },
+    "30": {
+      "fieldName": "8Bit",
+      "texts": {
+        "0": "8-BitRyan"
+      }
+    },
+    "31": {
+      "fieldName": "Random",
+      "texts": {
+        "0": "Random Encounters"
+      }
+    },
+    "32": {
+      "fieldName": "Bijuu",
+      "texts": {
+        "0": "Bijuu Mike"
+      }
+    },
+    "33": {
+      "fieldName": "Waligug",
+      "texts": {
+        "0": "Waligug"
+      }
+    },
+    "34": {
+      "fieldName": "Kubz",
+      "texts": {
+        "0": "Kubz Scouts"
+      }
+    },
+    "35": {
+      "fieldName": "Fat",
+      "texts": {
+        "0": "FatMemeGod"
+      }
+    },
+    "36": {
+      "fieldName": "Captain",
+      "texts": {
+        "0": "CaptainSauce"
+      }
+    },
+    "37": {
+      "fieldName": "Eazy",
+      "texts": {
+        "0": "EazySpeezy"
+      }
+    },
+    "38": {
+      "fieldName": "Thanks",
+      "texts": {
+        "0": "Oynadığınız için teşekkürler!"
+      }
+    },
+    "39": {
+      "fieldName": "Continue",
+      "texts": {
+        "0": "Kindergarten Perşembe günü devam edecek.."
+      }
+    },
+    "40": {
+      "fieldName": "ChineseLocalization",
+      "texts": {
+        "0": "Türkçe Lokalizasyon"
+      }
+    },
+    "41": {
+      "fieldName": "ZH1",
+      "texts": {
+        "0": "天哪那是什么"
+      }
+    },
+    "42": {
+      "fieldName": "ZH2",
+      "texts": {
+        "0": "琪露诺"
+      }
+    },
+    "43": {
+      "fieldName": "ZH3",
+      "texts": {
+        "0": "叶酸林檎"
+      }
+    },
+    "44": {
+      "fieldName": "ZH4",
+      "texts": {
+        "0": "LingIka"
+      }
+    },
+    "45": {
+      "fieldName": "ZH5",
+      "texts": {
+        "0": "Amber"
+      }
+    },
+    "46": {
+      "fieldName": "ZH6",
+      "texts": {
+        "0": "Reverie"
+      }
+    },
+    "47": {
+      "fieldName": "ZH7",
+      "texts": {
+        "0": "kfft"
+      }
+    },
+    "48": {
+      "fieldName": "ZH8",
+      "texts": {
+        "0": "DestinationZero"
+      }
+    },
+    "49": {
+      "fieldName": "ZH9",
+      "texts": {
+        "0": "联邦猩红电磁镇压警棍"
+      }
+    },
+    "50": {
+      "fieldName": "ZH10",
+      "texts": {
+        "0": "AZS"
+      }
+    },
+    "51": {
+      "fieldName": "Legal",
+      "texts": {
+        "0": "Kindergarten, Kindergarten 2, Kindergarten Buddy Edition, and Kindergarten 3 are Copyright ©2017-2025 by Con Man Games and SmashGames. All Rights Reserved."
+      }
+    },
+    "52": {
+      "fieldName": "ZHGroupName",
+      "texts": {
+        "0": "坏人汉化组："
+      }
+    }
+  }
+}
