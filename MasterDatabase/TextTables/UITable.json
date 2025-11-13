@@ -369,6 +369,24 @@
       "Texts": {
         "0": "Klavye"
       }
+    },
+	"64": {
+      "fieldName": "Kindergarten",
+      "texts": {
+        "0": "Kindergarten"
+      }
+    },
+    "88": {
+      "fieldName": "DayComplete",
+      "texts": {
+        "0": "Gün Tamamlandı!"
+      }
+    },
+    "89": {
+      "fieldName": "Language",
+      "texts": {
+        "0": "Dil"
+      }
     }
   }
 }

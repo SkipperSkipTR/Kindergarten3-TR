@@ -135,6 +135,18 @@
       "Texts": {
         "0": "Bu görevin kilidini açmak için tamamlanması gerekenler: {0}, {1}, {2} ve {3}"
       }
+    },
+	"23": {
+      "fieldName": "Requirements",
+      "texts": {
+        "0": "Gerekli Eşyalar"
+      }
+    },
+    "24": {
+      "fieldName": "None",
+      "texts": {
+        "0": "Hiçbir Şey"
+      }
     }
   }
 }
