@@ -22,6 +22,8 @@ olarak değiştirip sistemi kapatabilirsiniz. (Tırnak işaretleri olmadan.)
 
 07.08.2025: Linda'nın kükremesinden sonra oyunun 1.5 saniye yerine 15 saniye beklemesine yol açan hatayı çözen bir plugin eklendi.
 
+13.11.2025: 1.06 versiyon uyumlu yama eklendi.
+
 ## Kurulum Videosu
 
 [![Kurulum Videosu](https://img.youtube.com/vi/TC74xzAWhWU/0.jpg)](https://www.youtube.com/watch?v=TC74xzAWhWU)
