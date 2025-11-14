@@ -28,7 +28,8 @@ namespace KG3TextTableImport
             "Monstermon",
             "MonstermonLocations",
             "TimePeriods",
-            "UnlockedItems"
+            "UnlockedItems",
+			"CreditsScene"
         };
 
         private const string GitHubRawBaseUrl = "https://raw.githubusercontent.com/SkipperSkipTR/Kindergarten3-TR/refs/heads/main/MasterDatabase/TextTables/";

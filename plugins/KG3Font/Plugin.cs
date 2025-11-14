@@ -17,6 +17,7 @@ public class Plugin : BaseUnityPlugin
     private const string ChunkfiveExSDF = "Chunkfive Ex SDF";
     private static ManualLogSource Logger;
     private static readonly Dictionary<string, TMP_FontAsset> _fontAsset = new();
+    private static Font _crayawnTTF;
 
     private void Awake()
     {
@@ -54,6 +55,18 @@ public class Plugin : BaseUnityPlugin
                 {
                     Logger.LogWarning("GetTextMeshProFont method not found");
                 }
+                
+                // Also patch the regular Font getter for TextFxUGUI
+                var getFontMethod = AccessTools.Method(localizedFontsType, "GetFont", new[] { typeof(string) });
+                if (getFontMethod != null)
+                {
+                    harmony.Patch(getFontMethod, postfix: new HarmonyMethod(typeof(Plugin), nameof(PostGetFont)));
+                    Logger.LogInfo("Successfully patched LocalizedFonts.GetFont");
+                }
+                else
+                {
+                    Logger.LogWarning("GetFont method not found");
+                }
             }
             else
             {
@@ -64,6 +77,38 @@ public class Plugin : BaseUnityPlugin
         {
             Logger.LogError($"Failed to patch LocalizedFonts: {e}");
         }
+        
+        // Try to patch TextFxUGUI
+        try
+        {
+            var textFxUGUIType = AccessTools.TypeByName("TextFx.TextFxUGUI");
+            if (textFxUGUIType != null)
+            {
+                // Patch the font property setter
+                var fontSetter = AccessTools.PropertySetter(textFxUGUIType, "font");
+                if (fontSetter != null)
+                {
+                    harmony.Patch(fontSetter, postfix: new HarmonyMethod(typeof(Plugin), nameof(PostSetTextFxFont)));
+                    Logger.LogInfo("Successfully patched TextFxUGUI.font setter");
+                }
+                
+                // Also patch text setter in case font needs to be updated when text changes
+                var textSetter = AccessTools.PropertySetter(textFxUGUIType, "text");
+                if (textSetter != null)
+                {
+                    harmony.Patch(textSetter, postfix: new HarmonyMethod(typeof(Plugin), nameof(PostSetTextFxText)));
+                    Logger.LogInfo("Successfully patched TextFxUGUI.text setter");
+                }
+            }
+            else
+            {
+                Logger.LogWarning("TextFxUGUI type not found - skipping TextFxUGUI patches");
+            }
+        }
+        catch (System.Exception e)
+        {
+            Logger.LogError($"Failed to patch TextFxUGUI: {e}");
+        }
     }
 
     [HarmonyPostfix]
@@ -71,15 +116,17 @@ public class Plugin : BaseUnityPlugin
     {
         if (__instance.font != null)
         {
-            if (__instance.font.name.Contains(CrayawnSDF))
-            {
-                __instance.font = GetFont(CrayawnSDF);
-            }
-            else if (__instance.font.name == ChunkfiveExSDF)
+            // If it's Chunkfive Ex, keep it as Chunkfive Ex
+            if (__instance.font.name == ChunkfiveExSDF)
             {
                 __instance.font = GetFont(ChunkfiveExSDF);
                 __instance.outlineWidth = 0.2f;
-            } 
+            }
+            // Everything else becomes Crayawn
+            else
+            {
+                __instance.font = GetFont(CrayawnSDF);
+            }
         }
     }
 
@@ -89,18 +136,156 @@ public class Plugin : BaseUnityPlugin
         {
             string originalName = __result.name;
             
-            if (originalName.Contains(CrayawnSDF))
-            {
-                __result = GetFont(CrayawnSDF);
-                Logger.LogInfo($"Replaced {CrayawnSDF} for language: {language}");
-            }
-            else if (originalName == ChunkfiveExSDF)
+            // If it's Chunkfive Ex, keep it as Chunkfive Ex
+            if (originalName == ChunkfiveExSDF)
             {
                 __result = GetFont(ChunkfiveExSDF);
-                Logger.LogInfo($"Replaced {ChunkfiveExSDF} for language: {language}");
+                Logger.LogInfo($"Kept {ChunkfiveExSDF} for language: {language}");
+            }
+            // Everything else becomes Crayawn
+            else
+            {
+                __result = GetFont(CrayawnSDF);
+                Logger.LogInfo($"Replaced {originalName} with {CrayawnSDF} for language: {language}");
             }
         }
     }
+
+    // Patch for LocalizedFonts.GetFont (returns regular Font for TextFxUGUI)
+    public static void PostGetFont(string language, ref Font __result)
+    {
+        if (__result != null)
+        {
+            string originalName = __result.name;
+            
+            // Replace with Crayawn TTF (unless we want to keep certain fonts)
+            // For now, replace everything with Crayawn
+            var crayawnTTF = GetTTFFont();
+            if (crayawnTTF != null)
+            {
+                __result = crayawnTTF;
+                Logger.LogInfo($"Replaced TTF font {originalName} with Crayawn.ttf for language: {language}");
+            }
+        }
+    }
+
+    // Patch for TextFxUGUI font setter
+    public static void PostSetTextFxFont(object __instance)
+    {
+        try
+        {
+            var fontProperty = AccessTools.Property(__instance.GetType(), "font");
+            if (fontProperty != null)
+            {
+                var currentFont = fontProperty.GetValue(__instance) as Font;
+                if (currentFont != null)
+                {
+                    var crayawnTTF = GetTTFFont();
+                    if (crayawnTTF != null && crayawnTTF != currentFont)
+                    {
+                        fontProperty.SetValue(__instance, crayawnTTF);
+                        Logger.LogInfo($"TextFxUGUI font changed from {currentFont.name} to Crayawn.ttf");
+                    }
+                }
+            }
+        }
+        catch (System.Exception e)
+        {
+            Logger.LogError($"Error in PostSetTextFxFont: {e}");
+        }
+    }
+
+    // Patch for TextFxUGUI text setter
+    public static void PostSetTextFxText(object __instance, string value)
+    {
+        try
+        {
+            var fontProperty = AccessTools.Property(__instance.GetType(), "font");
+            if (fontProperty != null)
+            {
+                var currentFont = fontProperty.GetValue(__instance) as Font;
+                if (currentFont != null)
+                {
+                    var crayawnTTF = GetTTFFont();
+                    if (crayawnTTF != null && crayawnTTF != currentFont)
+                    {
+                        fontProperty.SetValue(__instance, crayawnTTF);
+                    }
+                }
+            }
+        }
+        catch (System.Exception e)
+        {
+            Logger.LogError($"Error in PostSetTextFxText: {e}");
+        }
+    }
+
+    private static Font GetTTFFont()
+	{
+		if (_crayawnTTF != null)
+			return _crayawnTTF;
+
+		var fontBundle = GetFontBundle();
+		if (fontBundle == null)
+		{
+			Logger.LogError("Font bundle not loaded. Cannot load Crayawn.ttf");
+			return null;
+		}
+
+		try
+		{
+			// Load the TTF directly from the AssetBundle
+			_crayawnTTF = fontBundle.LoadAsset<Font>("Crayawn");
+
+			if (_crayawnTTF != null)
+			{
+				Logger.LogInfo("Loaded Crayawn.ttf from assetbundle.");
+				return _crayawnTTF;
+			}
+			else
+			{
+				Logger.LogError("Crayawn.ttf not found inside assetbundle!");
+			}
+		}
+		catch (System.Exception e)
+		{
+			Logger.LogError($"Error while loading Crayawn.ttf from assetbundle: {e}");
+		}
+
+		// Safety fallback
+		Logger.LogWarning("Falling back to built-in Arial for Crayawn.ttf");
+		return Resources.GetBuiltinResource<Font>("Arial.ttf");
+	}
+	
+	private static AssetBundle _fontBundle;
+
+	private static AssetBundle GetFontBundle()
+	{
+		if (_fontBundle != null) return _fontBundle;
+
+		string parentPath = Path.GetDirectoryName(Application.dataPath);
+		if (parentPath == null)
+		{
+			Logger.LogError("Parent path is null");
+			return null;
+		}
+
+		string fontPath = Path.Combine(parentPath, "assets", "font");
+
+		_fontBundle = AssetBundle.LoadFromFile(fontPath);
+		if (_fontBundle == null)
+		{
+			Logger.LogError($"Failed to load Font AssetBundle: {fontPath}");
+		}
+		else
+		{
+			Logger.LogInfo("Font AssetBundle loaded successfully.");
+		}
+
+		return _fontBundle;
+	}
+
+
 
     private static TMP_FontAsset GetFont(string name)
     {
@@ -113,18 +298,12 @@ public class Plugin : BaseUnityPlugin
             return null;
         }
 
-        // Check if font bundle is already loaded
-        IEnumerable<AssetBundle> allLoadedAssetBundles = AssetBundle.GetAllLoadedAssetBundles();
-        AssetBundle fontBundle = null;
-        foreach (AssetBundle assetBundle in allLoadedAssetBundles)
-        {
-            if (assetBundle.name == "font")
-            {
-                fontBundle = assetBundle;
-                Logger.LogInfo($"Found existing font bundle: {assetBundle.name}");
-                break;
-            }
-        }
+        AssetBundle fontBundle = GetFontBundle();
+		if (fontBundle == null)
+		{
+			Logger.LogError("Font bundle not loaded.");
+			return null;
+		}
 
         // Load font bundle if not found
         if (fontBundle == null)

@@ -15,7 +15,6 @@
     <RootNamespace>KG3TMPText</RootNamespace>
   </PropertyGroup>
 
-
   <ItemGroup>
     <PackageReference Include="BepInEx.Analyzers" Version="1.*" PrivateAssets="all" />
     <PackageReference Include="BepInEx.Unity.Mono" Version="6.0.0-be.*" IncludeAssets="compile" />
