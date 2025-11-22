@@ -5,7 +5,6 @@ using System.Collections.Generic;
 using BepInEx;
 using BepInEx.Logging;
 using BepInEx.Unity.Mono;
-using BepInEx.Configuration;
 using HarmonyLib;
 using UnityEngine;
 using UnityEngine.Networking;
@@ -17,19 +16,21 @@ namespace KG3TRYama
     [BepInPlugin(MyPluginInfo.PLUGIN_GUID, MyPluginInfo.PLUGIN_NAME, MyPluginInfo.PLUGIN_VERSION)]
     public class Plugin : BaseUnityPlugin
     {
-		// Config Entry to enable/disable plugin
-		private ConfigEntry<bool> _pluginEnabled;
-		
+        internal static new ManualLogSource Logger;
+
         // Static fields for database handling
         private static DialogueDatabase _cachedDatabase = null;
         private static string _currentVersion = "";
 
         // URLs and file paths
-        private static readonly string _githubRawUrl = "https://raw.githubusercontent.com/SkipperSkipTR/Kindergarten3-TR/refs/heads/main/MasterDatabase/";
+        private static readonly string _githubRawUrl =
+            "https://raw.githubusercontent.com/SkipperSkipTR/Kindergarten3-TR/refs/heads/main/MasterDatabase/";
         private static readonly string _versionFile = "version.txt";
         private static readonly string _databaseFile = "kg3outtranslated.json";
         private static readonly string _translatedDatabaseFile = "translated_dialogue_system.json";
-        private static readonly string _databaseFolder = Path.Combine(Path.GetDirectoryName(Application.dataPath), "assets");
+
+        private static readonly string _databaseFolder =
+            Path.Combine(Path.GetDirectoryName(Application.dataPath), "assets");
 
         private static readonly string _versionPath = Path.Combine(_databaseFolder, _versionFile);
         private static readonly string _dbPath = Path.Combine(_databaseFolder, _databaseFile);
@@ -39,37 +40,10 @@ namespace KG3TRYama
         // Flags for process control
         private bool _downloadComplete = false;
         private bool _processingComplete = false;
-		private bool _shouldProcessTranslation = true;
-		private bool _downloadFailed = false;
+        private bool _shouldProcessTranslation = true;
+        private bool _downloadFailed = false;
 
-        // Serializable wrapper classes for Unity/JSON parsing
-        [Serializable]
-        private class DatabaseWrapper
-        {
-            public List<ConversationWrapper> conversations;
-        }
-
-        [Serializable]
-        private class ConversationWrapper
-        {
-            public List<Field> fields;
-            public List<DialogueEntryWrapper> dialogueEntries;
-        }
-
-        [Serializable]
-        private class DialogueEntryWrapper
-        {
-            public int id;
-            public List<Field> fields;
-        }
-
-        [Serializable]
-        private class Field
-        {
-            public string title;
-            public string value;
-        }
-
+        // JSON types (only these are used)
         [Serializable]
         public class TranslationRoot
         {
@@ -97,14 +71,7 @@ namespace KG3TRYama
 
         private void Awake()
         {
-			_pluginEnabled = Config.Bind("General", "EnablePlugin", true, "Set to false to disable the translation plugin entirely.");
-
-			if (!_pluginEnabled.Value)
-			{
-				Logger.LogInfo("Translation plugin is disabled via config.");
-				return;
-			}
-			
+            Logger = base.Logger;
             Logger.LogInfo($"Plugin {MyPluginInfo.PLUGIN_GUID} is loading...");
 
             if (!Directory.Exists(_databaseFolder))
@@ -115,9 +82,6 @@ namespace KG3TRYama
 
         private void Start()
         {
-			if (!_pluginEnabled.Value)
-				return;
-			
             StartCoroutine(ProcessAfterDownload());
         }
 
@@ -191,37 +155,35 @@ namespace KG3TRYama
         }
 
         private IEnumerator ProcessAfterDownload()
-		{
-			while (!_downloadComplete && !_downloadFailed)
-				yield return new WaitForSeconds(0.5f);
-			
-			if (_downloadFailed)
-			{
-				Logger.LogError("Download failed. Stopping processing.");
-				yield break;
-			}
+        {
+            while (!_downloadComplete && !_downloadFailed)
+                yield return new WaitForSeconds(0.5f);
 
-			yield return StartCoroutine(ExportOriginalDatabase());
+            if (_downloadFailed)
+            {
+                Logger.LogError("Download failed. Stopping processing.");
+                yield break;
+            }
 
-			// Only process translations if needed
-			if (_shouldProcessTranslation)
-				yield return StartCoroutine(ProcessTranslation());
-			else
-				Logger.LogInfo("Translation already processed. Skipping translation step.");
+            yield return StartCoroutine(ExportOriginalDatabase());
 
-			ApplyHarmonyPatch();
-			_processingComplete = true;
-		}
+            if (_shouldProcessTranslation)
+                yield return StartCoroutine(ProcessTranslation());
+            else
+                Logger.LogInfo("Translation already processed. Skipping translation step.");
+
+            ApplyHarmonyPatch();
+            _processingComplete = true;
+        }
 
         private IEnumerator ExportOriginalDatabase()
         {
-            // Remove unnecessary wait
             while (DialogueManager.MasterDatabase == null)
             {
                 yield return new WaitForSeconds(0.1f);
                 Logger.LogInfo("Waiting for MasterDatabase to be initialized...");
             }
-            
+
             DialogueDatabase database = DialogueManager.MasterDatabase;
 
             if (database == null)
@@ -246,6 +208,7 @@ namespace KG3TRYama
             {
                 Logger.LogError($"Failed to export original database: {ex}");
             }
+
             yield return null;
         }
 
@@ -268,11 +231,13 @@ namespace KG3TRYama
                     yield break;
                 }
 
-                // Build translation lookup
+                // Build translation lookup: convTitle -> entryId -> entry
                 var translationMap = new Dictionary<string, Dictionary<int, TranslationEntry>>(root.conversations.Count);
 
                 foreach (var conv in root.conversations)
                 {
+                    if (conv.Dialogue == null) continue;
+
                     var entryMap = new Dictionary<int, TranslationEntry>(conv.Dialogue.Count);
                     foreach (var entry in conv.Dialogue)
                         entryMap[entry.entryId] = entry;
@@ -284,19 +249,29 @@ namespace KG3TRYama
 
                 foreach (var conv in database.conversations)
                 {
-                    if (!translationMap.TryGetValue(conv.Title, out var translatedEntries)) continue;
+                    if (!translationMap.TryGetValue(conv.Title, out var translatedEntries))
+                        continue;
 
                     foreach (var entry in conv.dialogueEntries)
                     {
-                        if (!translatedEntries.TryGetValue(entry.id, out var tEntry)) continue;
+                        if (!translatedEntries.TryGetValue(entry.id, out var tEntry))
+                            continue;
 
-                        // Optimize field update by direct access
-                        foreach (var field in entry.fields)
+                        // Ensure fields list
+                        entry.fields ??= new List<PixelCrushers.DialogueSystem.Field>();
+
+                        // Add/update "tr" field (Dialogue Text Turkish)
+                        if (!string.IsNullOrEmpty(tEntry.DialogueText))
                         {
-                            if (field.title == "Dialogue Text" && !string.IsNullOrEmpty(tEntry.DialogueText))
-                                field.value = tEntry.DialogueText;
-                            else if (field.title == "Menu Text" && !string.IsNullOrEmpty(tEntry.MenuText))
-                                field.value = tEntry.MenuText;
+                            var trField = GetOrCreatePCField(entry.fields, "tr");
+                            trField.value = tEntry.DialogueText;
+                        }
+
+                        // Add/update "Menu Text tr" field (Menu Text Turkish)
+                        if (!string.IsNullOrEmpty(tEntry.MenuText))
+                        {
+                            var menuTrField = GetOrCreatePCField(entry.fields, "Menu Text tr");
+                            menuTrField.value = tEntry.MenuText;
                         }
                     }
                 }
@@ -304,7 +279,7 @@ namespace KG3TRYama
                 string outputJson = JsonUtility.ToJson(database, true);
                 File.WriteAllText(_translatedPath, outputJson);
 
-                Logger.LogInfo($"Successfully merged translations into {_translatedPath}");
+                Logger.LogInfo($"Successfully merged translations into {_translatedPath} (as new fields).");
             }
             catch (Exception ex)
             {
@@ -314,6 +289,23 @@ namespace KG3TRYama
             yield return null;
         }
 
+        // Creates a PixelCrushers Field safely without relying on constructors
+        private static PixelCrushers.DialogueSystem.Field GetOrCreatePCField(
+            List<PixelCrushers.DialogueSystem.Field> fields, string title)
+        {
+            var existing = fields.Find(f => f != null && f.title == title);
+            if (existing != null) return existing;
+
+            PixelCrushers.DialogueSystem.Field nf =
+                (PixelCrushers.DialogueSystem.Field)Activator.CreateInstance(typeof(PixelCrushers.DialogueSystem.Field));
+
+            nf.title = title;
+            nf.value = "";
+
+            fields.Add(nf);
+            return nf;
+        }
+
         private void ApplyHarmonyPatch()
         {
             var harmony = new Harmony(MyPluginInfo.PLUGIN_GUID);
@@ -321,7 +313,8 @@ namespace KG3TRYama
 
             if (originalMethod != null)
             {
-                harmony.Patch(originalMethod, new HarmonyMethod(typeof(Plugin), nameof(GetMasterDatabasePrefix)));
+                harmony.Patch(originalMethod,
+                    prefix: new HarmonyMethod(typeof(Plugin), nameof(GetMasterDatabasePrefix)));
                 Logger.LogInfo("Harmony patch applied successfully.");
             }
             else

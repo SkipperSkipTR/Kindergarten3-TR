@@ -8,12 +8,16 @@ using TMPro;
 using UnityEngine.EventSystems;
 using System.Reflection;
 using BepInEx.Logging;
+using System.IO;
+using KG3Font;
 
 namespace LanguageButton;
 
 [BepInPlugin(MyPluginInfo.PLUGIN_GUID, MyPluginInfo.PLUGIN_NAME, MyPluginInfo.PLUGIN_VERSION)]
 public class LanguageButtonInjector : BaseUnityPlugin
 {
+    private static AssetBundle _fontBundle;
+
     private void Awake()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
@@ -64,8 +68,34 @@ public class LanguageButtonInjector : BaseUnityPlugin
 
         // label
         var tmp = newBtnGO.GetComponentInChildren<TMP_Text>(true);
-        if (tmp != null)
-            tmp.text = "Türkçe";
+            if (tmp != null)
+            {
+                tmp.text = "Türkçe";
+
+                // Force our custom TMP font regardless of language,
+                // using the same font/bundle as KG3Font plugin.
+                TMP_FontAsset crayawn = null;
+                try
+                {
+                    crayawn = Plugin.GetFont("Crayawn SDF"); // or whatever name you use there
+                }
+                catch (System.Exception e)
+                {
+                    Logger.LogError($"Error getting Crayawn SDF from KG3Font.Plugin: {e}");
+                }
+
+                if (crayawn != null)
+                {
+                    tmp.font = crayawn;
+                    tmp.ForceMeshUpdate();
+                }
+                else
+                {
+                    Logger.LogWarning("Crayawn SDF font not found via KG3Font.Plugin.GetFont; using default TMP font.");
+                }
+            }
+
+
 
         SetButtonBackgroundColor(newBtnGO, new Color(0.7f, 0.6f, 0.9f, 0.5f));
         // Wire click on the actual raycast target (often ButtonColor)
@@ -143,4 +173,25 @@ public class LanguageButtonInjector : BaseUnityPlugin
         }
         return null;
     }
+
+    private TMP_FontAsset LoadTMPFont(string assetName)
+    {
+        if (_fontBundle == null)
+        {
+            string fontPath = Path.Combine(Paths.GameRootPath, "assets", "font");
+            _fontBundle = AssetBundle.LoadFromFile(fontPath);
+            if (_fontBundle == null)
+            {
+                Logger.LogError($"Font bundle not found at {fontPath}");
+                return null;
+            }
+        }
+
+        var f = _fontBundle.LoadAsset<TMP_FontAsset>(assetName);
+        if (f == null)
+            Logger.LogError($"TMP font '{assetName}' not found in bundle.");
+
+        return f;
+    }
+
 }
