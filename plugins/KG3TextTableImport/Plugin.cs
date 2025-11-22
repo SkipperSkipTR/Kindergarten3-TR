@@ -32,7 +32,7 @@ namespace KG3TextTableImport
 			"CreditsScene"
         };
 
-        private const string GitHubRawBaseUrl = "https://raw.githubusercontent.com/SkipperSkipTR/Kindergarten3-TR/refs/heads/main/MasterDatabase/TextTables/";
+        private const string GitHubRawBaseUrl = "https://raw.githubusercontent.com/SkipperSkipTR/Kindergarten3-TR/refs/heads/main/MasterDatabase/TextTables_New/";
 
         private void Awake()
         {
