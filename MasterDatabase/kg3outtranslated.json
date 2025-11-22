@@ -177,7 +177,7 @@
                 },
                 {
                     "entryId": 68,
-                    "Dialogue Text": "O da nedir-?<kgwait> Nugget'ın arkadaşı nasıl Nugget'ın arkadaşlığını kazanmadan bir Arkadaşlık Nugget'ı<sup>TM</sup> edinebildi?"
+                    "Dialogue Text": "O da nedir-?<kgwait> Nugget'ın arkadaşı nasıl Nugget'ın arkadaşlığını kazanmadan bir Arkadaşlık Nuggetı<sup>TM</sup> edinebildi?"
                 },
                 {
                     "entryId": 69,
@@ -193,7 +193,7 @@
                 },
                 {
                     "entryId": 72,
-                    "Dialogue Text": "Nugget, Arkadaşlık Nugget'ını<sup>TM</sup> takdir ediyor. Nugget kırmızı başlıklı olmak için sabırsızlanıyor."
+                    "Dialogue Text": "Nugget, Arkadaşlık Nuggetını<sup>TM</sup> takdir ediyor. Nugget kırmızı başlıklı olmak için sabırsızlanıyor."
                 },
                 {
                     "entryId": 73,
@@ -349,7 +349,7 @@
                 },
                 {
                     "entryId": 113,
-                    "Dialogue Text": "Bu oldukça garip bir Arkadaşlık Nugget'ı<sup>TM</sup>. Tıpkı balçık gibi yeşil, ama balçıktan yapılmış gibi görünmüyor."
+                    "Dialogue Text": "Bu oldukça garip bir Arkadaşlık Nuggetı<sup>TM</sup>. Tıpkı balçık gibi yeşil, ama balçıktan yapılmış gibi görünmüyor."
                 },
                 {
                     "entryId": 114,
@@ -731,7 +731,7 @@
                 },
                 {
                     "entryId": 8,
-                    "Dialogue Text": "Oh, bu harika olurdu!<kgwait> Fakat... <kgwait>ım... <kgwait>buralarda gelenek, kızların bahçeyle ilgilenmesi. Beni sizin okulunuzdan bir kızla tanıştırma ihtimalin var mı?"
+                    "Dialogue Text": "Oh, bu harika olurdu!<kgwait> Fakat... <kgwait>ım... <kgwait>kızların bahçe işleriyle ilgilenmesi bu okulda gelenektir. Beni sizin okulunuzdan bir kızla tanıştırma ihtimalin var mı?"
                 },
                 {
                     "entryId": 9,
@@ -843,7 +843,7 @@
                 },
                 {
                     "entryId": 50,
-                    "Dialogue Text": "Ahh!<kgwait> Tamam! Peki!<kgwait> Özür dilerim, çirkin ve aptal bir hobiye sahip olduğun için!"
+                    "Dialogue Text": "Ahh!<kgwait> Tamam! Peki!<kgwait> Özür dilerim,<kgwait> çirkin ve aptal bir hobiye sahip olduğun için!"
                 },
                 {
                     "entryId": 51,
@@ -875,7 +875,7 @@
                 },
                 {
                     "entryId": 67,
-                    "Dialogue Text": "Nadir bulunan bir beyaz çiçek!<kgwait> Burada yetiştirmesi çok zor oluyor. Balçığın etkileriyle savaşmaya yarar! Tavşanlar da bundan nefret eder."
+                    "Dialogue Text": "Nadir bulunan beyaz bir çiçek!<kgwait> Burada yetiştirmesi çok zor oluyor. Balçığın etkileriyle savaşmaya yarar! Tavşanlar da bundan nefret eder."
                 },
                 {
                     "entryId": 68,
@@ -1204,7 +1204,7 @@
                 },
                 {
                     "entryId": 101,
-                    "Dialogue Text": "<wave>Oh, ne güzel! Biliyordum başaracağını!<kgwait><br>Herkes yerlerine! Başlıyor hikayemiz kırmızı başlıkl!</wave>"
+                    "Dialogue Text": "<wave>Oh, ne güzel! Biliyordum başaracağını!<kgwait><br>Herkes yerlerine! Başlıyor hikayemiz kırmızı başlıklı!</wave>"
                 },
                 {
                     "entryId": 104,
@@ -2221,7 +2221,7 @@
                 },
                 {
                     "entryId": 10,
-                    "Menu Text": "N'olmuş ona?"
+                    "Menu Text": "Ne olmuş ona?"
                 },
                 {
                     "entryId": 11,
@@ -2245,7 +2245,7 @@
                 },
                 {
                     "entryId": 16,
-                    "Menu Text": "Yeterince adil."
+                    "Menu Text": "Onu iyi dedin."
                 },
                 {
                     "entryId": 17,
@@ -2874,7 +2874,7 @@
                 },
                 {
                     "entryId": 113,
-                    "Dialogue Text": "Hadi bakalım asistan, senin için ayrı bir limuzin gönderdim.<kgwait> Lütfen Driverton'ı bekletme. Daha sonra beni randevuma götürmesi gerekecek."
+                    "Dialogue Text": "Hadi bakalım asistan, senin için ayrı bir limuzin gönderdim.<kgwait> Lütfen Driverton'ı bekletme. Daha sonra beni akşamki randevuma götürmesi gerekecek."
                 },
                 {
                     "entryId": 114,
@@ -3195,7 +3195,7 @@
                 },
                 {
                     "entryId": 120,
-                    "Dialogue Text": "Linda onlara Arkadaşlık Nugget'ı diyor. Umarım senin işine yarar."
+                    "Dialogue Text": "Linda onlara Arkadaşlık Nuggetı diyor. Umarım senin işine yarar."
                 },
                 {
                     "entryId": 121,
@@ -3287,7 +3287,7 @@
                 },
                 {
                     "entryId": 145,
-                    "Dialogue Text": "Tamam çocuk! <kgwait> Hazır mısın-"
+                    "Dialogue Text": "Tamam çocuk!<kgwait> Hazır mısın-"
                 },
                 {
                     "entryId": 146,
@@ -3706,7 +3706,7 @@
                 },
                 {
                     "entryId": 51,
-                    "Dialogue Text": "Maalesef telefonum kalmadı ama eğer varsa öğle yemeğinden sonra ödünç alabilir miyim? Bir..."
+                    "Dialogue Text": "Maalesef telefonum kalmadı.<kgwait> Ama eğer bulursan öğle yemeğinden sonra ödünç alabilir miyim? Bir..."
                 },
                 {
                     "entryId": 52,
@@ -4358,7 +4358,7 @@
                 },
                 {
                     "entryId": 46,
-                    "Menu Text": "Ben de böyle olmasını tercih ederim."
+                    "Menu Text": "Ben böylesini tercih ediyorum."
                 },
                 {
                     "entryId": 47,
@@ -4422,7 +4422,7 @@
                 },
                 {
                     "entryId": 101,
-                    "Dialogue Text": "Ve ben bir temizlikçiyim!<kgwait> Benimle konuşurken sıkıntı etmiyorsun ama seni temin ederim ki ben ondan ÇOK daha tehlikeliyim."
+                    "Dialogue Text": "Ve ben bir temizlikçiyim!<kgwait> Benimle konuşmayı sıkıntı etmiyorsun.<kgwait> Ama seni temin ederim ki ben ondan ÇOK daha tehlikeliyim."
                 },
                 {
                     "entryId": 102,
@@ -5250,11 +5250,11 @@
                 },
                 {
                     "entryId": 190,
-                    "Dialogue Text": "<wave>Ah Tanrım! Amanın! Sen ne yaptın?!<kgwait><br>Çalınan şey bu, müdürün silahı!</wave>"
+                    "Dialogue Text": "<wave>Ah Tanrım! Amanın! Sen ne yaptın?!<kgwait><br>Müdürün silahı bu, onu sen mi çaldın!</wave>"
                 },
                 {
                     "entryId": 191,
-                    "Menu Text": "Ah doğru."
+                    "Menu Text": "Belki."
                 },
                 {
                     "entryId": 192,
@@ -5298,7 +5298,7 @@
                 },
                 {
                     "entryId": 205,
-                    "Dialogue Text": "Ah! IImm-<kgwait> Endişelenme Alice!<kgwait> Ben seni korurum!"
+                    "Dialogue Text": "Ah! Imm-<kgwait> Endişelenme Alice!<kgwait> Ben seni korurum!"
                 },
                 {
                     "entryId": 206,
@@ -5782,7 +5782,7 @@
             "Dialogue": [
                 {
                     "entryId": 6,
-                    "Dialogue Text": "Gerçekten çoook kolay, Bayan Applegate. Sadece burada oturup telefona bakacaksınız."
+                    "Dialogue Text": "Gerçekten çok kolay, Bayan Applegate. Sadece burada oturup telefona bakacaksınız."
                 },
                 {
                     "entryId": 8,
@@ -5941,7 +5941,7 @@
                 },
                 {
                     "entryId": 14,
-                    "Dialogue Text": "Müdür mü?<kgwait> Bu doğru olamaz.Sen kayıpsın!<kgwait> Hı-hı...<kgwait> Hı-hı..."
+                    "Dialogue Text": "Müdür mü?<kgwait> Bu doğru olamaz. Sen kayıpsın!<kgwait> Hı-hı...<kgwait> Hı-hı..."
                 },
                 {
                     "entryId": 15,
@@ -6051,7 +6051,7 @@
             "Dialogue": [
                 {
                     "entryId": 1,
-                    "Dialogue Text": "Bu bir havalandırma deliği. Sıkıca vidalanmış."
+                    "Dialogue Text": "Bu bir havalandırma kapağı. Sıkıca vidalanmış."
                 },
                 {
                     "entryId": 2,
@@ -6952,7 +6952,7 @@
                 },
                 {
                     "entryId": 35,
-                    "Dialogue Text": "Hmmm... <kgwait>Daha önce temizlikçiden bir şey çaldığını görmüştüm. Belki sana da katılmana izin verebilirim."
+                    "Dialogue Text": "Hmmm... <kgwait>Daha önce temizlikçiden bir şey çaldığını görmüştüm. Belki senin de bize katılmana izin verebilirim."
                 },
                 {
                     "entryId": 36,
@@ -6964,7 +6964,7 @@
                 },
                 {
                     "entryId": 38,
-                    "Menu Text": "Var."
+                    "Menu Text": "Evet bende."
                 },
                 {
                     "entryId": 39,
@@ -7686,7 +7686,7 @@
                 },
                 {
                     "entryId": 57,
-                    "Dialogue Text": "Belki babanın şirketi hakkında bir şeyler biliyordur. Ya da baban hakkında. Onunla ilgili bir şeyler var."
+                    "Dialogue Text": "Belki babanın şirketi hakkında bir şeyler biliyordur. Ya da baban hakkında. Onda bir şeyler var."
                 },
                 {
                     "entryId": 58,
@@ -8606,7 +8606,7 @@
                 },
                 {
                     "entryId": 6,
-                    "Dialogue Text": "Öğle yemeğimi aldı. Her gün bir salata yapıyorlar.<kgwait> Çok açım."
+                    "Dialogue Text": "Öğle yemeğimi aldı. Her gün yalnızca bir salata yapıyorlar.<kgwait> Çok açım."
                 },
                 {
                     "entryId": 7,
@@ -9149,7 +9149,7 @@
                 },
                 {
                     "entryId": 16,
-                    "Dialogue Text": "Ah, tatlım!<kgwait> Seni hapisten erken bırakmışlar!<kgwait> Orada en uslu davranışlarını sergileyeceğini biliyordum."
+                    "Dialogue Text": "Ah, tatlım!<kgwait> Seni hapisten erken salmışlar!<kgwait> Orada en uslu şekilde davranacağını biliyordum."
                 },
                 {
                     "entryId": 18,
@@ -9735,7 +9735,7 @@
                 },
                 {
                     "entryId": 5,
-                    "Dialogue Text": "Ben... <kgwait>Kendimi o kadar..."
+                    "Dialogue Text": "Ben... <kgwait>Kendimi pek iyi..."
                 },
                 {
                     "entryId": 7,
@@ -9859,7 +9859,7 @@
                 },
                 {
                     "entryId": 41,
-                    "Dialogue Text": "Senin ve senin o<kgwait> aptal<kgwait> mavi<kgwait> çiçeklerin hakkında düşündüklerim bunlar!"
+                    "Dialogue Text": "Sen ve senin o<kgwait> aptal<kgwait> mavi<kgwait> çiçeklerin hakkında tam da böyle düşünüyorum!"
                 },
                 {
                     "entryId": 42,
@@ -10312,7 +10312,7 @@
                 },
                 {
                     "entryId": 111,
-                    "Dialogue Text": "Nugget sorunun manasını çözemiyor."
+                    "Dialogue Text": "Nugget bu sorunun manasını çözemiyor."
                 },
                 {
                     "entryId": 112,
@@ -11347,7 +11347,7 @@
                 },
                 {
                     "entryId": 29,
-                    "Dialogue Text": "Evet! Taşlar her işe yarar! HİYYYAH!"
+                    "Dialogue Text": "Evet! Taşlar her zaman işe yarar! HİYYYAH!"
                 },
                 {
                     "entryId": 32,
@@ -12717,7 +12717,7 @@
                 },
                 {
                     "entryId": 25,
-                    "Dialogue Text": "Anlamıyorsun! Paspas dayakları herkesin başına gelebilir! Bu büyük bir problem!"
+                    "Dialogue Text": "Anlamıyorsun! Paspas atakları herkesin başına gelebilir! Bu büyük bir problem!"
                 },
                 {
                     "entryId": 27,
@@ -12809,7 +12809,7 @@
                 },
                 {
                     "entryId": 50,
-                    "Dialogue Text": "Evet, evet. Kendini bir şey sanma hemen.<kgwait> Bir sonraki havalandırma deliği hemen şurada."
+                    "Dialogue Text": "Evet, evet. Kendini bir şey sanma hemen.<kgwait> Bir sonraki havalandırma kapağı hemen şurada."
                 },
                 {
                     "entryId": 51,
@@ -13319,7 +13319,7 @@
                 },
                 {
                     "entryId": 72,
-                    "Dialogue Text": "İyi ki kısayollar kurmak için zaman harcamamışım. Yarın buraya geri dönmeyeceğimizi hissediyorum.<kgwait> Ben gidiyorum, amigolar."
+                    "Dialogue Text": "İyi ki kısayollar kurmak için zaman harcamamışım. Yarın buraya geri dönmeyeceğimizi hissediyorum.<kgwait> Ben gidiyorum, amigos."
                 },
                 {
                     "entryId": 73,
@@ -13541,7 +13541,7 @@
                 },
                 {
                     "entryId": 31,
-                    "Dialogue Text": "Sus!<kgwait> Eğer birini bulamazsam, kimse evcilik oynayamaz! Bana güven!"
+                    "Dialogue Text": "Sus!<kgwait> Eğer birini bulamazsam, kimse evcilik oynayamaz! O kadar!"
                 },
                 {
                     "entryId": 33,
@@ -14496,7 +14496,7 @@
                 },
                 {
                     "entryId": 20,
-                    "Dialogue Text": "Evet! Belki de temizlikçiyi durduramayabilirim. Ama en azından onun yardımcısının sinirlerini bozabilirim!"
+                    "Dialogue Text": "Evet! Belki temizlikçiyi durduramam. Ama en azından yardımcısının sinirlerini bozabilirim!"
                 },
                 {
                     "entryId": 21,
@@ -14516,7 +14516,7 @@
                 },
                 {
                     "entryId": 26,
-                    "Dialogue Text": "Austin!<kgwait> Ne yapıyorsun?!<kgwait> Linda'ya nasıl böyle ihanet edebilirsin?!<kgwait> Linda, kız kardeşinin düğününde çiçek taşıyan kızdı!"
+                    "Dialogue Text": "Austin!<kgwait> Ne yapıyorsun?!<kgwait> Linda'ya nasıl böyle ihanet edebilirsin?!<kgwait> Linda, kız kardeşinin düğününde çiçek taşımıştı!"
                 },
                 {
                     "entryId": 27,
@@ -15031,7 +15031,7 @@
                 },
                 {
                     "entryId": 31,
-                    "Dialogue Text": "Evet... <kgwait>Elbette."
+                    "Dialogue Text": "Evet... <kgwait>Ne beklemiştin ki?"
                 },
                 {
                     "entryId": 32,
@@ -15449,7 +15449,7 @@
                 },
                 {
                     "entryId": 32,
-                    "Dialogue Text": "<wave>Görünüşe göre gelmiş buraya tam zamanında.<kgwait><br>İyi olacaktır panzehir işe yaradığında!</wave>"
+                    "Dialogue Text": "<wave>Hemşire yetişmiş buraya tam zamanında.<kgwait><br>İyileşecektir panzehir işe yaradığında!</wave>"
                 },
                 {
                     "entryId": 33,
@@ -15787,7 +15787,7 @@
                 },
                 {
                     "entryId": 14,
-                    "Dialogue Text": "<wave>Jack rolünü oynadın çok iyi!<kgwait><br>Vereceğim sana izin, zil çalmadan gel ama geri!</wave>"
+                    "Dialogue Text": "<wave>Jack rolündeki başarın gerçekten takdir edilesi!<kgwait><br>Vereceğim sana izin, ama zil çalmadan gel geri!</wave>"
                 },
                 {
                     "entryId": 15,
@@ -16659,7 +16659,7 @@
                 },
                 {
                     "entryId": 46,
-                    "Dialogue Text": "Ah. Sanırım onu ​​bir kereliğine içeri alabilirim ama fazla zorlama."
+                    "Dialogue Text": "Ah. Sanırım onu ​​bir kereliğine içeri alabilirim. Ama fazla zorlama."
                 },
                 {
                     "entryId": 47,
@@ -17032,7 +17032,7 @@
                 },
                 {
                     "entryId": 10,
-                    "Dialogue Text": "Çok iyi. Alice'i şimdi aradan çıkaracağım ve okul bittikten sonra Kevin'la ilgileneceğim. Taşımaları hazırlayın. İyi şanslar."
+                    "Dialogue Text": "Çok iyi. Alice'i şimdi aradan çıkaracağım ve günün sonunda Kevin'la ilgileneceğim. Taşımaları hazırlayın. İyi şanslar."
                 },
                 {
                     "entryId": 11,
@@ -17608,7 +17608,7 @@
                 },
                 {
                     "entryId": 45,
-                    "Dialogue Text": "Hehehe...<kgwait> Şu haline bak!<kgwait> Bu kadar hırpalanmana rağmen hala koridorları hiçbir şeyden koruyorsun! Nasılsın, koltuk değneği?"
+                    "Dialogue Text": "Hehehe...<kgwait> Şu haline bak!<kgwait> Bu kadar hırpalanmana rağmen hala koridorları hiçlikten koruyorsun! Nasılsın, koltuk değneği?"
                 },
                 {
                     "entryId": 46,
@@ -18752,7 +18752,7 @@
                 },
                 {
                     "entryId": 105,
-                    "Dialogue Text": "Evet öyle, ama Regis şu anda tuvalette, bu yüzden dinleyemeyecektir."
+                    "Dialogue Text": "Aslında var, ama Regis şu anda tuvalette, bu yüzden dinleyemeyecektir."
                 },
                 {
                     "entryId": 106,
@@ -18916,7 +18916,7 @@
                 },
                 {
                     "entryId": 147,
-                    "Dialogue Text": "Ah evet. Elbette öyle. Alice her yerimizde. Ağaçların, çimenlerin ve balçığın içinde."
+                    "Dialogue Text": "Ah evet. Elbette öyle. Alice her yerde. Ağaçların, çimenlerin ve balçığın içinde."
                 },
                 {
                     "entryId": 148,
@@ -18932,7 +18932,7 @@
                 },
                 {
                     "entryId": 151,
-                    "Menu Text": "Neden olmasın?"
+                    "Menu Text": "Neden ki?"
                 },
                 {
                     "entryId": 152,
@@ -19048,7 +19048,7 @@
                 },
                 {
                     "entryId": 181,
-                    "Dialogue Text": "Ah evet.<kgwait> Harikayım. Keşke üçüncü eski karım beni şimdi görebilseydi!"
+                    "Dialogue Text": "Ah evet.<kgwait> Harikayım. Keşke üçüncü ex karım beni böyle görebilseydi!"
                 },
                 {
                     "entryId": 182,
@@ -19056,7 +19056,7 @@
                 },
                 {
                     "entryId": 183,
-                    "Dialogue Text": "Ah evet! Booboo beni yiyebilir bile umurumda değil!<kgwait> O iyi bir köpek."
+                    "Dialogue Text": "Ah evet! Booboo beni yiyebilir. Umurumda bile değil!<kgwait> O iyi bir köpek."
                 },
                 {
                     "entryId": 184,
@@ -19064,7 +19064,7 @@
                 },
                 {
                     "entryId": 185,
-                    "Dialogue Text": "Ama bahse girerim ki beni bu kutuların içinde bulamaz! O sadece salak bir köpek yavrusu!"
+                    "Dialogue Text": "Ama bahse girerim ki beni bu kutuların içinde bulamaz! O sadece şapşal bir köpek yavrusu!"
                 },
                 {
                     "entryId": 186,
@@ -19273,7 +19273,7 @@
                 },
                 {
                     "entryId": 101,
-                    "Dialogue Text": "Ah, saate bak!<kgwait> Sanırım gidip şu... <kgwait>tuvaleti kontrol etmem gerekecek!<kgwait> Evet!<kgwait> Hoşça kalın!"
+                    "Dialogue Text": "Ah, saate bak!<kgwait> Sanırım gidip şu... <kgwait>tuvaleti kontrol etmem gerekecek!<kgwait> Evet!<kgwait> Hoşça kal!"
                 },
                 {
                     "entryId": 102,
@@ -20277,7 +20277,7 @@
                 },
                 {
                     "entryId": 11,
-                    "Dialogue Text": "Yeni bir eşyam var!<kgwait> Bu özel bir Arkadaşlık Nugget'ı<sup>TM</sup>! Linda'nın bir arkadaşı olduğumu gösteriyor! Eğer bunu ona verirsem beni gizli inine götürecek!"
+                    "Dialogue Text": "Yeni bir eşyam var!<kgwait> Bu özel bir Arkadaşlık Nuggetı<sup>TM</sup>! Linda'nın bir arkadaşı olduğumu gösteriyor! Eğer bunu ona verirsem beni gizli inine götürecek!"
                 },
                 {
                     "entryId": 12,
@@ -20907,7 +20907,7 @@
                 },
                 {
                     "entryId": 30,
-                    "Dialogue Text": "<wave>Ah rahatladım! İşler çok çetin görünüyordu!<kgwait><br>Neyse ki bu okulun var rastgele bir duşu!</wave>"
+                    "Dialogue Text": "<wave>Ah rahatladım! İşler çok çetin görünüyordu!<kgwait><br>Neyse ki var bu okulun rastgele bir duşu!</wave>"
                 },
                 {
                     "entryId": 31,
@@ -21102,7 +21102,7 @@
                 },
                 {
                     "entryId": 14,
-                    "Dialogue Text": "<wave>Sen! Evet, sen!<kgwait> Kolların sağlıklı senin!<kgwait><br>Yeni yıldızımız olacaksın! Tırman, Jack! TIRMAN!!!</wave>"
+                    "Dialogue Text": "<wave>Sen! Evet, sen!<kgwait> Senin kolların sağlamından!<kgwait><br>Yeni yıldızımız olacaksın! Tırman, Jack! TIRMAN!!!</wave>"
                 },
                 {
                     "entryId": 15,
@@ -21138,7 +21138,7 @@
                 },
                 {
                     "entryId": 29,
-                    "Menu Text": "Bu bir ganimet midir?"
+                    "Menu Text": "Bu bir hazine midir?"
                 },
                 {
                     "entryId": 30,
@@ -21183,7 +21183,7 @@
             "Dialogue": [
                 {
                     "entryId": 2,
-                    "Dialogue Text": "Bu bir havalandırma deliği. Carla içeride sıkışmış görünüyor."
+                    "Dialogue Text": "Bu bir havalandırma kapağı. Carla içeride sıkışmış görünüyor."
                 },
                 {
                     "entryId": 3,
@@ -21195,7 +21195,7 @@
                 },
                 {
                     "entryId": 5,
-                    "Dialogue Text": "Bu bir havalandırma deliği. Oldukça yüksekte."
+                    "Dialogue Text": "Bu bir havalandırma kapağı. Oldukça yüksekte."
                 },
                 {
                     "entryId": 6,
@@ -21294,7 +21294,7 @@
                 },
                 {
                     "entryId": 4,
-                    "Dialogue Text": "Bu aptal havalandırma deliğinin tüm vidalarını söktüm ama sıkışmış.<kgwait> Gel de açmama yardım et!"
+                    "Dialogue Text": "Bu aptal havalandırma kapağının tüm vidalarını söktüm ama sıkışmış.<kgwait> Gel de açmama yardım et!"
                 },
                 {
                     "entryId": 5,
@@ -21408,7 +21408,7 @@
             "Dialogue": [
                 {
                     "entryId": 1,
-                    "Dialogue Text": "Bu bir havalandırma deliği."
+                    "Dialogue Text": "Bu bir havalandırma kapağı."
                 },
                 {
                     "entryId": 2,
@@ -24566,7 +24566,7 @@
                 },
                 {
                     "entryId": 30,
-                    "Dialogue Text": "Eğer seni teselli edecekse, o yaratıklar çok dayanıklı.<kgwait> Kevin'ın hayatta kalma ihtimali çok yüksek."
+                    "Dialogue Text": "Eğer seni teselli edecekse, o yaratıklar çok dayanıklı.<kgwait> Kevin'ın hayatta kalmış olma ihtimali çok yüksek."
                 },
                 {
                     "entryId": 31,
@@ -24679,7 +24679,7 @@
                 },
                 {
                     "entryId": 108,
-                    "Dialogue Text": "<wave>Oh, eminim bulabilirsin, seni şapşal oğlan.<kgwait><br>Battaniyeler cesurların yanında, ne de olsa!</wave>"
+                    "Dialogue Text": "<wave>Oh, eminim onu bulabileceğine.<kgwait><br>Çünkü cesurların yanındadır battaniye!</wave>"
                 },
                 {
                     "entryId": 109,
@@ -24886,7 +24886,7 @@
                 },
                 {
                     "entryId": 49,
-                    "Dialogue Text": "Hemşireyle çok takılıyorum. Bana bir şeyler öğretti. İzin ver yüzünü sarayım."
+                    "Dialogue Text": "Hemşireyle aram iyidir. Bana birkaç numara öğretmişti. İzin ver yüzünü sarayım."
                 },
                 {
                     "entryId": 50,
@@ -25113,7 +25113,7 @@
                 },
                 {
                     "entryId": 51,
-                    "Dialogue Text": "Kahretsin!<kgwait> Bonus kazanırdım kesin şunları da ya-<kgwait> Boşver. Şimdi şu garip arkadaşınla koşuşturun. Zil yakında çalar."
+                    "Dialogue Text": "Kahretsin!<kgwait> Bonus kazanırdım kesin şunları da yakal-<kgwait> Boşver. Şimdi şu garip arkadaşınla koşuşturun. Zil yakında çalar."
                 },
                 {
                     "entryId": 52,
@@ -25637,7 +25637,7 @@
                 },
                 {
                     "entryId": 113,
-                    "Dialogue Text": "Evet! İzne riayet ediyorum! İzinler hakkında özel olarak hiçbir şey söylemediği için seni içeri alabilirim. Bu şekilde makul bir inkar etme şansım olur."
+                    "Dialogue Text": "Evet! İzne riayet ediyorum! İzinler hakkında özel olarak hiçbir şey söylemediği için geçmene izin verebilirim. Bu şekilde makul bir inkar etme şansım olur."
                 },
                 {
                     "entryId": 114,
@@ -25806,7 +25806,7 @@
                 },
                 {
                     "entryId": 22,
-                    "Dialogue Text": "Biliyorum! Oğullarım, biri şirketimi devralmaya değer hale gelene kadar acımasız bir rekabet halinde olacaklar."
+                    "Dialogue Text": "Biliyorum! Oğullarımdan biri şirketimi devralmaya değer hale gelene kadar acımasız bir rekabet halinde olacaklar."
                 },
                 {
                     "entryId": 23,
@@ -25974,7 +25974,7 @@
                 },
                 {
                     "entryId": 64,
-                    "Menu Text": "Muhtemelen hayır."
+                    "Menu Text": "Muhtemelen yoktur."
                 },
                 {
                     "entryId": 65,
@@ -26134,7 +26134,7 @@
                 },
                 {
                     "entryId": 108,
-                    "Dialogue Text": "Haha!<kgwait> Çok iyi, Kevin!<kgwait> Sanırım okulumuzu ikiyüzlü hadememizden geri almamızın zamanı geldi! Ne diyorsun?"
+                    "Dialogue Text": "Haha!<kgwait> Çok iyi, Kevin!<kgwait> Sanırım okulumuzu ikiyüzlü hademeden geri almamızın zamanı geldi! Ne diyorsun?"
                 },
                 {
                     "entryId": 110,
@@ -26150,7 +26150,7 @@
                 },
                 {
                     "entryId": 114,
-                    "Dialogue Text": "Ben bunu durdurmadığım sürece tabii!"
+                    "Dialogue Text": "Ben bunu durdurmazsam başlatırsın tabii!"
                 },
                 {
                     "entryId": 116,
@@ -26686,7 +26686,7 @@
                 },
                 {
                     "entryId": 4,
-                    "Dialogue Text": "Evet. Ben kayıpTIM. Hatırlamama yardım etmene ihtiyacım var."
+                    "Dialogue Text": "Evet. Ben kayıpTIM. Olanları hatırlamama yardım etmelisiniz."
                 },
                 {
                     "entryId": 5,
@@ -27530,7 +27530,7 @@
                 },
                 {
                     "entryId": 11,
-                    "Dialogue Text": "Hayır, öyle olduğumuzu sanmıyorum. Arkadaki havalandırma deliğine erişmem gerekiyor, bu yüzden beni mazur görürseniz..."
+                    "Dialogue Text": "Hayır, öyle olduğumuzu sanmıyorum. Arkadaki havalandırma kapağına erişmem gerekiyor, bu yüzden beni mazur görürseniz..."
                 },
                 {
                     "entryId": 12,
@@ -27562,7 +27562,7 @@
                 },
                 {
                     "entryId": 20,
-                    "Dialogue Text": "Hey!<kgwait> O havalandırma deliğinden kimse geçemez. Tehlikeli ya da öyle bir şeyler."
+                    "Dialogue Text": "Hey!<kgwait> O havalandırma kapağından kimse geçemez. Çocuklar için tehlikeli falan gibi bir şeyler."
                 },
                 {
                     "entryId": 22,
@@ -28028,7 +28028,7 @@
                 },
                 {
                     "entryId": 4,
-                    "Dialogue Text": "Görünüşe göre bu küçük uzaktan kumandalar, o fotoğrafın arkasında gizli. Regis bir tanesini almış."
+                    "Dialogue Text": "Görünüşe göre bu küçük uzaktan kumandalar o fotoğrafın arkasına gizlenmiş. Regis bir tanesini almış."
                 },
                 {
                     "entryId": 5,
@@ -29010,7 +29010,7 @@
                 },
                 {
                     "entryId": 5,
-                    "Dialogue Text": "Nugget gidebilir."
+                    "Dialogue Text": "Nugget sizi yalnız bırakabilir."
                 },
                 {
                     "entryId": 6,
@@ -29205,7 +29205,7 @@
                 },
                 {
                     "entryId": 6,
-                    "Dialogue Text": "Evet!<kgwait> Sahte kan veya benzeri bir şey bulabileceğimizden eminim. Ama buna hemen ihtiyacımız olacak."
+                    "Dialogue Text": "Evet!<kgwait> Sahte kan veya benzeri bir şey bulabileceğimizden eminim. Ama buna hemen şimdi ihtiyacımız olacak."
                 },
                 {
                     "entryId": 7,
@@ -29349,7 +29349,7 @@
                 },
                 {
                     "entryId": 45,
-                    "Dialogue Text": "Bir Nugget Aşk Mağarası.<kgwait> Evet. Yapabilir misin?"
+                    "Dialogue Text": "Nugget Aşk Mağarası.<kgwait> Evet. Yapabilir misin?"
                 },
                 {
                     "entryId": 46,
@@ -29530,7 +29530,7 @@
                 },
                 {
                     "entryId": 4,
-                    "Dialogue Text": "Nugget, Kevin ile göz temasını kesemez. Aksi takdirde Kevin, Nugget'ın yüzünü kıracaktır! Nugget'ın, Kevin'a bir barış teklifi edebilecek bir şeye ihtiyacı var!"
+                    "Dialogue Text": "Nugget, Kevin ile göz temasını kesemez. Aksi takdirde Kevin, Nugget'ın yüzünü kıracaktır! Nugget'ın, Kevin'a bir barış için teklif edebilecek bir şeye ihtiyacı var!"
                 },
                 {
                     "entryId": 5,
@@ -29550,7 +29550,7 @@
                 },
                 {
                     "entryId": 10,
-                    "Dialogue Text": "Elbette!<kgwait> Bir Arkadaşlık Nugget'ı<sup>TM</sup>! Bu kesinlikle Kevin'ı yatıştıracaktır!"
+                    "Dialogue Text": "Elbette!<kgwait> Bir Arkadaşlık Nuggetı<sup>TM</sup>! Bu kesinlikle Kevin'ı yatıştıracaktır!"
                 },
                 {
                     "entryId": 11,
@@ -29558,7 +29558,7 @@
                 },
                 {
                     "entryId": 12,
-                    "Dialogue Text": "Ah, zavallı, zavallı Kevin! Lütfen bu Arkadaşlık Nugget'ını<sup>TM</sup> al! Bil ki biz arkadaşız!"
+                    "Dialogue Text": "Ah, zavallı, zavallı Kevin! Lütfen bu Arkadaşlık Nuggetını<sup>TM</sup> al! Bil ki biz arkadaşız!"
                 },
                 {
                     "entryId": 14,
@@ -29570,7 +29570,7 @@
                 },
                 {
                     "entryId": 16,
-                    "Dialogue Text": "Evet.<kgwait> Bu balçık Kevin'a Nugget'a yaptığından çok daha fazlasını yaptı."
+                    "Dialogue Text": "Evet.<kgwait> Bu balçık Kevin'a, Nugget'a yaptığından çok daha fazlasını yaptı."
                 },
                 {
                     "entryId": 18,
@@ -29626,7 +29626,7 @@
                 },
                 {
                     "entryId": 32,
-                    "Dialogue Text": "Kevin, kapıdan içeri giren sahte müdüre saldıracağını söylüyor."
+                    "Dialogue Text": "Kevin, kapıdan içeri girecek olan sahte müdüre saldıracağını söylüyor."
                 },
                 {
                     "entryId": 33,
@@ -29670,7 +29670,7 @@
                 },
                 {
                     "entryId": 43,
-                    "Dialogue Text": "Kevin çıkış kodunun: [var=Code.Linda] olduğunu söyledi."
+                    "Dialogue Text": "Kevin çıkış kodunun [var=Code.Linda] olduğunu söyledi."
                 },
                 {
                     "entryId": 68,
@@ -31088,7 +31088,7 @@
             "Dialogue": [
                 {
                     "entryId": 1,
-                    "Dialogue Text": "Bir ilkokulun füze savunma sistemine neden ihtiyacı var?"
+                    "Dialogue Text": "Bir anaokulunun füze savunma sistemine neden ihtiyacı var?"
                 },
                 {
                     "entryId": 2,
