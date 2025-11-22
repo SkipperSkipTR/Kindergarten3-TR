@@ -24,6 +24,8 @@ olarak değiştirip sistemi kapatabilirsiniz. (Tırnak işaretleri olmadan.)
 
 13.11.2025: 1.06 versiyon uyumlu yama eklendi.
 
+14.11.2025: 1.07 versiyon uyumlu yama eklendi ve 1.06 yaması güncellendi.
+
 ## Kurulum Videosu
 
 [![Kurulum Videosu](https://img.youtube.com/vi/TC74xzAWhWU/0.jpg)](https://www.youtube.com/watch?v=TC74xzAWhWU)
