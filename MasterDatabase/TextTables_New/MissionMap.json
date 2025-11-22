@@ -1,0 +1,201 @@
+{
+  "languages": {
+    "Default": 0,
+    "zh": 1,
+    "tr": 2
+  },
+  "fields": {
+    "1": {
+      "fieldName": "TeacherDescription",
+      "texts": {
+        "0": "Start the mission by reading the pamphlet on the wall and then talking to the teacher.",
+        "1": "阅读墙上的宣传单，然后和老师对话以开始任务。",
+        "2": "Duvardaki afişi okuyup öğretmen ile konuşarak görevi başlat."
+      }
+    },
+    "2": {
+      "fieldName": "JanitorDescription",
+      "texts": {
+        "0": "Start the mission by helping the Janitor get some bandaids.",
+        "1": "帮清洁工得到些绷带以开始任务。",
+        "2": "Temizlikçi için biraz bandaj bularak görevi başlat."
+      }
+    },
+    "3": {
+      "fieldName": "CarlaDescription",
+      "texts": {
+        "0": "Start the mission by getting Cindy to help with Emmy's garden and then talking to Carla.",
+        "1": "让辛迪帮艾米照料花园，然后和卡拉交谈以开始任务。",
+        "2": "Cindy'nin, Emmy'nin bahçesine yardım etmesini sağladıktan sonra Carla ile konuşarak görevi başlat."
+      }
+    },
+    "4": {
+      "fieldName": "DaveyDescription",
+      "texts": {
+        "0": "Start the mission by proving yourself to Davey by getting beat up by the Janitor.",
+        "1": "向戴维证明你的决心，被清洁工殴打以开始任务。",
+        "2": "Temizlikçi tarafından dövülüp kendini Davey'e kanıtlayarak görevi başlat."
+      }
+    },
+    "5": {
+      "fieldName": "EmmyDescription",
+      "texts": {
+        "0": "Start the mission by getting Cindy to help with Emmy's garden and then finding a way inside.",
+        "1": "让辛迪帮艾米照料花园，然后想办法进入学校以开始任务。",
+        "2": "Cindy'nin, Emmy'nin bahçesine yardım etmesini sağladıktan sonra içeri girmenin bir yolunu bularak görevi başlat."
+      }
+    },
+    "6": {
+      "fieldName": "FelixDescription",
+      "texts": {
+        "0": "Start the mission by getting a goo core.",
+        "1": "找到一个粘液核心以开始任务。",
+        "2": "Balçık çekirdeğini alarak görevi başlat."
+      }
+    },
+    "7": {
+      "fieldName": "AliceDescription",
+      "texts": {
+        "0": "Start the mission by returning Alice's diary to her.",
+        "1": "归还爱丽丝的日记以开始任务。",
+        "2": "Alice'in günlüğünü ona götürerek görevi başlat."
+      }
+    },
+    "8": {
+      "fieldName": "NuggetDescription",
+      "texts": {
+        "0": "Start the assignment by giving Nugget the white flower.",
+        "1": "把白色小花给纳吉以开始任务。",
+        "2": "Nugget'a çiçeği vererek görevi başlat."
+      }
+    },
+    "9": {
+      "fieldName": "LilyDescription",
+      "texts": {
+        "0": "Start the assignment by opening the cage in the lab.",
+        "1": "打开实验室里的笼子以开始任务。",
+        "2": "Laboratuvardaki kafesin kapısını açarak görevi başlat."
+      }
+    },
+    "10": {
+      "fieldName": "TeacherTitle",
+      "texts": {
+        "0": "The Show Must Go On",
+        "1": "好戏不能停",
+        "2": "Gösteri Devam Etmeli"
+      }
+    },
+    "12": {
+      "fieldName": "CarlaTitle",
+      "texts": {
+        "0": "The Grate Escape",
+        "1": "通风管大逃亡",
+        "2": "Büyük Kaçış"
+      }
+    },
+    "11": {
+      "fieldName": "JanitorTitle",
+      "texts": {
+        "0": "Cold Blooded Killer",
+        "1": "冷血杀手",
+        "2": "Soğukkanlı Katil"
+      }
+    },
+    "13": {
+      "fieldName": "DaveyTitle",
+      "texts": {
+        "0": "Gator Aid",
+        "1": "鳄鱼总动员",
+        "2": "Timsah Yardımı"
+      }
+    },
+    "14": {
+      "fieldName": "EmmyTitle",
+      "texts": {
+        "0": "Garden of Emmy",
+        "1": "艾米的花园",
+        "2": "Emmy'nin Bahçesi"
+      }
+    },
+    "15": {
+      "fieldName": "FelixTitle",
+      "texts": {
+        "0": "Helicopter Parenting",
+        "1": "直升机式育儿",
+        "2": "Helikopter Ebeveynliği"
+      }
+    },
+    "16": {
+      "fieldName": "AliceTitle",
+      "texts": {
+        "0": "What Happened on Monday?",
+        "1": "星期一怎么了？",
+        "2": "Pazartesi Günü Ne Yaşandı?"
+      }
+    },
+    "17": {
+      "fieldName": "NuggetTitle",
+      "texts": {
+        "0": "Nugget-o and Lily-et",
+        "1": "纳吉欧与莉莉叶",
+        "2": "Nugget-o ve Lily-et"
+      }
+    },
+    "18": {
+      "fieldName": "LilyTitle",
+      "texts": {
+        "0": "Paging Dr. Goolittle",
+        "1": "呼叫粘液博士",
+        "2": "Dr. Balçığın Çağrısı"
+      }
+    },
+    "19": {
+      "fieldName": "Requirement1",
+      "texts": {
+        "0": "Complete {0} to unlock this assignment.",
+        "1": "完成《{0}》以解锁这项任务。",
+        "2": "Bu görevin kilidini açmak için tamamlanması gerekenler: {0}"
+      }
+    },
+    "20": {
+      "fieldName": "Requirement2",
+      "texts": {
+        "0": "Complete {0} and {1} to unlock this assignment.",
+        "1": "完成《{0}》和《{1}》以解锁这项任务。",
+        "2": "Bu görevin kilidini açmak için tamamlanması gerekenler: {0} ve {1}"
+      }
+    },
+    "21": {
+      "fieldName": "Requirement3",
+      "texts": {
+        "0": "Complete {0}, {1}, and {2} to unlock this assignment.",
+        "1": "完成《{0}》、《{1}》、和《{2}》以解锁这项任务。",
+        "2": "Bu görevin kilidini açmak için tamamlanması gerekenler: {0}, {1} ve {2}"
+      }
+    },
+    "22": {
+      "fieldName": "Requirement4",
+      "texts": {
+        "0": "Complete {0}, {1}, {2}, and {3} to unlock this assignment.",
+        "1": "完成《{0}》、《{1}》、《{2}》、和《{3}》以解锁这项任务。",
+        "2": "Bu görevin kilidini açmak için tamamlanması gerekenler: {0}, {1}, {2} ve {3}"
+      }
+    },
+    "23": {
+      "fieldName": "Requirements",
+      "texts": {
+        "0": "Requirements",
+        "1": "必要道具",
+        "2": "Gerekli Eşyalar"
+      }
+    },
+    "24": {
+      "fieldName": "None",
+      "texts": {
+        "0": "None",
+        "1": "无",
+        "2": "Hiçbir Şey"
+      }
+    }
+  }
+}

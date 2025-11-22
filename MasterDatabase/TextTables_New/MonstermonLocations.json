@@ -1,0 +1,409 @@
+{
+  "languages": {
+    "Default": 0,
+    "zh": 1,
+    "tr": 2
+  },
+  "fields": {
+    "1": {
+      "fieldName": "Slurpolotl",
+      "texts": {
+        "0": "Hiding under your bed.",
+        "1": "藏在你的床下。",
+        "2": "Yatağının altında saklanıyor."
+      }
+    },
+    "2": {
+      "fieldName": "Bung Deetle",
+      "texts": {
+        "0": "Hiding in the back of Booboo's crate.",
+        "1": "藏在波波的箱子里面。",
+        "2": "Booboo'nun kutusunun içinde, arka tarafta saklanıyor."
+      }
+    },
+    "3": {
+      "fieldName": "Stoic Seagull",
+      "texts": {
+        "0": "Get dropped by the bird at recess.",
+        "1": "在休息时间被鸟从高空扔下。",
+        "2": "Teneffüste kuş tarafından yere düşürül."
+      }
+    },
+    "4": {
+      "fieldName": "Bloaty",
+      "texts": {
+        "0": "Given for starting Carla's mission while in possession of her vent map.",
+        "1": "在身上有卡拉的管道图时开始卡拉的任务。",
+        "2": "Carla'nın görevine havalandırma haritasıyla başla."
+      }
+    },
+    "5": {
+      "fieldName": "Disappointed Snake",
+      "texts": {
+        "0": "Obtained when completing Helicopter Parenting without tell Monty about his impending betrayal.",
+        "1": "在完成《直升机式育儿》时不告诉蒙蒂他即将被背叛。",
+        "2": "Helikopter Ebeveynliği görevini, Monty'ye ihanete uğrayacağını söylemeden bitir."
+      }
+    },
+    "6": {
+      "fieldName": "Petty Piranha",
+      "texts": {
+        "0": "Attempt to flush Guppy.",
+        "1": "试图用马桶冲走小虹。",
+        "2": "Guppy'nin üstüne sifon çekmeye çalış."
+      }
+    },
+    "7": {
+      "fieldName": "Carnivorous Nimbus",
+      "texts": {
+        "0": "Hidden on the scaffolding near the helicopter pad.",
+        "1": "藏在直升机坪附近的脚手架上。",
+        "2": "Helikopter pistinin yakınındaki iskelede saklı."
+      }
+    },
+    "8": {
+      "fieldName": "Dumb Fish",
+      "texts": {
+        "0": "Try to put Guppy back in his bowl.",
+        "1": "试图将小虹放回鱼缸中。",
+        "2": "Guppy'yi tekrar akvaryumuna koymaya çalış."
+      }
+    },
+    "9": {
+      "fieldName": "Hard Boogar",
+      "texts": {
+        "0": "Hiding under a desk in Mr. Scippio's classroom.",
+        "1": "藏在西皮欧老师教室里的一张桌子下面。",
+        "2": "Bay Scippio'nun sınıfında bir masanın altında saklanıyor."
+      }
+    },
+    "10": {
+      "fieldName": "Ultralodon",
+      "texts": {
+        "0": "Get eaten by Linda.",
+        "1": "被琳达吃掉。",
+        "2": "Linda tarafından yenil."
+      }
+    },
+    "11": {
+      "fieldName": "Birb",
+      "texts": {
+        "0": "On the ledge overlooking the front of the school.",
+        "1": "在一个能看到学校前院的平台上。",
+        "2": "Çatının okula bakan kısmında."
+      }
+    },
+    "12": {
+      "fieldName": "Suspicious Lion",
+      "texts": {
+        "0": "Obtained when completing Carla's mission.",
+        "1": "完成卡拉的任务时获得。",
+        "2": "Carla'nın görevini bitirince verilir."
+      }
+    },
+    "13": {
+      "fieldName": "Balloon Boar",
+      "texts": {
+        "0": "Found on the Nurse's body after she's been attacked by Nugget.",
+        "1": "校医被纳吉攻击后检查校医的尸体。",
+        "2": "Nugget tarafından saldırıya uğrayan hemşirenin cesedinde."
+      }
+    },
+    "14": {
+      "fieldName": "Bullzerker",
+      "texts": {
+        "0": "Get sliced in half by Kevin.",
+        "1": "被凯文劈成两半。",
+        "2": "Kevin tarafından ortadan ikiye yarıl."
+      }
+    },
+    "15": {
+      "fieldName": "Man On Fire",
+      "texts": {
+        "0": "Get burned to death by Ms. Lovelett.",
+        "1": "被洛芙莱特老师烧死。",
+        "2": "Bayan Lovelett ile birlikte yan."
+      }
+    },
+    "16": {
+      "fieldName": "Cigaretmon",
+      "texts": {
+        "0": "Hidden behind the no smoking sign in the nurse's office.",
+        "1": "藏在医务室的禁烟标识后面。",
+        "2": "Hemşirenin ofisindeki sigara içilmez tabelasının arkasında."
+      }
+    },
+    "17": {
+      "fieldName": "Cyclops Duckling",
+      "texts": {
+        "0": "Revealed when solving the duck puzzle in the cafeteria.",
+        "1": "解开食堂里的鸭子谜题后出现。",
+        "2": "Yemekhanedeki ördek bilmecesini çözünce verilir."
+      }
+    },
+    "18": {
+      "fieldName": "Hearty Heart",
+      "texts": {
+        "0": "Interrupt Ms. Applegate's phone call with Bob three times.",
+        "1": "三次打断阿普尔盖特老师和鲍勃的电话。",
+        "2": "Bayan Applegate'in Bob ile konuşmasını üç kez böl."
+      }
+    },
+    "19": {
+      "fieldName": "Jawless Dog",
+      "texts": {
+        "0": "Get bitten by Booboo.",
+        "1": "被波波咬。",
+        "2": "Booboo tarafından ısırıl."
+      }
+    },
+    "20": {
+      "fieldName": "Chair of Spikes",
+      "texts": {
+        "0": "Fall down a trap door.",
+        "1": "从一个活板门掉下去。",
+        "2": "Bir tuzak kapısından aşağı düş."
+      }
+    },
+    "21": {
+      "fieldName": "Frowny Frog",
+      "texts": {
+        "0": "Obtained when completing Janitor's mission",
+        "1": "完成清洁工的任务时获得。",
+        "2": "Temizlikçinin görevini tamamlayınca verilir"
+      }
+    },
+    "22": {
+      "fieldName": "Mean Green Penguin",
+      "texts": {
+        "0": "Behind the tables in the reversion chamber room.",
+        "1": "在反转换室的桌子后面。",
+        "2": "Tersine mutasyon odasındaki masanın arkasında."
+      }
+    },
+    "23": {
+      "fieldName": "Tree Froggy",
+      "texts": {
+        "0": "Get kicked into a wall by Monty for pushing him at recess.",
+        "1": "在休息时间试图推倒蒙蒂，并被他踢到一堵墙上。",
+        "2": "Teneffüste Monty'yi ittirdiğin için duvara yapış."
+      }
+    },
+    "24": {
+      "fieldName": "Thikorita",
+      "texts": {
+        "0": "Complete the RC car puzzle in the janitor's closet.",
+        "1": "解开清洁工储物间里的玩具遥控车谜题。",
+        "2": "Temizlikçi odasındaki uzaktan kumandalı araba bulmacasını çöz."
+      }
+    },
+    "25": {
+      "fieldName": "Shrewd Goblin",
+      "texts": {
+        "0": "Revealed after telling Monty he is going to be betrayed by Felix.",
+        "1": "告诉蒙蒂他即将被菲利克斯背叛后出现。",
+        "2": "Monty'ye, Felix tarafından ihanete uğrayacağını söylediğin zaman verilir."
+      }
+    },
+    "26": {
+      "fieldName": "Literally Grass",
+      "texts": {
+        "0": "Run yourself over with the lawnmower.",
+        "1": "用除草机压死你自己。",
+        "2": "Kendini çim biçme makinesiyle ez."
+      }
+    },
+    "27": {
+      "fieldName": "Ohfaka Tornado",
+      "texts": {
+        "0": "Obtained when completing teacher's mission",
+        "1": "完成老师的任务时获得。",
+        "2": "Öğretmenin görevini tamamlayınca verilir."
+      }
+    },
+    "28": {
+      "fieldName": "Monstrous Flytrap",
+      "texts": {
+        "0": "Obtained when completing emmy's mission",
+        "1": "完成艾米的任务时获得。",
+        "2": "Emmy'nin görevini tamamlayınca verilir."
+      }
+    },
+    "29": {
+      "fieldName": "Chill Stump",
+      "texts": {
+        "0": "Hidden in the tree on the playground.",
+        "1": "藏在操场上的树里。",
+        "2": "Oyun alanındaki ağacın içinde saklıdır."
+      }
+    },
+    "30": {
+      "fieldName": "Mystical Tomato",
+      "texts": {
+        "0": "Give Mr. Scippio some ketchup to drink during lunch.",
+        "1": "在午餐时给西皮欧老师喝番茄酱。",
+        "2": "Bay Scippio'ya öğle yemeği sırasında ketçap ver."
+      }
+    },
+    "31": {
+      "fieldName": "Meatball",
+      "texts": {
+        "0": "Complete Nugget-o and Lily-et.",
+        "1": "完成《纳吉欧与莉莉叶》。",
+        "2": "Nugget-o ve Lily-et görevini tamamlayınca verilir."
+      }
+    },
+    "32": {
+      "fieldName": "Tricerabottom",
+      "texts": {
+        "0": "Get hit by a meteor by hanging out on the roof too long after being dropped off by Birdy.",
+        "1": "被小鸟扔在屋顶上后待得太久，被陨石砸中。",
+        "2": "Kuşçuk tarafından çatıya bırakıldıktan sonra çok zaman harcadığın için kafana meteor düştüğünde verilir."
+      }
+    },
+    "33": {
+      "fieldName": "Brain Dragon",
+      "texts": {
+        "0": "Get a perfect score while tutoring Cindy's daughter.",
+        "1": "教辛迪的女儿时拿到满分。",
+        "2": "Cindy'nin kızına ders verirken en yüksek notu aldığın zaman verilir."
+      }
+    },
+    "34": {
+      "fieldName": "Sword Pig",
+      "texts": {
+        "0": "Obtained when completing janitor's mission",
+        "1": "完成清洁工的任务时获得。",
+        "2": "Temizlikçinin görevini tamamlayınca verilir."
+      }
+    },
+    "35": {
+      "fieldName": "Tough Bunny",
+      "texts": {
+        "0": "Get attacked by a bunny.",
+        "1": "被一只兔子攻击。",
+        "2": "Bir tavşan tarafından saldırıya uğra."
+      }
+    },
+    "36": {
+      "fieldName": "Wonder Bird",
+      "texts": {
+        "0": "Feed Linda her gator nugget instead of the duck at the end of Nugget-o and Lily-et.",
+        "1": "在《纳吉欧与莉莉叶》的最后，用鳄鱼鸡块代替鸭子喂给琳达。",
+        "2": "Nugget-o ve Lily-et görevinin sonunda Linda'ya ördek yerine Linda nuggetını ver."
+      }
+    },
+    "37": {
+      "fieldName": "Golden Dewdrop",
+      "texts": {
+        "0": "Return the trophy to the trophy case in the hallway.",
+        "1": "把奖杯放回走廊的展示柜里。",
+        "2": "Ödülü koridordaki boş kısma yerleştir."
+      }
+    },
+    "38": {
+      "fieldName": "Forbidden Book",
+      "texts": {
+        "0": "Hidden in the dark bookcase in the library.",
+        "1": "藏在图书馆的暗黑书架里。",
+        "2": "Kütüphanedeki karanlık kitaplıkta bulunur."
+      }
+    },
+    "39": {
+      "fieldName": "Pot of Grease",
+      "texts": {
+        "0": "Give Ms. Applegate a pill during lunch.",
+        "1": "在午餐时给阿普尔盖特老师一颗药。",
+        "2": "Bayan Applegate'e öğle yemeği sırasında hap ver."
+      }
+    },
+    "40": {
+      "fieldName": "Mr. Nice Guy",
+      "texts": {
+        "0": "Obtained when completing alice's mission",
+        "1": "完成爱丽丝的任务时获得。",
+        "2": "Alice'in görevini bitirince verilir"
+      }
+    },
+    "41": {
+      "fieldName": "Egg Head",
+      "texts": {
+        "0": "Given by the real Principal for saying you like 'OOG.'",
+        "1": "告诉真校长你喜欢“<b>液粘</b>”时获得。",
+        "2": "Gerçek müdüre 'KIÇLAB' ismini beğendiğini söylediğin için verilir."
+      }
+    },
+    "42": {
+      "fieldName": "Snuggly Bear",
+      "texts": {
+        "0": "Give Nugget a nugget after he breaks his legs.",
+        "1": "在纳吉摔断腿后给他一个鸡块。",
+        "2": "Nugget bacaklarını kırdıktan sonra ona bir nugget ver."
+      }
+    },
+    "43": {
+      "fieldName": "Froyo Ghost",
+      "texts": {
+        "0": "Revealed when entering the code from the purple page on the roof.",
+        "1": "输入写在天台上的紫色纸上的密码后出现。",
+        "2": "Çatıdaki mor sayfada yazan kodu girdiğin zaman verilir."
+      }
+    },
+    "48": {
+      "fieldName": "Dank Magician",
+      "texts": {
+        "0": "Summoned by the Wizard when trying to recruit her for a play.",
+        "1": "在邀请巫师出演话剧时被她召唤出来。",
+        "2": "Büyücüyü tiyatroya katılmaya davet ettiğin zaman görülür."
+      }
+    },
+    "45": {
+      "fieldName": "Sock Spirit",
+      "texts": {
+        "0": "Use the key on the roof to open the lost and found.",
+        "1": "用天台上的钥匙打开失物招领箱。",
+        "2": "Çatıdaki anahtarı Kayıp Eşya sandığında kullan."
+      }
+    },
+    "46": {
+      "fieldName": "Caterpillar Dog",
+      "texts": {
+        "0": "Found on Booboo after he goes down the slide.",
+        "1": "波波滑下滑梯后在他身上找到。",
+        "2": "Kaydıraktan kaydıktan sonra Booboo'nun üzerinde bulunur."
+      }
+    },
+    "47": {
+      "fieldName": "Mysterious Package",
+      "texts": {
+        "0": "Check the box the janitor delivers during Felix's mission.",
+        "1": "在菲利克斯的任务里，检查清洁工带来的包裹。",
+        "2": "Felix'in görevi sırasında temizlikçinin getirdiği kutuyu kontrol et."
+      }
+    },
+    "50": {
+      "fieldName": "Killer Eye",
+      "texts": {
+        "0": "Inspect the defeated robot in the classroom.",
+        "1": "检查教室里被打倒的机器兔。",
+        "2": "Sınıftaki yenilmiş robotu incele."
+      }
+    },
+    "49": {
+      "fieldName": "Mole Mole",
+      "texts": {
+        "0": "Shoot the mole off Regis's face during final mission.",
+        "1": "在最终任务里打掉瑞吉斯脸上的痣。",
+        "2": "Final görevinde Regis'in yüzündeki beni lazerle vur."
+      }
+    },
+    "44": {
+      "fieldName": "Evil Thwarter",
+      "texts": {
+        "0": "Beat the game.",
+        "1": "通关游戏。",
+        "2": "Oyunu bitir."
+      }
+    }
+  }
+}

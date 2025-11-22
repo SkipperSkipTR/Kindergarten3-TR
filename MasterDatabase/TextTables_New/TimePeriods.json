@@ -1,0 +1,81 @@
+{
+  "languages": {
+    "Default": 0,
+    "zh": 3,
+    "tr": 2
+  },
+  "fields": {
+    "1": {
+      "fieldName": "SchoolyardTime",
+      "texts": {
+        "0": "Before School",
+        "3": "早课前",
+        "2": "Okul Öncesi"
+      }
+    },
+    "2": {
+      "fieldName": "MorningTime",
+      "texts": {
+        "0": "Morning Time",
+        "3": "早课",
+        "2": "Etkinlik Zamanı"
+      }
+    },
+    "3": {
+      "fieldName": "LunchTime",
+      "texts": {
+        "0": "Lunch Time",
+        "3": "午餐",
+        "2": "Öğle Yemeği"
+      }
+    },
+    "4": {
+      "fieldName": "RecessTime",
+      "texts": {
+        "0": "Recess",
+        "3": "课间休息",
+        "2": "Teneffüs"
+      }
+    },
+    "5": {
+      "fieldName": "AfterSchool",
+      "texts": {
+        "0": "After School",
+        "3": "放学后",
+        "2": "Okul Sonrası"
+      }
+    },
+    "6": {
+      "fieldName": "HomeTime",
+      "texts": {
+        "0": "At Home",
+        "3": "家",
+        "2": "Evde"
+      }
+    },
+    "7": {
+      "fieldName": "NuggetTime",
+      "texts": {
+        "0": "Nugget Cave",
+        "3": "纳吉洞",
+        "2": "Nugget Mağarası"
+      }
+    },
+    "8": {
+      "fieldName": "Home",
+      "texts": {
+        "0": "Home",
+        "3": "家",
+        "2": "Ev"
+      }
+    },
+    "9": {
+      "fieldName": "TrueEndTime",
+      "texts": {
+        "0": "The End",
+        "3": "剧终",
+        "2": "Son"
+      }
+    }
+  }
+}

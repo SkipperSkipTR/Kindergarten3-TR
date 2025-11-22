@@ -1,0 +1,665 @@
+{
+  "languages": {
+    "Default": 0,
+    "zh": 3,
+    "tr": 2
+  },
+  "fields": {
+    "1": {
+      "fieldName": "Anvil",
+      "texts": {
+        "0": "That was the wrong janitorial maneuver.",
+        "3": "不是那条清洁工预案。",
+        "2": "Bu, yanlış temizlikçi manevrasıydı."
+      }
+    },
+    "2": {
+      "fieldName": "BearTrap",
+      "texts": {
+        "0": "The trap works on bunnies AND children.",
+        "3": "这个陷阱可以捕获兔子，<b>也可以</b>捕获小孩。",
+        "2": "Tuzak tavşanlarda VE çocuklarda işe yarar."
+      }
+    },
+    "3": {
+      "fieldName": "Bird",
+      "texts": {
+        "0": "Caw caw caw-runch!",
+        "3": "嘎啊嘎啊嘎啊——咔嚓！",
+        "2": "Gak-gak-geberdin!"
+      }
+    },
+    "4": {
+      "fieldName": "Gator",
+      "texts": {
+        "0": "Did you really just 'boop' the gator?",
+        "3": "你刚才真的去“戳”鳄鱼的鼻子了？",
+        "2": "Gerçekten timsahı 'bup'ladın mı?"
+      }
+    },
+    "5": {
+      "fieldName": "GooPoison",
+      "texts": {
+        "0": "You should really go see the nurse before the bell rings.",
+        "3": "你非常需要在打铃前去看校医。",
+        "2": "Zil çalmadan önce gerçekten hemşireye gitmelisin."
+      }
+    },
+    "6": {
+      "fieldName": "TrapDoor",
+      "texts": {
+        "0": "Perhaps Mr. Scippio was trying to warn you about something in secret.",
+        "3": "也许西皮欧老师是想暗中提醒你什么。",
+        "2": "Belki de Bay Scippio seni bir şey hakkında uyarmaya çalışıyordu."
+      }
+    },
+    "7": {
+      "fieldName": "OfficePit",
+      "texts": {
+        "0": "Who even puts a giant pit in a principal's office?",
+        "3": "谁会在校长办公室里放一个大坑啊？",
+        "2": "Müdürün ofisine kim devasa bir çukur açar ki?"
+      }
+    },
+    "8": {
+      "fieldName": "Rabbit",
+      "texts": {
+        "0": "It's like that one rabbit from that movie!",
+        "3": "那只兔子就像是从那部电影里出来的！",
+        "2": "Şu filmdeki tavşan gibi aynı!"
+      }
+    },
+    "9": {
+      "fieldName": "WrongBook",
+      "texts": {
+        "0": "That was the wrong book.",
+        "3": "不是那本书。",
+        "2": "O yanlış kitaptı."
+      }
+    },
+    "11": {
+      "fieldName": "Flowers",
+      "texts": {
+        "0": "The blue flowers sure do smell funny.",
+        "3": "这些蓝色的花闻起来怪怪的呢。",
+        "2": "Mavi çiçekler gerçekten bir tuhaf kokuyor."
+      }
+    },
+    "12": {
+      "fieldName": "NuggetMonster",
+      "texts": {
+        "0": "Nugget sure is different after he ate goo and broke his legs.",
+        "3": "纳吉在吃下粘液又摔断腿后确实不太一样了呢。",
+        "2": "Nugget balçığı yiyip bacaklarını kırdıktan sonra farklı birine dönüştü."
+      }
+    },
+    "13": {
+      "fieldName": "Beanstalk",
+      "texts": {
+        "0": "It sure would be nice if there was a beanstalk there.",
+        "3": "这里要是有根豆茎就好了。",
+        "2": "Orada bir fasulye sırığı olsa ne iyi olurdu."
+      }
+    },
+    "14": {
+      "fieldName": "VendingMachine",
+      "texts": {
+        "0": "Vending machines are really heavy.",
+        "3": "自动贩卖机很重。",
+        "2": "Otomatlar oldukça ağırdır."
+      }
+    },
+    "15": {
+      "fieldName": "Kevin",
+      "texts": {
+        "0": "That bell sure is loud!",
+        "3": "这铃声可真响啊！",
+        "2": "Zil gerçekten çok gürültülüymüş!"
+      }
+    },
+    "16": {
+      "fieldName": "GooDog",
+      "texts": {
+        "0": "Bad puppy!",
+        "3": "坏狗狗！",
+        "2": "Kötü köpekçik!"
+      }
+    },
+    "17": {
+      "fieldName": "Fire",
+      "texts": {
+        "0": "Touching fire is bad.",
+        "3": "不要玩火。",
+        "2": "Aleve dokunmak kötüdür."
+      }
+    },
+    "18": {
+      "fieldName": "FireLeaveBathroom",
+      "texts": {
+        "0": "You were just gonna leave her burning like that?",
+        "3": "你就打算不管她了？",
+        "2": "Onu öylece yanmaya mı bırakacaktın?"
+      }
+    },
+    "19": {
+      "fieldName": "FireUseApple",
+      "texts": {
+        "0": "You might want to handle the burning teacher with a little more urgency.",
+        "3": "你可以考虑尽快处理有个老师着火了这件事。",
+        "2": "Yanan öğretmeni söndürmek için acele etmeyi denemelisin."
+      }
+    },
+    "20": {
+      "fieldName": "Helicopter",
+      "texts": {
+        "0": "Those missiles really work!",
+        "3": "那些导弹是真的耶！",
+        "2": "Bu füzeler gerçekten işe yarıyormuş!"
+      }
+    },
+    "21": {
+      "fieldName": "Electrocution",
+      "texts": {
+        "0": "Those lab security measures really hurt.",
+        "3": "实验室的安保措施还挺疼的。",
+        "2": "Bu güvenlik önlemleri gerçekten işe yarıyormuş."
+      }
+    },
+    "22": {
+      "fieldName": "LabExplode",
+      "texts": {
+        "0": "You should get out of the lab BEFORE it explodes. Not after.",
+        "3": "你应该在实验室爆炸<b>之前</b>离开。不是之后。",
+        "2": "Laboratuvar patlamadan ÖNCE dışarı çıkmalısın. Sonra değil."
+      }
+    },
+    "23": {
+      "fieldName": "Creature",
+      "texts": {
+        "0": "I liked Alice better before she changed into a murderous creature.",
+        "3": "我还是更喜欢爱丽丝变成食人怪兽之前的样子。",
+        "2": "Alice'i, ölümcül bir canavara dönüşmeden önce daha çok seviyordum."
+      }
+    },
+    "24": {
+      "fieldName": "LawnMower",
+      "texts": {
+        "0": "Who could have possibly seen that coming?",
+        "3": "谁会预料到这种情况？",
+        "2": "Bunu kim tahmin edebilirdi ki?"
+      }
+    },
+    "25": {
+      "fieldName": "Bird2",
+      "texts": {
+        "0": "Did you forget about Birdy's promise?",
+        "3": "你忘记小鸟说过的话了吗？",
+        "2": "Kuşçuk'un sözünü unuttun mu?"
+      }
+    },
+    "26": {
+      "fieldName": "BirdNuggetDead",
+      "texts": {
+        "0": "Nugget could probably convince the bird to not do that to you if he wasn't dead.",
+        "3": "纳吉也许可以说服那只鸟不这么做，如果他没死的话。",
+        "2": "Nugget ölmüş olmasaydı, muhtemelen kuşu bunu yapmamaya ikna edebilirdi."
+      }
+    },
+    "27": {
+      "fieldName": "BirdNuggetStudyHall",
+      "texts": {
+        "0": "Nugget could probably convince the bird to not do that to you if he wasn't in study hall.",
+        "3": "纳吉也许可以说服那只鸟不这么做，如果他没有被罚去自习的话。",
+        "2": "Nugget çalışma cezasında olmasaydı, muhtemelen kuşu bunu yapmamaya ikna edebilirdi."
+      }
+    },
+    "28": {
+      "fieldName": "Dive",
+      "texts": {
+        "0": "What did you think would happen?",
+        "3": "你指望发生什么呢？",
+        "2": "Ne olacağını düşünüyordun?"
+      }
+    },
+    "29": {
+      "fieldName": "Meteor",
+      "texts": {
+        "0": "Try not to be on the roof when the day ends.",
+        "3": "一天结束的时候还是不要在屋顶上待着了。",
+        "2": "Okul bittiği zaman çatıda kalmamaya çalış."
+      }
+    },
+    "30": {
+      "fieldName": "Kevin2",
+      "texts": {
+        "0": "You should give Kevin something that signifies friendship. A tasty nugget perhaps?",
+        "3": "你应该给凯文一个象征友谊的物品。像是一个美味的鸡块之类的。",
+        "2": "Kevin'e arkadaşlığı simgeleyen bir şey vermelisin. Belki de lezzetli bir nugget."
+      }
+    },
+    "31": {
+      "fieldName": "BeepBoop",
+      "texts": {
+        "0": "Beep. Beep. Beeeeeeeeeeeeeeeep.",
+        "3": "滴。滴。滴————。",
+        "2": "Biip. Biip. Biiiiiiiiiiiiiiip."
+      }
+    },
+    "32": {
+      "fieldName": "KevinHay",
+      "texts": {
+        "0": "Stepping on the hay is a great way to wake Kevin.",
+        "3": "踩在干草堆上可以有效地唤醒凯文。",
+        "2": "Çalılara basmak Kevin'i uyandırmak için iyi bir yoldur."
+      }
+    },
+    "33": {
+      "fieldName": "NoRecruits",
+      "texts": {
+        "0": "The teacher really wants those signatures.",
+        "3": "老师真的很想要那些签名。",
+        "2": "Öğretmen o imzaları gerçekten çok istiyor."
+      }
+    },
+    "34": {
+      "fieldName": "WrongFlowers",
+      "texts": {
+        "0": "Those flowers are a little dangerous.",
+        "3": "那些花有点危险。",
+        "2": "O çiçekler gerçekten çok tehlikeli."
+      }
+    },
+    "35": {
+      "fieldName": "HaveGun",
+      "texts": {
+        "0": "I would use the gun on something...or someone before the robot gets there.",
+        "3": "换做是我，我会在机器兔到来之前用那把枪打一下什么东西……或者什么人。",
+        "2": "Ben olsam, robot gelmeden önce silahı bir şeyde... ya da birinin üzerinde kullanırdım."
+      }
+    },
+    "36": {
+      "fieldName": "BeepBoopAustin",
+      "texts": {
+        "0": "If only there was someone who could throw something at the robot...if only.",
+        "3": "如果有人能向那个机器兔扔点什么就好了……",
+        "2": "Keşke robota bir şeyler fırlatacak birileri olsaydı... keşke."
+      }
+    },
+    "37": {
+      "fieldName": "BeepBoopDavey",
+      "texts": {
+        "0": "If only there was something sharp and heavy you could smash the robot into pieces with...",
+        "3": "如果有什么又重又锋利的东西能用来把那个机器兔大卸八块就好了……",
+        "2": "Keşke robotu parçalarına ayırabileceğin keskin ve sert bir şeyler olsaydı..."
+      }
+    },
+    "38": {
+      "fieldName": "CannonBackInside",
+      "texts": {
+        "0": "He's not just gonna let you go back inside.",
+        "3": "他不会就这么让你回去的。",
+        "2": "Öylece durup senin içeri tekrar girmene izin vermeyecektir."
+      }
+    },
+    "39": {
+      "fieldName": "CannonHelpNugget",
+      "texts": {
+        "0": "He's not just gonna let you help Nugget.",
+        "3": "他不会就这么让你去帮纳吉的。",
+        "2": "Öylece durup senin Nugget'a yardım etmene izin vermeyecektir."
+      }
+    },
+    "40": {
+      "fieldName": "CannonWaitAround",
+      "texts": {
+        "0": "You kinda deserve a cannon to the face if you're just gonna wait around like that.",
+        "3": "如果你打算就这么干站在这，你有点活该被炮弹砸一下。",
+        "2": "Eğer böyle bekleyeceksen kafana gelen topu gerçekten hak ediyorsun."
+      }
+    },
+    "41": {
+      "fieldName": "BoobooShouldKnow",
+      "texts": {
+        "0": "I feel like you should know what happens when you get too close to Booboo by now.",
+        "3": "我感觉你到现在应该知道接近波波会发生什么了。",
+        "2": "Artık Booboo'ya çok yaklaştığında ne olacağını bildiğini sanıyorum."
+      }
+    },
+    "42": {
+      "fieldName": "BoobooSniff",
+      "texts": {
+        "0": "He can really sniff you out anywhere.",
+        "3": "不管你藏在哪，他都能闻出你的位置。",
+        "2": "Seni gerçekten nerede olursan ol koklayıp bulabilir."
+      }
+    },
+    "43": {
+      "fieldName": "BoobooSaveNugget",
+      "texts": {
+        "0": "You should find a way to subdue Booboo before Nugget's arm gives out.",
+        "3": "你应该在纳吉的胳膊彻底撑不住前想办法制服波波。",
+        "2": "Nugget'ın kolu kopmadan önce Booboo'yu etkisiz hale getirmenin bir yolunu bulmalısın."
+      }
+    },
+    "44": {
+      "fieldName": "BeepboopFinalBooboo",
+      "texts": {
+        "0": "Booboo does not have a good way to stop Beepboop.",
+        "3": "波波制服不了滴嘟。",
+        "2": "Booboo'nun Beepboop'u durdurabilecek bir yolu yoktur."
+      }
+    },
+    "45": {
+      "fieldName": "BeepboopFinalBunny",
+      "texts": {
+        "0": "Bunny does not have a good way to stop Beepboop.",
+        "3": "小兔制服不了滴嘟。",
+        "2": "Tavşanın Beepboop'u durdurabilecek bir yolu yoktur."
+      }
+    },
+    "46": {
+      "fieldName": "BeepboopFinalGuppy",
+      "texts": {
+        "0": "Guppy isn't as effective as a rock when it comes to stopping Beepboop.",
+        "3": "小虹在制服滴嘟这件事上不及一块石头好用。",
+        "2": "Guppy, Beepboop'u etkisiz hale getirme konusunda bir taş kadar etkili değildir."
+      }
+    },
+    "47": {
+      "fieldName": "RegisBunny",
+      "texts": {
+        "0": "Regis knows how to deal with Bunny.",
+        "3": "瑞吉斯知道怎么对付小兔。",
+        "2": "Regis tavşan ile nasıl başa çıkacağını biliyor."
+      }
+    },
+    "48": {
+      "fieldName": "RegisGuppy",
+      "texts": {
+        "0": "Guppy isn't enough to stop Regis from shooting you in the face.",
+        "3": "仅靠小虹是阻止不了瑞吉斯给你当头一炮的。",
+        "2": "Regis'in seni vurmasını engellemek için Guppy yeterli değildir."
+      }
+    },
+    "49": {
+      "fieldName": "GuppyMissile",
+      "texts": {
+        "0": "Guppy is NOT able to stop the missile.",
+        "3": "小虹<b>没有</b>阻止导弹的能力。",
+        "2": "Guppy füzeleri durduraMAZ."
+      }
+    },
+    "50": {
+      "fieldName": "DaveyDeath",
+      "texts": {
+        "0": "You can't save Kevin without Davey.",
+        "3": "没有戴维，你是救不了凯文的。",
+        "2": "Kevin'i Davey olmadan kurtaramazsın."
+      }
+    },
+    "51": {
+      "fieldName": "DaveyDied",
+      "texts": {
+        "0": "Davey died.",
+        "3": "戴维死了",
+        "2": "Davey öldü."
+      }
+    },
+    "52": {
+      "fieldName": "YouDied",
+      "texts": {
+        "0": "You died.",
+        "3": "你死了",
+        "2": "Öldün."
+      }
+    },
+    "58": {
+      "fieldName": "LindaDied",
+      "texts": {
+        "0": "Linda died.",
+        "3": "琳达死了",
+        "2": "Linda öldü."
+      }
+    },
+    "53": {
+      "fieldName": "NoGuppy",
+      "texts": {
+        "0": "That would have been a good time to send Guppy.",
+        "3": "刚刚是一个派出小虹的绝佳时机。",
+        "2": "Bu, Guppy'yi göndermek için iyi bir zaman olabilir."
+      }
+    },
+    "54": {
+      "fieldName": "HideLaser",
+      "texts": {
+        "0": "You should probably hide from that laser.",
+        "3": "也许你应该躲开那道激光。",
+        "2": "Muhtemelen o lazerden saklanmalısın."
+      }
+    },
+    "55": {
+      "fieldName": "DontShootLindaLab3",
+      "texts": {
+        "0": "Maybe don't shoot the giant lizard that's trying to help you?",
+        "3": "也许你不用攻击那条正在帮你的大蜥蜴？",
+        "2": "Belki de sana yardım etmeye çalışan dev timsahı lazerle vurmamalısındır."
+      }
+    },
+    "56": {
+      "fieldName": "DontDoubleShootLab3",
+      "texts": {
+        "0": "Maybe aim for a different target next time?",
+        "3": "也许下一次可以瞄准其它的目标？",
+        "2": "Bir dahaki sefere başka bir hedefe vur."
+      }
+    },
+    "57": {
+      "fieldName": "WrongSpot",
+      "texts": {
+        "0": "That was the wrong hiding spot.",
+        "3": "那不是个藏身的好地方。",
+        "2": "Orası yanlış saklanma yeriydi."
+      }
+    },
+    "59": {
+      "fieldName": "AntiGoo1EarlyLab3",
+      "texts": {
+        "0": "Regis wasn't close enough to the anti-goo tank.",
+        "3": "瑞吉斯离反粘液缸还不够近。",
+        "2": "Regis, anti-balçık tankına yeterince yakın değildi."
+      }
+    },
+    "60": {
+      "fieldName": "OrbShotLab3",
+      "texts": {
+        "0": "It might be wise to deal with the orb a little later.",
+        "3": "也许稍后再处理那个球会比较明智。",
+        "2": "Küreyle ilgilenmek için biraz beklemen daha iyi olabilir."
+      }
+    },
+    "61": {
+      "fieldName": "GetBandagesDeath",
+      "texts": {
+        "0": "He really really wants those bandages.",
+        "3": "他真的很想要那些绷带。",
+        "2": "O bandajları gerçekten ama gerçekten çok istiyor."
+      }
+    },
+    "62": {
+      "fieldName": "GoInsideDeath",
+      "texts": {
+        "0": "You should probably go inside to get those bandages.",
+        "3": "也许你应该进去里面找绷带。",
+        "2": "Muhtemelen içeri girip o bandajları almalısın."
+      }
+    },
+    "63": {
+      "fieldName": "NoArmDeath",
+      "texts": {
+        "0": "No arm. No life.",
+        "3": "没有胳膊就死。",
+        "2": "Kol yoksa hayat yok."
+      }
+    },
+    "64": {
+      "fieldName": "NoCarrotDeath",
+      "texts": {
+        "0": "Carrots are great bunny bait.",
+        "3": "胡萝卜是很好的兔子饵。",
+        "2": "Havuçlar iyi bir tavşan yemidir."
+      }
+    },
+    "65": {
+      "fieldName": "NoBoopDeath",
+      "texts": {
+        "0": "You should boop and run.",
+        "3": "你应该捅一下就跑。",
+        "2": "Bupladıktan sonra kaçmalısın."
+      }
+    },
+    "66": {
+      "fieldName": "NoBaitDeath",
+      "texts": {
+        "0": "I would put the bait on the X next time.",
+        "3": "下次把诱饵放在“X”上试试？",
+        "2": "Bir dahaki sefere yemi X'in üzerine koy."
+      }
+    },
+    "67": {
+      "fieldName": "ShowUpDeath",
+      "texts": {
+        "0": "You knew he was gonna kill something today.",
+        "3": "你早就知道他今天要杀点什么的。",
+        "2": "Onun bugün bir şeyi öldüreceğini biliyordun."
+      }
+    },
+    "68": {
+      "fieldName": "Kicked",
+      "texts": {
+        "0": "His legs are REALLY strong now.",
+        "3": "他的腿现在<b>非常</b>强壮。",
+        "2": "Bacakları artık ÇOK güçlü."
+      }
+    },
+    "69": {
+      "fieldName": "GooCore",
+      "texts": {
+        "0": "Find a place to put that goo thing or it'll explode.",
+        "3": "找个地方存放那个粘液做的东西，不然它会爆炸。",
+        "2": "Balçık şeyini koyacak bir yer bul yoksa patlar."
+      }
+    },
+    "70": {
+      "fieldName": "EarlyLab",
+      "texts": {
+        "0": "You should probably wait until Regis isn't there to go down the slide.",
+        "3": "你可以考虑等到瑞吉斯不在了再从滑梯下去。",
+        "2": "Muhtemelen kaydıraktan aşağı inmek için Regis'in orayı terk etmesini beklemelisin."
+      }
+    },
+    "71": {
+      "fieldName": "InvalidCode",
+      "texts": {
+        "0": "That was not a valid code.",
+        "3": "那不是个有效的密码。",
+        "2": "Bu geçerli bir kod değildi."
+      }
+    },
+    "72": {
+      "fieldName": "BoobooHallway",
+      "texts": {
+        "0": "Something bad happened.",
+        "3": "发生了什么不好的事情。",
+        "2": "Kötü bir şey oldu."
+      }
+    },
+    "73": {
+      "fieldName": "BeepBoopEmmy",
+      "texts": {
+        "0": "Maybe someone could cause some electrical problems for the robot?",
+        "3": "也许有人可以为那台机器造成一些电路上的问题？",
+        "2": "Belki birileri robotun elektrik aksamını bozabilir?"
+      }
+    },
+    "74": {
+      "fieldName": "VendingMachineDuck",
+      "texts": {
+        "0": "That was not a valid quacking code.",
+        "3": "那不是一个有效的嘎嘎暗号。",
+        "2": "Bu geçerli bir vaklama kodu değildi."
+      }
+    },
+    "75": {
+      "fieldName": "BoobooTree",
+      "texts": {
+        "0": "I think Booboo is a little territorial about that tree right now.",
+        "3": "我觉得波波现在对那颗树的领地意识有点强。",
+        "2": "Sanırım Booboo o ağaç hakkında biraz korumacı."
+      }
+    },
+    "76": {
+      "fieldName": "BoobooFort",
+      "texts": {
+        "0": "I would stay away from Booboo while he's trying to get on the fort.",
+        "3": "换做是我，我会在波波试图进入城堡时离他远点。",
+        "2": "Booboo kaleye girmeye çalışırken ondan uzak dur."
+      }
+    },
+    "77": {
+      "fieldName": "BoobooRock",
+      "texts": {
+        "0": "Even if he's distracted, you should still stay away from Booboo.",
+        "3": "就算他的注意力被其它东西吸引了，你也不该离波波太近。",
+        "2": "Dikkati dağılmış olsa bile Booboo'dan uzak durmalısın."
+      }
+    },
+    "78": {
+      "fieldName": "BoobooTreeHide",
+      "texts": {
+        "0": "You can't hide from him in the tree either.",
+        "3": "你藏在树里也躲不过他。",
+        "2": "Ağaçta da ondan saklanamazsın."
+      }
+    },
+    "79": {
+      "fieldName": "AlcoveRabbit",
+      "texts": {
+        "0": "You should fear the bunny.",
+        "3": "你得怕兔子。",
+        "2": "Tavşandan korkman gerek."
+      }
+    },
+    "80": {
+      "fieldName": "ReturnPass",
+      "texts": {
+        "0": "You should return the hall pass before the bell rings.",
+        "3": "你在打铃前应该归还通行证。",
+        "2": "Zil çalmadan koridor iznini geri vermelisin."
+      }
+    },
+    "81": {
+      "fieldName": "DeadFelix",
+      "texts": {
+        "0": "You should get the nurse to fix Felix's face.",
+        "3": "你应该让校医来处理一下菲利克斯的脸。",
+        "2": "Hemşirenin, Felix'in yüzünü tedavi etmesini sağlamalısın."
+      }
+    },
+    "82": {
+      "fieldName": "Death.Anvil",
+      "texts": {
+        "0": "That was the wrong janitor manuever.",
+        "3": "不是那条清洁工预案。",
+        "2": "Bu yanlış temizlikçi manevrasıydı."
+      }
+    },
+    "83": {
+      "fieldName": "WrongCarCode",
+      "texts": {
+        "0": "That was the wrong order for the cars.",
+        "3": "车辆的顺序不太对。",
+        "2": "Bu yanlış araba sıralamasıydı."
+      }
+    }
+  }
+}

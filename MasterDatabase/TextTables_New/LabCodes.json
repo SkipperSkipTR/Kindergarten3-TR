@@ -1,0 +1,81 @@
+{
+  "languages": {
+    "Default": 0,
+    "zh": 1,
+    "tr": 2
+  },
+  "fields": {
+    "1": {
+      "fieldName": "0",
+      "texts": {
+        "0": "red square",
+        "1": "红色方块",
+        "2": "kırmızı kare"
+      }
+    },
+    "2": {
+      "fieldName": "1",
+      "texts": {
+        "0": "green square",
+        "1": "绿色方块",
+        "2": "yeşil kare"
+      }
+    },
+    "3": {
+      "fieldName": "2",
+      "texts": {
+        "0": "blue square",
+        "1": "蓝色方块",
+        "2": "mavi kare"
+      }
+    },
+    "4": {
+      "fieldName": "3",
+      "texts": {
+        "0": "red circle",
+        "1": "红色圆圈",
+        "2": "kırmızı yuvarlak"
+      }
+    },
+    "5": {
+      "fieldName": "4",
+      "texts": {
+        "0": "green circle",
+        "1": "绿色圆圈",
+        "2": "yeşil yuvarlak"
+      }
+    },
+    "6": {
+      "fieldName": "5",
+      "texts": {
+        "0": "blue circle",
+        "1": "蓝色圆圈",
+        "2": "mavi yuvarlak"
+      }
+    },
+    "7": {
+      "fieldName": "6",
+      "texts": {
+        "0": "red triangle",
+        "1": "红色三角",
+        "2": "kırmızı üçgen"
+      }
+    },
+    "8": {
+      "fieldName": "7",
+      "texts": {
+        "0": "green triangle",
+        "1": "绿色三角",
+        "2": "yeşil üçgen"
+      }
+    },
+    "9": {
+      "fieldName": "8",
+      "texts": {
+        "0": "blue triangle",
+        "1": "蓝色三角",
+        "2": "mavi üçgen"
+      }
+    }
+  }
+}

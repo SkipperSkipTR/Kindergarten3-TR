@@ -1,0 +1,73 @@
+{
+  "languages": {
+    "Default": 0,
+    "zh": 3,
+    "tr": 2
+  },
+  "fields": {
+    "9": {
+      "fieldName": "Playbook",
+      "texts": {
+        "0": "<size=60>The Teacher's Playbook</size><br>A book that contains various plays that the teacher might want to put on. It can also be shown to Agnes as a sign of courage.",
+        "3": "<size=60>老师的戏剧集</size><br>书里记录着老师可能会组织的所有话剧。也可以向阿格尼丝展示，作为勇气的象征。",
+        "2": "<size=60>Öğretmenin Tiyatro Kitabı</size><br>Öğretmenin sahnelemek isteyebileceği çeşitli tiyatro oyunları içeren bir kitap! Ayrıca onu Oluk Cadısına cesaret simgesi olarak gösterebilirim."
+      }
+    },
+    "10": {
+      "fieldName": "VentMap",
+      "texts": {
+        "0": "<size=60>Carla's Vent Map</size><br>A map of the vent system drawn by Carla. Bringing this to school unlocks all the vents.",
+        "3": "<size=60>卡拉的管道图</size><br>卡拉画的管道系统地图。把它带去学校可以开启所有的通风口。",
+        "2": "<size=60>Carla'nın Havalandırma Haritası</size><br>Carla tarafından çizilmiş bir havalandırma haritası. Bunu okula götürmek tüm havalandırmaların açılmasına sebep olur."
+      }
+    },
+    "11": {
+      "fieldName": "Mop",
+      "texts": {
+        "0": "<size=60>The Janitor's Mop</size><br>A mop with a brutal and bloody history. It scares children and fits conveniently into golf holes.",
+        "3": "<size=60>清洁工的拖把头</size><br>一把有着残酷又血腥的历史的拖把头。它可以使孩童感到恐惧，也可以被塞进高尔夫球洞里。",
+        "2": "<size=60>Temizlikçinin Paspası</size><br>Vahşi ve kanlı bir geçmişi olan paspas. Çocukları korkutur ve rahatça golf deliğine sığabilir."
+      }
+    },
+    "12": {
+      "fieldName": "GatorNugget",
+      "texts": {
+        "0": "<size=60>Linda's Nugget</size><br>A special Nugget of Friendship<sup>TM</sup> that shows you are a friend of Linda. Show it to her and she'll take you to her secret lair.",
+        "3": "<size=60>琳达鸡块</size><br>一块特殊的友谊鸡块<sup>TM</sup>，持有它表示你是琳达的朋友。把这个给琳达看，琳达就会带你去她的秘密藏身处。",
+        "2": "<size=60>Linda'nın Nugget'ı</size><br>Linda'nın arkadaşı olduğunu gösteren özel bir Arkadaşlık Nugget'ı<sup>TM</sup>. Ona bunu gösterirsen seni gizli inine götürür."
+      }
+    },
+    "13": {
+      "fieldName": "WhiteFlower",
+      "texts": {
+        "0": "<size=60>The White Flower</size><br>A rare flower grown in Emmy's garden. It briefly counteracts the effects of goo. Rabbits also hate it.",
+        "3": "<size=60>小白花</size><br>一朵出自艾米的花园的稀有花朵。它可以短暂对抗粘液的效果。兔子也对它避之不及。",
+        "2": "<size=60>Beyaz Çiçek</size><br>Emmy'nin bahçesinde yetişen ender bir çiçek. Balçığın efektlerini kısa bir süreliğine etkisiz hale getirir. Ayrıca tavşanlar ondan hoşlanmaz."
+      }
+    },
+    "14": {
+      "fieldName": "SuperCure",
+      "texts": {
+        "0": "<size=60>The Special Cure</size><br>A secret substance produced by Applesoft. It can counteract goo mutations if you have the right equipment.",
+        "3": "<size=60>特制解药</size><br>苹软公司开发的一种特殊物质。如果你有对应的设备，它可以逆转粘液造成的变异。",
+        "2": "<size=60>Özel İlaç</size><br>Applesoft tarafından üretilen gizli bir kimyasal. Doğru ekipmanla kullanıldığında balçık mutasyonunu geri alabilir."
+      }
+    },
+    "15": {
+      "fieldName": "Decoder",
+      "texts": {
+        "0": "<size=60>Alice's Decoder</size><br>A purple decoder glass. It can read the secret codes in the lab. ",
+        "3": "<size=60>爱丽丝的解码镜</size><br>一片紫色的解码镜。它可以解读实验室里的密码。",
+        "2": "<size=60>Alice'in Kod Çözücüsü</size><br>Mor Kod Çözücü büyüteç. Laboratuvardaki gizli kodları gösterir."
+      }
+    },
+    "16": {
+      "fieldName": "CarRemote",
+      "texts": {
+        "0": "<size=60>The RC Car Remote</size><br>A controller for all of the RC cars in the school.",
+        "3": "<size=60>遥控车控制器</size><br>可以控制学校里所有的遥控车。",
+        "2": "<size=60>Araba Uzaktan Kumandası</size><br>Okuldaki tüm arabaları kontrol edebilen bir kumanda."
+      }
+    }
+  }
+}

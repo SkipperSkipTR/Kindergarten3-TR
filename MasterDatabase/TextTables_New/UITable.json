@@ -1,0 +1,521 @@
+{
+  "languages": {
+    "Default": 0,
+    "zh": 1,
+    "tr": 2
+  },
+  "fields": {
+    "1": {
+      "fieldName": "Paused",
+      "texts": {
+        "0": "Paused",
+        "1": "暂停",
+        "2": "Durdu"
+      }
+    },
+    "2": {
+      "fieldName": "Restart",
+      "texts": {
+        "0": "Restart",
+        "1": "重新开始",
+        "2": "Tekrar Başlat"
+      }
+    },
+    "3": {
+      "fieldName": "Quit",
+      "texts": {
+        "0": "Quit",
+        "1": "退出",
+        "2": "Çıkış"
+      }
+    },
+    "4": {
+      "fieldName": "MissionMap",
+      "texts": {
+        "0": "Mission Map",
+        "1": "任务路径",
+        "2": "Görev Haritası"
+      }
+    },
+    "5": {
+      "fieldName": "Assignments",
+      "texts": {
+        "0": "Assignments",
+        "1": "任务地图",
+        "2": "Görevler"
+      }
+    },
+    "6": {
+      "fieldName": "Back",
+      "texts": {
+        "0": "Back",
+        "1": "返回",
+        "2": "Geri"
+      }
+    },
+    "7": {
+      "fieldName": "None",
+      "texts": {
+        "0": "None",
+        "1": "无",
+        "2": "Hiçbir Şey"
+      }
+    },
+    "8": {
+      "fieldName": "Apply",
+      "texts": {
+        "0": "Apply",
+        "1": "确定",
+        "2": "Uygula"
+      }
+    },
+    "9": {
+      "fieldName": "Options",
+      "texts": {
+        "0": "Options",
+        "1": "选项",
+        "2": "Ayarlar"
+      }
+    },
+    "10": {
+      "fieldName": "Video",
+      "texts": {
+        "0": "Video",
+        "1": "视频",
+        "2": "Video"
+      }
+    },
+    "11": {
+      "fieldName": "Audio",
+      "texts": {
+        "0": "Audio",
+        "1": "声音",
+        "2": "Ses"
+      }
+    },
+    "12": {
+      "fieldName": "Resolution",
+      "texts": {
+        "0": "Resolution",
+        "1": "分辨率",
+        "2": "Çözünürlük"
+      }
+    },
+    "13": {
+      "fieldName": "FullScreen",
+      "texts": {
+        "0": "Full Screen",
+        "1": "全屏",
+        "2": "Tam Ekran"
+      }
+    },
+    "15": {
+      "fieldName": "Resume",
+      "texts": {
+        "0": "Resume",
+        "1": "回到游戏",
+        "2": "Devam Et"
+      }
+    },
+    "16": {
+      "fieldName": "Music",
+      "texts": {
+        "0": "Music",
+        "1": "音乐",
+        "2": "Müzik"
+      }
+    },
+    "17": {
+      "fieldName": "SFX",
+      "texts": {
+        "0": "SFX",
+        "1": "音效",
+        "2": "Efektler"
+      }
+    },
+    "18": {
+      "fieldName": "UI",
+      "texts": {
+        "0": "UI",
+        "1": "UI",
+        "2": "Arayüz"
+      }
+    },
+    "19": {
+      "fieldName": "Try Again",
+      "texts": {
+        "0": "Try Again",
+        "1": "再试一次",
+        "2": "Tekrar Dene"
+      }
+    },
+    "20": {
+      "fieldName": "YouDied",
+      "texts": {
+        "0": "You died.",
+        "1": "你死了",
+        "2": "Öldün."
+      }
+    },
+    "21": {
+      "fieldName": "Wednesday",
+      "texts": {
+        "0": "Wednesday",
+        "1": "星期三",
+        "2": "Çarşamba"
+      }
+    },
+    "22": {
+      "fieldName": "NewFile",
+      "texts": {
+        "0": "New File",
+        "1": "新存档",
+        "2": "Yeni Dosya"
+      }
+    },
+    "23": {
+      "fieldName": "EraseData",
+      "texts": {
+        "0": "Erase Data",
+        "1": "清除存档",
+        "2": "Verileri Sil"
+      }
+    },
+    "24": {
+      "fieldName": "AreYouSure",
+      "texts": {
+        "0": "Are you sure you want to delete the save data in file #{0}? You will lose all unlocked items and Monstermon!",
+        "1": "你确定想要删除存档 #{0}吗？你将会失去所有已解锁的道具和怪可梦！",
+        "2": "#{0} dosyası içindeki verileri silmek istediğinize emin misiniz? Kilidi açılmış tüm eşyaları ve Monstermon'ları kaybedeceksiniz!"
+      }
+    },
+    "25": {
+      "fieldName": "Play",
+      "texts": {
+        "0": "Play",
+        "1": "开始",
+        "2": "Oyna"
+      }
+    },
+    "26": {
+      "fieldName": "File#1",
+      "texts": {
+        "0": "File #1",
+        "1": "存档 #1",
+        "2": "Dosya 1"
+      }
+    },
+    "27": {
+      "fieldName": "File#2",
+      "texts": {
+        "0": "File #2",
+        "1": "存档 #2",
+        "2": "Dosya 2"
+      }
+    },
+    "28": {
+      "fieldName": "File#3",
+      "texts": {
+        "0": "File #3",
+        "1": "存档 #3",
+        "2": "Dosya 3"
+      }
+    },
+    "29": {
+      "fieldName": "YesDelete",
+      "texts": {
+        "0": "Yes. Delete the data.",
+        "1": "对，删除存档。",
+        "2": "Evet. Verileri sil."
+      }
+    },
+    "30": {
+      "fieldName": "NoDelete",
+      "texts": {
+        "0": "No. Do not delete.",
+        "1": "不，还是算了。",
+        "2": "Hayır. Silinmesin."
+      }
+    },
+    "32": {
+      "fieldName": "Wednesday#",
+      "texts": {
+        "0": "Wednesday #{0}",
+        "1": "星期三 #{0}",
+        "2": "Çarşamba #{0}"
+      }
+    },
+    "33": {
+      "fieldName": "Again",
+      "texts": {
+        "0": "(again)",
+        "1": "（再一次）",
+        "2": "(yeniden)"
+      }
+    },
+    "34": {
+      "fieldName": "AgainX",
+      "texts": {
+        "0": "(again x{0})",
+        "1": "（再一次 x{0}）",
+        "2": "(yeniden x{0})"
+      }
+    },
+    "35": {
+      "fieldName": "MovingDialogueText",
+      "texts": {
+        "0": "Moving Dialogue Text",
+        "1": "对话文本抖动",
+        "2": "Hareket Eden Metinler"
+      }
+    },
+    "36": {
+      "fieldName": "MovingDialogueTip",
+      "texts": {
+        "0": "Enable/Disable text movement when characters like the teacher are talking.",
+        "1": "启用/禁用角色说话时的文本抖动（比如老师）。",
+        "2": "Diyalog metninin hareket etmesini etkinleştirir/kapatır."
+      }
+    },
+    "37": {
+      "fieldName": "ColorBlindAssistance",
+      "texts": {
+        "0": "Color Blind Assistance",
+        "1": "色盲辅助模式",
+        "2": "Renk Körlüğü Modu"
+      }
+    },
+    "38": {
+      "fieldName": "ColorBlindTip",
+      "texts": {
+        "0": "Enable/Disable labeling objects that are referenced by their color.",
+        "1": "启用/禁用特殊对象的颜色标注",
+        "2": "Renkleriyle ifade edilen objelerin üzerinde renk belirten etiketleri etkinleştirir/kapatır."
+      }
+    },
+    "39": {
+      "fieldName": "Accessibility",
+      "texts": {
+        "0": "Accessibility",
+        "1": "无障碍",
+        "2": "Erişilebilirlik"
+      }
+    },
+    "40": {
+      "fieldName": "Red",
+      "texts": {
+        "0": "Red",
+        "1": "红",
+        "2": "Kırmızı"
+      }
+    },
+    "41": {
+      "fieldName": "Blue",
+      "texts": {
+        "0": "Blue",
+        "1": "蓝",
+        "2": "Mavi"
+      }
+    },
+    "42": {
+      "fieldName": "Green",
+      "texts": {
+        "0": "Green",
+        "1": "绿",
+        "2": "Yeşil"
+      }
+    },
+    "43": {
+      "fieldName": "Yellow",
+      "texts": {
+        "0": "Yellow",
+        "1": "黄",
+        "2": "Sarı"
+      }
+    },
+    "44": {
+      "fieldName": "Orange",
+      "texts": {
+        "0": "Orange",
+        "1": "橙",
+        "2": "Turuncu"
+      }
+    },
+    "45": {
+      "fieldName": "Purple",
+      "texts": {
+        "0": "Purple",
+        "1": "紫",
+        "2": "Mor"
+      }
+    },
+    "46": {
+      "fieldName": "Black",
+      "texts": {
+        "0": "Black",
+        "1": "黑",
+        "2": "Siyah"
+      }
+    },
+    "47": {
+      "fieldName": "White",
+      "texts": {
+        "0": "White",
+        "1": "白",
+        "2": "Beyaz"
+      }
+    },
+    "48": {
+      "fieldName": "WhatShouldIBring",
+      "texts": {
+        "0": "What should I bring to school today?",
+        "1": "今天我该带什么去学校呢？",
+        "2": "Bugün okula ne götürmeliyim?"
+      }
+    },
+    "49": {
+      "fieldName": "ItemsRemaining",
+      "texts": {
+        "0": "Items Remaining:",
+        "1": "还能拿：",
+        "2": "Kalan Eşyalar:"
+      }
+    },
+    "50": {
+      "fieldName": "NewMonstermonDiscovered",
+      "texts": {
+        "0": "New Monstermon Discovered",
+        "1": "解锁了新的怪可梦",
+        "2": "Yeni Monstermon Bulundu"
+      }
+    },
+    "51": {
+      "fieldName": "Monstermon",
+      "texts": {
+        "0": "Monstermon",
+        "1": "怪可梦",
+        "2": "Monstermon"
+      }
+    },
+    "52": {
+      "fieldName": "Pink",
+      "texts": {
+        "0": "Pink",
+        "1": "粉",
+        "2": "Pembe"
+      }
+    },
+    "53": {
+      "fieldName": "Controls",
+      "texts": {
+        "0": "Controls",
+        "1": "控制",
+        "2": "Kontroller"
+      }
+    },
+    "54": {
+      "fieldName": "Move",
+      "texts": {
+        "0": "Move",
+        "1": "移动",
+        "2": "Hareket Etme"
+      }
+    },
+    "55": {
+      "fieldName": "Interact",
+      "texts": {
+        "0": "Interact",
+        "1": "互动",
+        "2": "Etkileşim"
+      }
+    },
+    "56": {
+      "fieldName": "EatApple",
+      "texts": {
+        "0": "Eat Apple",
+        "1": "吃苹果",
+        "2": "Elma Yeme"
+      }
+    },
+    "57": {
+      "fieldName": "SpaceBar",
+      "texts": {
+        "0": "Space Bar",
+        "1": "空格",
+        "2": "Boşluk"
+      }
+    },
+    "58": {
+      "fieldName": "SkipDialogue",
+      "texts": {
+        "0": "Skip Dialogue",
+        "1": "跳过对话",
+        "2": "Diyalog Atlama"
+      }
+    },
+    "59": {
+      "fieldName": "G",
+      "texts": {
+        "0": "G",
+        "1": "绿",
+        "2": "Y"
+      }
+    },
+    "60": {
+      "fieldName": "R",
+      "texts": {
+        "0": "R",
+        "1": "红",
+        "2": "K"
+      }
+    },
+    "61": {
+      "fieldName": "B",
+      "texts": {
+        "0": "B",
+        "1": "蓝",
+        "2": "M"
+      }
+    },
+    "62": {
+      "fieldName": "Controller",
+      "texts": {
+        "0": "Controller",
+        "1": "手柄",
+        "2": "Kontrolcü"
+      }
+    },
+    "63": {
+      "fieldName": "Keyboard",
+      "texts": {
+        "0": "Keyboard",
+        "1": "键盘",
+        "2": "Klavye"
+      }
+    },
+    "64": {
+      "fieldName": "Kindergarten",
+      "texts": {
+        "0": "Kindergarten",
+        "1": "幼儿园",
+        "2": "Kindergarten"
+      }
+    },
+    "88": {
+      "fieldName": "DayComplete",
+      "texts": {
+        "0": "Day Complete!",
+        "1": "一天结束！",
+        "2": "Gün Tamamlandı!"
+      }
+    },
+    "89": {
+      "fieldName": "Language",
+      "texts": {
+        "0": "Language",
+        "1": "语言",
+        "2": "Dil"
+      }
+    }
+  }
+}
