@@ -26,6 +26,8 @@ olarak değiştirip sistemi kapatabilirsiniz. (Tırnak işaretleri olmadan.)
 
 14.11.2025: 1.07 versiyon uyumlu yama eklendi ve 1.06 yaması güncellendi.
 
+22.11.2025: Dil seçeneklerine Türkçe eklendi. Böylelikle yama artık İngilizce dosyalar üzerine kurulmuyor ve menüden değiştirilebiliyor.
+
 ## Kurulum Videosu
 
 [![Kurulum Videosu](https://img.youtube.com/vi/TC74xzAWhWU/0.jpg)](https://www.youtube.com/watch?v=TC74xzAWhWU)
