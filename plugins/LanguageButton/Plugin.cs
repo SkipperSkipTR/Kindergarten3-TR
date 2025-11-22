@@ -88,22 +88,25 @@ public class LanguageButtonInjector : BaseUnityPlugin
             trigger.triggers = new System.Collections.Generic.List<EventTrigger.Entry>();
         }
 
-        // Remove old pointer click to prevent setting English
-        trigger.triggers.RemoveAll(e => e.eventID == EventTriggerType.PointerClick);
+        // Remove old click-like events that might still set English
+        trigger.triggers.Clear();
 
-        var entry = new EventTrigger.Entry { eventID = EventTriggerType.PointerClick };
-        entry.callback.AddListener(_ =>
+        void Add(EventTriggerType type)
         {
-            var controller = FindObjectOfType<TitleScreenController>();
-            if (controller == null)
+            var entry = new EventTrigger.Entry { eventID = type };
+            entry.callback.AddListener(_ =>
             {
-                Logger.LogError("TitleScreenController not found.");
-                return;
-            }
-            controller.SetLanguage(langKey);
-        });
+                var controller = FindObjectOfType<TitleScreenController>();
+                controller?.SetLanguage(langKey);
+            });
+            trigger.triggers.Add(entry);
+        }
 
-        trigger.triggers.Add(entry);
+        // Mouse/touch click
+        Add(EventTriggerType.PointerClick);
+
+        // Keyboard/gamepad confirm (Enter/Space/A)
+        Add(EventTriggerType.Submit);
     }
 
     void SetButtonBackgroundColor(GameObject btnGO, Color color)
