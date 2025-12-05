@@ -28,6 +28,8 @@ olarak değiştirip sistemi kapatabilirsiniz. (Tırnak işaretleri olmadan.)
 
 22.11.2025: Dil seçeneklerine Türkçe eklendi. Böylelikle yama artık İngilizce dosyalar üzerine kurulmuyor ve menüden değiştirilebiliyor.
 
+05.12.2025: 1.08 versiyon uyumlu yama eklendi.
+
 ## Kurulum Videosu
 
 [![Kurulum Videosu](https://img.youtube.com/vi/TC74xzAWhWU/0.jpg)](https://www.youtube.com/watch?v=TC74xzAWhWU)
